@@ -1,0 +1,3578 @@
+[
+	{
+		"Name": "NPC_Mushroom_Stat",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 22,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TestNPC_Stat",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "DefaultAttackStat",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "DefaultAttack",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Combo2Stat",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 20,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 20
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "20",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Combo3Stat",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 50,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 80
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "50",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "SkillAttack",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 100,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 100
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "100",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "LongSwordStat",
+		"Version": 3,
+		"StatCategory": "Item",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 30,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 100
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 100
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "Long Sword Sample Stat",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "BucklerStat",
+		"Version": 3,
+		"StatCategory": "Item",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 1000,
+			"Dodge_Rate": 0,
+			"Add_HP": 100
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "Buckler Sample Stat",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "NPC_Rat_Stat",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 80,
+			"Deviation_Rate": 0,
+			"Striking_Power": 25,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "NPC_Golem_Stat",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 400,
+			"Deviation_Rate": 0,
+			"Striking_Power": 45,
+			"Hit_Rate": 100,
+			"Defensive_Power": 30,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "WarriorStat_Enemy",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 1,
+			"Deviation_Rate": 0,
+			"Striking_Power": 0,
+			"Hit_Rate": 80,
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "NPC_Eagle_Stat",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 220,
+			"Deviation_Rate": 0,
+			"Striking_Power": 40,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "NPC_Leshy_Stat",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 15,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Weapon_Sword1_Player",
+		"Version": 3,
+		"StatCategory": "Item",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 30,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Weapon_Shield1_Player",
+		"Version": 3,
+		"StatCategory": "Item",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Weapon_Bow1_Player",
+		"Version": 3,
+		"StatCategory": "Item",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 30,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_DefaultAttack_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 100
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Arher_DefaultAttack_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 100
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_TestStat",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 200,
+			"Deviation_Rate": 0,
+			"Striking_Power": 1000,
+			"Hit_Rate": 100,
+			"Defensive_Power": 25,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.1",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 200,
+			"Deviation_Rate": 0,
+			"Striking_Power": 20,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.2",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 250,
+			"Deviation_Rate": 0,
+			"Striking_Power": 35,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.3",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 300,
+			"Deviation_Rate": 0,
+			"Striking_Power": 45,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.4",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 300,
+			"Deviation_Rate": 0,
+			"Striking_Power": 55,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.5",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 350,
+			"Deviation_Rate": 0,
+			"Striking_Power": 65,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.6",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 400,
+			"Deviation_Rate": 0,
+			"Striking_Power": 70,
+			"Hit_Rate": 100,
+			"Defensive_Power": 15,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.7",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 450,
+			"Deviation_Rate": 0,
+			"Striking_Power": 75,
+			"Hit_Rate": 100,
+			"Defensive_Power": 15,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.8",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 500,
+			"Deviation_Rate": 0,
+			"Striking_Power": 75,
+			"Hit_Rate": 100,
+			"Defensive_Power": 15,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.9",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 500,
+			"Deviation_Rate": 0,
+			"Striking_Power": 80,
+			"Hit_Rate": 100,
+			"Defensive_Power": 20,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Player_DefenseWarrior_PC_Lv.10",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 600,
+			"Deviation_Rate": 0,
+			"Striking_Power": 90,
+			"Hit_Rate": 100,
+			"Defensive_Power": 20,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "ItemPack_TestItemPack_Skill",
+		"Version": 3,
+		"StatCategory": "ItemPack",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Effect_SpeedBoostPotion_Buff_Skill",
+		"Version": 3,
+		"StatCategory": "Effect",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 160
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Effect_HPRecoveryPotion_Effect_Skill",
+		"Version": 3,
+		"StatCategory": "Effect",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 100,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Defensive_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 310
+			},
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 120
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "ItemPack_MushroomDeathReward_Skill",
+		"Version": 3,
+		"StatCategory": "ItemPack",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_AttackType1_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_AttackType2_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 105
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_AttackType3_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 115
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_AttackType4_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 120
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_AttackType5_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 180
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "NPC_Golem_Boss_Stat",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 2000,
+			"Deviation_Rate": 0,
+			"Striking_Power": 100,
+			"Hit_Rate": 100,
+			"Defensive_Power": 100,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Effect_Warrior_DodgeEffect_Skill",
+		"Version": 3,
+		"StatCategory": "Effect",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Defensive_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 500
+			},
+			{
+				"MultiplyRateType": "Dodge_Rate",
+				"MultipltRateType": "None",
+				"Apply_Rate": 500
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_Dodge_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Defensive_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 500
+			},
+			{
+				"MultiplyRateType": "Dodge_Rate",
+				"MultipltRateType": "None",
+				"Apply_Rate": 500
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Weapon_FireSword_Player",
+		"Version": 3,
+		"StatCategory": "Item",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 50,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "NPC_Mushroom_Type2_Stat",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 130,
+			"Deviation_Rate": 0,
+			"Striking_Power": 30,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Mushroom_AttackType1_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 110
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Mushroom_AttackType2_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 115
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Effect_Warrior_AttackType6HitEffect_Skill",
+		"Version": 3,
+		"StatCategory": "Effect",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Defensive_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 500
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_AttackType6_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Defensive_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 500
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Rat_AttackType1_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 105
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Rat_AttackType2_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 110
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Effect_Archer_SkillAttack1HitEffect_1_Skill",
+		"Version": 3,
+		"StatCategory": "Effect",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 33
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Effect_AttackPowerBoostPotion_Effect_Skill",
+		"Version": 3,
+		"StatCategory": "Effect",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 150
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_FireDefaultAttack_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 100
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Warrior_FireAttackType2_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "None",
+				"MultipltRateType": "None",
+				"Apply_Rate": 105
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Eagle_AttackType1_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 100
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Eagle_AttackType2_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 105
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Eagle_AttackType3_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 112
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Golem_AttackType1_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 10,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 100
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Golem_AttackType2_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 20,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 110
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Archer_SkillAttack2_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 110
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "NPC_Rat_Type2_Skill",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 80,
+			"Deviation_Rate": 0,
+			"Striking_Power": 30,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "NPC_Mushroom_Type1_Wave3_Skill",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 150,
+			"Deviation_Rate": 0,
+			"Striking_Power": 22,
+			"Hit_Rate": 100,
+			"Defensive_Power": 20,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Arher_SkillAttack1_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 105
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Arher_Strong_SkillAttack1_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "None",
+				"MultipltRateType": "None",
+				"Apply_Rate": 110
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Archer_Storng_SkillAttack2_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "None",
+				"MultipltRateType": "None",
+				"Apply_Rate": 115
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Weapon_StrongBow_Player",
+		"Version": 3,
+		"StatCategory": "Item",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 35,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "NPC_Rat_Type3_Skill",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 80,
+			"Deviation_Rate": 0,
+			"Striking_Power": 32,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Golem_Boss_AttackType1_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 100
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Golem_Boss_Attack_AoE_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 120
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Golem_Boss_AttackType2_Skill",
+		"Version": 3,
+		"StatCategory": "Skill",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [
+			{
+				"MultiplyRateType": "Striking_Power",
+				"MultipltRateType": "None",
+				"Apply_Rate": 110
+			}
+		],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

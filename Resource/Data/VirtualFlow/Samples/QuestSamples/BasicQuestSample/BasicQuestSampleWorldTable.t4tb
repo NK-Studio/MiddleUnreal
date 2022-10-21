@@ -1,0 +1,585 @@
+[
+	{
+		"Name": "MediaPlayWorld",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_MediaPlayWorld_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -241.487548828125,
+			"Y": -511.17623901367188,
+			"Z": -0.28462982177734375
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 2.7096383571624756,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -7.53851,
+			"Yaw": -5.60193,
+			"Distance": 771.064
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/QuestSamples/Entity/Map/QuestSampleMapEntity_Default.QuestSampleMapEntity_Default",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/Quest_MediaPlay.Quest_MediaPlay",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "BasicQuestSampleWorld",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_BasicQuestSampleWorld_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -241.48757934570312,
+			"Y": -511.17623901367188,
+			"Z": -0.899810791015625
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 2.7096378803253174,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -11.1096,
+			"Yaw": -3.07614,
+			"Distance": 771.064
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/QuestSamples/Entity/Map/QuestSampleMapEntity_Default.QuestSampleMapEntity_Default",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/Quest_Interaction.Quest_Interaction",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "QuestSampleWorld",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_QuestSampleWorld_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -241.48757934570312,
+			"Y": -511.17623901367188,
+			"Z": -0.899810791015625
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 2.7096378803253174,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -11.1096,
+			"Yaw": -3.07614,
+			"Distance": 771.064
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/QuestSamples/Entity/Map/QuestSampleMapEntity1.QuestSampleMapEntity1",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/QuestStart_NPCSelected.QuestStart_NPCSelected",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "QuestSampleWorld2",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_QuestSampleWorld2_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -365.02700805664062,
+			"Y": -119.62110137939453,
+			"Z": -0.98067474365234375
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -12.2354,
+			"Yaw": -3.82617,
+			"Distance": 771.064
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/QuestSamples/Entity/Map/QuestSampleMapEntity2.QuestSampleMapEntity2",
+		"DefaultSpawnAsset": "None",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TravelWorld1",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_TravelWorldMap1_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -241.48757934570312,
+			"Y": -511.17623901367188,
+			"Z": -0.899810791015625
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 2.7096378803253174,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -11.1096,
+			"Yaw": -3.07614,
+			"Distance": 771.064
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/QuestSamples/Entity/Map/QuestSampleMapEntity1.QuestSampleMapEntity1",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/Quest_TravelWorld_World1.Quest_TravelWorld_World1",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TravelWorld2",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_TravelWorldMap2_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -365.02700805664062,
+			"Y": -119.62110137939453,
+			"Z": -0.98067474365234375
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -12.2354,
+			"Yaw": -3.82617,
+			"Distance": 771.064
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/QuestSamples/Entity/Map/QuestSampleMapEntity2.QuestSampleMapEntity2",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/Quest_TravelWorld_World2.Quest_TravelWorld_World2",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "InteractionTestWorld",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_InteractionTestWorld_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -365.02700805664062,
+			"Y": -119.62110137939453,
+			"Z": -0.98067474365234375
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -12.2354,
+			"Yaw": -3.82617,
+			"Distance": 771.064
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/QuestSamples/Entity/Map/QuestSampleMapEntity_Default.QuestSampleMapEntity_Default",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/TestSpawnAsset/InteractionQuestTest1.InteractionQuestTest1",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "CutsceneWorld",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_CutsceneWorld_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": 0
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": false,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": 0,
+			"Yaw": 0,
+			"Distance": 200
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/StarterPack/Entity/Map/CombatMapEntity.CombatMapEntity",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/TestSpawnAsset/ConditionTest_1.ConditionTest_1",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "ControlVisibleWorld",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_ControlVisibleWorld_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": 0
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": false,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": 0,
+			"Yaw": 0,
+			"Distance": 200
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/QuestSamples/Entity/Map/QuestSampleMapEntity2.QuestSampleMapEntity2",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/Quest_ControlVisible.Quest_ControlVisible",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "FireEventWorld",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_FireEventWorld_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": 0
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": false,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": 0,
+			"Yaw": 0,
+			"Distance": 200
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "None",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/TestSpawnAsset/FireEvent_Test.FireEvent_Test",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TravelWorldTest",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_TravelWorldTest_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": 0
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": false,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": 0,
+			"Yaw": 0,
+			"Distance": 200
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/QuestSamples/Entity/Map/QuestSampleMapEntity_Default.QuestSampleMapEntity_Default",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/QuestSamples/Project/Spawn/TestSpawnAsset/TravelWorldTest.TravelWorldTest",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

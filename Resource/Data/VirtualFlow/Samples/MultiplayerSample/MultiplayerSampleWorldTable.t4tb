@@ -1,0 +1,55 @@
+[
+	{
+		"Name": "Field",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_Field_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 164.991943359375,
+			"Y": -1603.4404296875,
+			"Z": 101.771728515625
+		},
+		"DefaultSpawnSpread": 500,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": -36.596576690673828,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -8.07544,
+			"Yaw": 169.67,
+			"Distance": 500
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/MultiplayerSample/Entity/Map/MPS_Plain_1.MPS_Plain_1",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/MultiplayerSample/Project/Spawn/MPS_Village_Spawn.MPS_Village_Spawn",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

@@ -1,0 +1,65 @@
+[
+	{
+		"Name": "Box",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_Box_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial/Entity/Item/Box_Example.Box_Example",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"UseActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 500,
+		"Stackable": true,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

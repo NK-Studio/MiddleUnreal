@@ -1,0 +1,56 @@
+[
+	{
+		"Name": "Vallige",
+		"Version": 2,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_Vallige_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTime": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 77.688943408531514,
+			"Y": 7424.6295464232289,
+			"Z": 712.49556537387321
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": -92.230010986328139,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -15.7385,
+			"Yaw": 2.42062,
+			"Distance": 994.888
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/CK_project/Project/Entitiy/World/EM_FantageValligy.EM_FantageValligy",
+		"DefaultSpawnAsset": "/Game/CK_project/Project/Entitiy/World/ES_FantageValligy.ES_FantageValligy",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

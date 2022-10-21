@@ -1,0 +1,214 @@
+[
+	{
+		"Name": "Q_Enter",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Quest_Q_Enter_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotifications": true,
+		"QuestType": "Single",
+		"QuestFlowAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial_CK/Project/Quest/QF_Enter.QF_Enter",
+		"ChainQuestDBKey":
+		{
+			"Type": "Quest",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"QuestTimeType": "None",
+		"QuestGameUI": "None",
+		"SmallTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"LargeTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Q_Opening",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Quest_QF_Opening_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotifications": true,
+		"QuestType": "Single",
+		"QuestFlowAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial_CK/Project/Quest/QF_Opening.QF_Opening",
+		"ChainQuestDBKey":
+		{
+			"Type": "Quest",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"QuestTimeType": "None",
+		"QuestGameUI": "None",
+		"SmallTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"LargeTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Q_LeftExit",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Quest_Q_LeftExit_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotifications": true,
+		"QuestType": "Single",
+		"QuestFlowAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial_CK/Project/Quest/QF_LeftExit.QF_LeftExit",
+		"ChainQuestDBKey":
+		{
+			"Type": "Quest",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"QuestTimeType": "None",
+		"QuestGameUI": "None",
+		"SmallTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"LargeTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Q_RightExit",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Quest_Q_RightExit_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotifications": true,
+		"QuestType": "Single",
+		"QuestFlowAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial_CK/Project/Quest/QF_RightExit.QF_RightExit",
+		"ChainQuestDBKey":
+		{
+			"Type": "Quest",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"QuestTimeType": "None",
+		"QuestGameUI": "None",
+		"SmallTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"LargeTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

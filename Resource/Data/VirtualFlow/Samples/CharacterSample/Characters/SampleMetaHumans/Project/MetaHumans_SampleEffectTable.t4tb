@@ -1,0 +1,120 @@
+[
+	{
+		"Name": "Soldier_AR4_Hit_Effect",
+		"Version": 0,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Soldier_AR4_Knockback_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_Hit_Effect_ActionPack.Soldier23_Hit_Effect_ActionPack",
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Soldier_AR4_Knockback_Effect",
+		"Version": 0,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Knockback",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 2,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Back",
+				"MoveMaxDistance": 100,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

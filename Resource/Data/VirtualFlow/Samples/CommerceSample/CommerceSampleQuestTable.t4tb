@@ -1,0 +1,161 @@
+[
+	{
+		"Name": "InteriorSample_Default",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Quest_CommerceSampleGuide_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotifications": true,
+		"QuestType": "Single",
+		"QuestFlowAsset": "/Game/VirtualFlow/Samples/CommerceSample/Project/QuestFlow/QF_InteriorSample_Default.QF_InteriorSample_Default",
+		"ChainQuestDBKey":
+		{
+			"Type": "Quest",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"QuestTimeType": "None",
+		"QuestGameUI": "None",
+		"SmallTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"LargeTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "InteriorSample_1",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Quest_InteriorSample_1_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotifications": true,
+		"QuestType": "Single",
+		"QuestFlowAsset": "/Game/VirtualFlow/Samples/CommerceSample/Project/QuestFlow/QF_InteriorSample_1.QF_InteriorSample_1",
+		"ChainQuestDBKey":
+		{
+			"Type": "Quest",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"QuestTimeType": "None",
+		"QuestGameUI": "None",
+		"SmallTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"LargeTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "InteriorSample_2",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Quest_InteriorSample_2_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotifications": true,
+		"QuestType": "Single",
+		"QuestFlowAsset": "/Game/VirtualFlow/Samples/CommerceSample/Project/QuestFlow/QF_InteriorSample_2.QF_InteriorSample_2",
+		"ChainQuestDBKey":
+		{
+			"Type": "Quest",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"QuestTimeType": "None",
+		"QuestGameUI": "None",
+		"SmallTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"LargeTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

@@ -1,0 +1,47 @@
+- Viewport
+  - [ : 이전 콘트롤 모드로 변경 (TPS <= QuarterView <= ShoulderView <= FPS <= Free)
+  - ] : 다음 콘트롤 모드로 변경 (TPS => QuarterView => ShoulderView => FPS => Free)
+  - Alt + 1~2 : 플레이어 스폰 (Project Settings에서 설정)
+  - Ctrl + 1~7 : NPC 스폰 (Project Settings에서 설정)
+  - Ctrl + R-Mouse Click : 컨트롤 캐릭터 변경
+    - Entity Edior 에서만 가능
+  - Alt + 캐릭터 선택 + L-Mouse Click : 선택한 캐릭터와 인터렉션
+  - Alt + 캐릭터 선택 + R-Mouse Click : 선택한 캐릭터 삭제 (플레이어 포함)
+  - ` : Console Command
+- Camera
+  - R-Mouse Hold + Drag : 카메라 회전
+  - M-Mouse Hold + Drag : 카메라 초점 이동
+  - M-Mouse Hold + CTRL : 카메라 초점 이동 초기화
+- Player Character
+  - W/A/S/D : 캐릭터 이동
+    - Q/E : 상(E) 하(Q) 이동 (Flying 모드일 경우)
+  - SpaceBar : 점프
+  - TAB : 애니메이션 세트 변경 (+Shift : 역방향)
+  - R : 애니메이션 스탠스 변경 (+Shift : 역방향)
+  - F : 빨리 뛰기 (Sprint)
+  - CTRL + Z : Flying 모드 변경
+  - CTRL + ALT + L-Mouse Click : 좌클릭으로 선택한 위치로 텔레포트
+  - CTRL + ALT + R-Mouse Click : 초기 스폰 또는 텔리포트 이전 안전 위치로 이동 (텔레포트)
+  - L-Mouse Pressed : 공격 or 스킬
+  - 1~4 : 특수 스킬 (Weapon Skill Property)
+  - CTRL + 아이템 선택 + L-Mouse Click : 아이템 줍기
+- Editor Common
+  - / : 시뮬레이션 토글
+  - , : Show EditObject 토글 (Show/Hide)
+  - . : EditMode 토글
+- Entity Editor
+  - Weapon Entity
+	- Alt + 무기 메시 선택 + L-Mouse Click
+	  - Attach시킬 컴포넌트 선택 (예시-WeaponEntity의 EquipMesh에서의 Weapon)
+- Action Editor
+  - 편집 모드 + SpaceBar : 플레이 또는 정지
+  - 시뮬레이션 모드 + 마우스 좌클릭 : 플레이
+- Content Editor
+  - L-Mouse + EditObject : 오브젝트 선택
+  - CTRL + ALT + L-Mouse Drag : 오브젝트 다중 선택 (Rect)
+    - L-Mouse + 바닥 : 다중 선택 해제
+  - W : 이동 Manipolator 
+  - E : 회전 Manipolator 
+  - SPACE : 선택한 EditObject(s) 복제
+  - DEL : 선택한 EditObject(s) 삭제
+  - END : 선택한 EditObject(s) 바닥 위치로 이동 (-Z)

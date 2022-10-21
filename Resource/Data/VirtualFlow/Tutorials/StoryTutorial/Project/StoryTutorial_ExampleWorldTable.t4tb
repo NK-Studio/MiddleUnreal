@@ -1,0 +1,108 @@
+[
+	{
+		"Name": "CaveEntrance",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_CaveEntrance_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -5227.0048828125,
+			"Y": 2166.8017578125,
+			"Z": 1211.103759765625
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 34.448749542236328,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -6.36694,
+			"Yaw": 2.34887,
+			"Distance": 500
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial/Entity/Map/CaveEntrance_Example.CaveEntrance_Example",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial/Project/Spawn/GS_CaveEntrance_Example.GS_CaveEntrance_Example",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Junkyard",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_Junkyard_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -1885.087646484375,
+			"Y": 7660.4208984375,
+			"Z": 588.20697021484375
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 1.8673042058944702,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -1.15387,
+			"Yaw": -9.80441,
+			"Distance": 500
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial/Entity/Map/Junkyard_Example.Junkyard_Example",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial/Project/Spawn/GS_Junkyard_Example.GS_Junkyard_Example",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

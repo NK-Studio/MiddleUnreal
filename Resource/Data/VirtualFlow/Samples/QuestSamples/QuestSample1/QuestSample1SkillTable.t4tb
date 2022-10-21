@@ -1,0 +1,106 @@
+[
+	{
+		"Name": "T4SoldierPC_Default_Attack",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.6,
+			"CoolTimeSec": 0,
+			"AttackRange": 4000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 9000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 10
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Soldier_AR4_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_DefaultSkill_ActionPack.Soldier23_DefaultSkill_ActionPack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

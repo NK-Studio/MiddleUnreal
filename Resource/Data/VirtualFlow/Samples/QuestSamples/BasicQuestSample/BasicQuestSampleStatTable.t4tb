@@ -1,0 +1,541 @@
+[
+	{
+		"Name": "QuestPlayer",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 100,
+			"Hit_Rate": 100,
+			"Defensive_Power": 50,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "QuestPlayer_Lv2",
+		"Version": 3,
+		"StatCategory": "Player",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 1000,
+			"Deviation_Rate": 0,
+			"Striking_Power": 200,
+			"Hit_Rate": 100,
+			"Defensive_Power": 50,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Gun_Stat",
+		"Version": 3,
+		"StatCategory": "Item",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 50,
+			"Hit_Rate": 0,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "QuestEnemy",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 1,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "QuestNPC",
+		"Version": 3,
+		"StatCategory": "NPC",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 200,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "RewardDropRate",
+		"Version": 3,
+		"StatCategory": "ItemPack",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "MainCharacterEnemy_RewardDropRate",
+		"Version": 3,
+		"StatCategory": "ItemPack",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "SpeedUpThurible_Buff_Stat",
+		"Version": 3,
+		"StatCategory": "Effect",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 150
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "HpRecoveryBarrel_Consumable_Stat",
+		"Version": 3,
+		"StatCategory": "Effect",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 100,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": 100,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Weapon_Gun_PlusHP_Stat",
+		"Version": 3,
+		"StatCategory": "Item",
+		"StatItemCategory": "Weapon",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 100,
+			"Hit_Rate": 0,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 1000
+		},
+		"ConsumableData":
+		{
+			"HP": 0,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": 0,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Effect_HP-_Stat",
+		"Version": 3,
+		"StatCategory": "Effect",
+		"StatItemCategory": "None",
+		"PhysicalData":
+		{
+			"Basic_HP": 100,
+			"Deviation_Rate": 0,
+			"Striking_Power": 10,
+			"Hit_Rate": 100,
+			"Defensive_Power": 10,
+			"Dodge_Rate": 0
+		},
+		"OffenseData":
+		{
+			"Striking_Power": 0,
+			"Hit_Rate": 0,
+			"CC_Knockback_Rate": 0,
+			"CC_Stun_Rate": 0
+		},
+		"DefenseData":
+		{
+			"Defensive_Power": 0,
+			"Dodge_Rate": 0,
+			"Add_HP": 0
+		},
+		"ConsumableData":
+		{
+			"HP": -10,
+			"HP_Rate": 0
+		},
+		"StatusEffectData":
+		{
+			"bAllowDuplicates": false,
+			"HP_Charge": -50,
+			"MoveSpeed_Rate": 100
+		},
+		"ItemPackData":
+		{
+			"Drop_Rate": 100
+		},
+		"MultiplyRateDatas": [],
+		"Description": "",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

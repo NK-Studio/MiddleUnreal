@@ -1,0 +1,109 @@
+[
+	{
+		"Name": "CostumeSet",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_CostumeSet_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Costume",
+				"ItemDBKey":
+				{
+					"Type": "Costume",
+					"RowName": "Head",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Costume",
+				"ItemDBKey":
+				{
+					"Type": "Costume",
+					"RowName": "Torso",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Costume",
+				"ItemDBKey":
+				{
+					"Type": "Costume",
+					"RowName": "Legs",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Costume",
+				"ItemDBKey":
+				{
+					"Type": "Costume",
+					"RowName": "Boots",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Costume",
+				"ItemDBKey":
+				{
+					"Type": "Costume",
+					"RowName": "Gloves",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

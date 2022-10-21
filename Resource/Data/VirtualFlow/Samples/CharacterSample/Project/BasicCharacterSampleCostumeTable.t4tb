@@ -1,0 +1,73 @@
+[
+	{
+		"Name": "Sample_BlueCostume",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Sample_BlueCostume_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Sample_BlueCostume_Description",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "CostumeSet",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "Costume_Sample_BlueCostume_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/Samples/CharacterSample/Entity/Characters/SampleCharacter/Costume/Costume_SampleCharacter_Blue.Costume_SampleCharacter_Blue",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

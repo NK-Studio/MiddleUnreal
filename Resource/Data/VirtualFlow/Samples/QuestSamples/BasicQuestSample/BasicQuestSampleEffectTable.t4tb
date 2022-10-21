@@ -1,0 +1,362 @@
+[
+	{
+		"Name": "Gun_Hit_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Gun_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Dodge_AnimEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Dodge_AnimEffect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Airborne",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 200,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "SpeedUpPotion_Buff",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/Samples/CharacterSample/Entity/Characters/SampleCharacter/ActionPack/Sword/Sample_Sword_Dodge.Sample_Sword_Dodge",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "SpeedUpPotion_Buff",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_SpeedUpPotion_Buff_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Status",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "SpeedUpThurible_Buff_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/Tutorials/GameTutorial/Character/Main/ActionPack/MainCharacter_SpeedUp_Buff_Example.MainCharacter_SpeedUp_Buff_Example",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "HpRecoveryPotion_Consumable",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_HpRecoveryPotion_Consumable_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Consumable",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "HpRecoveryBarrel_Consumable_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "GetDamage-10",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_HP-_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Consumable",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "Effect_HP-_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "CoinDrop",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_CoinDrop_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 5,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/ActionPack/CoinDrop.CoinDrop",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

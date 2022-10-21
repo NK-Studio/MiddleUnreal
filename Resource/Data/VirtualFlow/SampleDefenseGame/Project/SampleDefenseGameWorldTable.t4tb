@@ -1,0 +1,479 @@
+[
+	{
+		"Name": "Stage1",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_Stage1_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 5370.15283203125,
+			"Y": -2268.147705078125,
+			"Z": 220.2105712890625
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 90.709632873535156,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -25.4261,
+			"Yaw": 1.94302,
+			"Distance": 1000
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Map/SDG_STAGE1.SDG_STAGE1",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/SampleDefenseGame/Project/Spawn/Stage1/GS_Stage1_Default.GS_Stage1_Default",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "Stage1BGM",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/BlackImage.BlackImage",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "PropTest",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_PropTest_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 5290.2529296875,
+			"Y": -2224.1943359375,
+			"Z": 220.30801391601562
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 90.567466735839844,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -25.4261,
+			"Yaw": 1.94302,
+			"Distance": 1000
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Map/SDG_STAGE1.SDG_STAGE1",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/SampleDefenseGame/Project/Spawn/Stage1/Test/GS_Stage1_PropTest2.GS_Stage1_PropTest2",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	},
+	{
+		"Name": "Stage2",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_Stage2_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 3973.481201171875,
+			"Y": -2762.6875,
+			"Z": 105.07916259765625
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 86.998626708984375,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -25.4261,
+			"Yaw": 1.94302,
+			"Distance": 1000
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Map/SDG_STAGE2.SDG_STAGE2",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/SampleDefenseGame/Project/Spawn/Stage2/GS_Stage2_Default.GS_Stage2_Default",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "Stage2BGM",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/BlackImage.BlackImage",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Stage2_Clear",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_Stage2_Clear_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": 10
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -25.4261,
+			"Yaw": 1.94302,
+			"Distance": 1000
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Map/SDG_Empty.SDG_Empty",
+		"DefaultSpawnAsset": "None",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Boss.Boss",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Stage1_Opening",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_Stage1_Opening_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": 10
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -25.4261,
+			"Yaw": 1.94302,
+			"Distance": 1000
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Map/SDG_Empty.SDG_Empty",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/SampleDefenseGame/Project/Spawn/GS_StartWorld.GS_StartWorld",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "LobbyStage",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_LobbyStage_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 5290.2529296875,
+			"Y": -2224.1943359375,
+			"Z": 220.30801391601562
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 90.567466735839844,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -25.4261,
+			"Yaw": 1.94302,
+			"Distance": 1000
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Map/SDG_Lobby.SDG_Lobby",
+		"DefaultSpawnAsset": "None",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "LobbyBGM",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Test",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": 0
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": false,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": 0,
+			"Yaw": 0,
+			"Distance": 200
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "None",
+		"DefaultSpawnAsset": "None",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": true,
+		"FolderName": "Test",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TestMap",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_TestMap_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 5246.87548828125,
+			"Y": -2222.994384765625,
+			"Z": 221.00732421875
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 52.417396545410156,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": false,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": 0,
+			"Yaw": 0,
+			"Distance": 200
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Map/SDG_STAGE1.SDG_STAGE1",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/SampleDefenseGame/Project/Spawn/Stage1/Test/GS_Stage1_Test.GS_Stage1_Test",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	},
+	{
+		"Name": "TestMap2",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Sunset",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": 3420.755126953125,
+			"Y": -2906.027587890625,
+			"Z": 111.0040283203125
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": -146.50711059570312,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": false,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": 0,
+			"Yaw": 0,
+			"Distance": 200
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Map/SDG_STAGE2.SDG_STAGE2",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/SampleDefenseGame/Project/Spawn/Stage2/GS_Stage2_Test.GS_Stage2_Test",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	}
+]

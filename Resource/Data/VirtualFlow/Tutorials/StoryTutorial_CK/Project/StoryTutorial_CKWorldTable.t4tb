@@ -1,0 +1,56 @@
+[
+	{
+		"Name": "CaveEntrance",
+		"Version": 2,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_CaveEntrance_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTime": "Day",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -4438.9841189373155,
+			"Y": 2307.0715950484368,
+			"Z": 1211.0739084416064
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": 0,
+			"Yaw": 42.84864807128907,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -8.31418,
+			"Yaw": -7.12978,
+			"Distance": 558.331
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial_CK/Entity/Map/CaveEntrance.CaveEntrance",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial_CK/Project/SpawnData/SD_CaveEntrance.SD_CaveEntrance",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

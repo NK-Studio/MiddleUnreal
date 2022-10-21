@@ -1,0 +1,100 @@
+[
+	{
+		"Name": "Cutscene",
+		"Version": 4,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_Cutscene_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 4,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial_CK/Etc/LS_LookIn.LS_LookIn",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": false,
+			"bUseCameraBlendIn": false,
+			"CameraBlendInTimeSec": 0.25,
+			"bUseCameraBlendOut": false,
+			"CameraBlendOutTimeSec": 0.25
+		},
+		"bUseCameraPauseAtEnd": false,
+		"bUseCameraBlendIn": false,
+		"CameraBlendInTimeSec": 0.25,
+		"bUseCameraBlendOut": false,
+		"CameraBlendOutTimeSec": 0.25,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": false,
+		"bHideUI": true,
+		"bHideHud": false,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": false,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Fade_IN",
+		"Version": 4,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_Fade_IN_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 1,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/StarterPack/Sequence/LS_FadeIn.LS_FadeIn",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": false,
+			"bUseCameraBlendIn": false,
+			"CameraBlendInTimeSec": 0.25,
+			"bUseCameraBlendOut": false,
+			"CameraBlendOutTimeSec": 0.25
+		},
+		"bUseCameraPauseAtEnd": false,
+		"bUseCameraBlendIn": false,
+		"CameraBlendInTimeSec": 0.25,
+		"bUseCameraBlendOut": false,
+		"CameraBlendOutTimeSec": 0.25,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": false,
+		"bHideUI": true,
+		"bHideHud": false,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": false,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

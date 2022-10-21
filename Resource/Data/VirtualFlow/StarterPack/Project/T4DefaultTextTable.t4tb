@@ -1,0 +1,20 @@
+[
+	{
+		"Name": "Weapon_T4DefaultRifle_Name",
+		"Version": 1,
+		"StringVersion": 1,
+		"SourceString": "DefaultRifle",
+		"ENG_StringVersion": 0,
+		"ENG_SourceString": "",
+		"PortraitName": "None",
+		"bLookAt": false,
+		"bTurnToTarget": false,
+		"bCameraActionOverride": false,
+		"DialogueActionPack": "/Game/VirtualFlow/SystemPack/System/CameraAction/DialogueLookAtDefaultActionPack.DialogueLookAtDefaultActionPack",
+		"TextCategory": "Name",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

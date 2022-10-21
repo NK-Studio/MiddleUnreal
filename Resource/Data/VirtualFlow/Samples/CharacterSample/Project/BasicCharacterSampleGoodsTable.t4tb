@@ -1,0 +1,209 @@
+[
+	{
+		"Name": "Sample_RedPotion",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_Sample_RedPotion_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_Sample_RedPotion_Description",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "Goods_Sample_RedPotion_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/Samples/CharacterSample/Entity/Goods/Sample_RedPotion.Sample_RedPotion",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"UseActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": true,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Sample_GreenPotion",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_Sample_GreenPotion_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/Samples/CharacterSample/Entity/Goods/Sample_GreenPotion.Sample_GreenPotion",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"UseActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": true,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Sample_BluePotion",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_Sample_BluePotion_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/Samples/CharacterSample/Entity/Goods/Sample_BluePotion.Sample_BluePotion",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"UseActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": true,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

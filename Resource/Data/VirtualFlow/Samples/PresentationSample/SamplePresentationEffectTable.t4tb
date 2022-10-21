@@ -1,0 +1,242 @@
+[
+	{
+		"Name": "MediaPropPlay",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_MediaPropEventControl_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/Samples/PresentationSample/ActionPack/MediaPropPlay.MediaPropPlay",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "MediaPropRestore",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_MediaPropRestore_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/Samples/PresentationSample/ActionPack/MediaPropRestore.MediaPropRestore",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "MediaPropFirePlay",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_MediaFirePlay_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/Samples/PresentationSample/ActionPack/MediaPropFirePlay.MediaPropFirePlay",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "SpeedDownDebuff",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_SpeedDownDebuff_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Status",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": true,
+			"DurationSec": 10,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "Effect_MediaPropPlay_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

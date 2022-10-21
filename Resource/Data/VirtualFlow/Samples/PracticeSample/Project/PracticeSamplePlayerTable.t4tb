@@ -1,0 +1,125 @@
+[
+	{
+		"Name": "Molmes",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Player_Molmes_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"JumpReadyTimeSec": 0,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 300,
+			"bUseTurnControl": false
+		},
+		"DefaultPlayerStatDBKey":
+		{
+			"StatCategory": "Player",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PlayerStatLevelDBKey":
+		{
+			"Type": "StatLevel",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorData":
+		{
+			"EnemyType": "Creature"
+		},
+		"EntityAsset": "/Game/VirtualFlow/Samples/PracticeSample/Entity/Character/Molmes.Molmes",
+		"FullbodySkinName": "None",
+		"bExcludePlayerList": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

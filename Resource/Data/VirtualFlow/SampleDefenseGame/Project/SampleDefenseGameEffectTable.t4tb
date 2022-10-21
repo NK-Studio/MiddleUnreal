@@ -1,0 +1,2942 @@
+[
+	{
+		"Name": "Goods",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": true,
+		"FolderName": "Goods",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "SpeedBoostPotion_Buff",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_SpeedBoostPotion_Buff_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Status",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 5,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "Effect_SpeedBoostPotion_Buff_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/ActionPack/DrinkEffect2.DrinkEffect2",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Goods"
+	},
+	{
+		"Name": "CoinDrop",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_CoinDrop_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 5,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/ActionPack/CoinDrop.CoinDrop",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Goods"
+	},
+	{
+		"Name": "HPRecoveryPotion_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_HPRecoveryPotion_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Consumable",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "Effect_HPRecoveryPotion_Effect_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/ActionPack/DrinkEffect1.DrinkEffect1",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Goods"
+	},
+	{
+		"Name": "AttackPowerBoostPotion_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_AttackPowerBoostPotion_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Status",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 5,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "Effect_AttackPowerBoostPotion_Effect_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/ActionPack/DrinkEffect3.DrinkEffect3",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Goods"
+	},
+	{
+		"Name": "Enemy",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": true,
+		"FolderName": "Enemy",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Mushroom_Hit_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Mushroom_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0.2,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_PCDamageEffect.SDG_PCDamageEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Rat_AttackType1_Hit_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Rat_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0.6,
+			"bInfiniteDuration": false,
+			"DurationSec": 1.2,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Rat_AttackType2_Hit_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Rat_AttackType2_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0.875,
+			"bInfiniteDuration": false,
+			"DurationSec": 1.5,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Hit_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Golem_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_PCDamageEffect.SDG_PCDamageEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Eagle_Hit_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Eagle_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_PCDamageEffect.SDG_PCDamageEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Leshy_Hit_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Leshy_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_PCDamageEffect.SDG_PCDamageEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Leshy_AreaAttack_Hit_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Leshy_AreaAttack_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Area",
+			"HitDelayTimeSec": 1.35,
+			"bInfiniteDuration": false,
+			"DurationSec": 2,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Boss_AttackTyp1_Hit",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Golem_Boss_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 2.07,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Boss_AttackTyp2_Hit",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Golem_Boss_AttackTyp2_Hit_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 150,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Boss_AoE_Hit",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Golem_Boss_AoE_Hit_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/ActionPack/Golem_Boss_Attack_AoE_HitEffect.Golem_Boss_Attack_AoE_HitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Boss_AoE_Area",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Area",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 600,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Golem_Boss_AoE_Hit",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Boss_AttackType2_Area",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Area",
+			"HitDelayTimeSec": 1,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 150,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Golem_Boss_AttackTyp2_Hit",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/ActionPack/Golem_Boss_AttackType2_AreaEffect.Golem_Boss_AttackType2_AreaEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Warrior_DefaultAttackHitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_W_Hit_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_DefaultHitEffect.SDG_DefaultHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "KnockbackTest",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_KnockbackTest_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Knockback",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Back",
+				"MoveMaxDistance": 500,
+				"MoveMaxHeight": 200,
+				"MoveMaxHeightSpeed": 500
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/SDG_KnockBack.SDG_KnockBack",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_FireAttackHitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_FireHitEffect.SDG_FireHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_DodgeEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Warrior_DodgeEffect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Status",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "Effect_Warrior_DodgeEffect_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": true,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType1HitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/SDG_HitShakeEffect.SDG_HitShakeEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType2HitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_DefaultHitEffect.SDG_DefaultHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType3HitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_DefaultHitEffect.SDG_DefaultHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType4HitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_WaterHitEffect.SDG_WaterHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType5HitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_WaterHitEffect.SDG_WaterHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType5AreaEffect_1",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Area",
+			"HitDelayTimeSec": 0.20000000298023224,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 200,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0.5,
+				"EffectDirection": "Front",
+				"MaxTargetCount": 5
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_AttackType5HitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType6StatusEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Status",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "Effect_Warrior_AttackType6HitEffect_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": true,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_FireAttackType5AreaEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Area",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 200,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0.5,
+				"EffectDirection": "Front",
+				"MaxTargetCount": 5
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_FireAttackHitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "WarriorType",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": true,
+		"FolderName": "WarriorType",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "ArcherType",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": true,
+		"FolderName": "ArcherType",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "RemoveBarrier",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_RemoveBarrier_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1.5,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Prop/BarrierEffect/DoorCloseEffect.DoorCloseEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "EnemyBuffStone_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_EnemyBuffStone_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Status",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": true,
+			"DurationSec": 1000,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "Effect_HPRecoveryPotion_Effect_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TreasureBox_Open",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_TreasureBox_Open_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 3.4,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Prop/ActionPack/TreasureBoxOpen.TreasureBoxOpen",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "MagicZone_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_MagicZone_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Common",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1.5,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Prop/BarrierEffect/MonsterBuffEffect.MonsterBuffEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Archer_DefaultAttackHitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_Archer_DefaultAttackHitEffect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultBow/SDG_DefenseWarrior_Bow_DefaultProjectileHitEffect.SDG_DefenseWarrior_Bow_DefaultProjectileHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_DodgeAttackHitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_Arrow_WindHitEffect.SDG_Arrow_WindHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_SkillAttack1HitEffect1",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0.2,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_SkillAttack1HitEffect2",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_Arrow_WindHitEffect.SDG_Arrow_WindHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_SkillAttack1HitEffect2",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0.32,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_SkillAttack1HitEffect3",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_Arrow_WindHitEffect.SDG_Arrow_WindHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_SkillAttack1HitEffect3",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0.45,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_Arrow_WindHitEffect.SDG_Arrow_WindHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_SkillAttack2HitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_Arrow_WindHitEffect.SDG_Arrow_WindHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_SkillAttack2AreaEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Area",
+			"HitDelayTimeSec": 0.1,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 300,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0.5,
+				"EffectDirection": "Front",
+				"MaxTargetCount": 5
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 300,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_SkillAttack2HitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultBow/SDG_DefenseWarrior_Bow_AoE_SkillAttack2.SDG_DefenseWarrior_Bow_AoE_SkillAttack2",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_Strong_DodgeAttackHitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_DarknessHitEffect.SDG_DarknessHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_Strong_SkillAttack1HitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0.2,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_Strong_SkillAttack1HitEffect2",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_DarknessHitEffect.SDG_DarknessHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_Strong_SkillAttack1HitEffect2",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0.32,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_Strong_SkillAttack1HitEffect3",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_DarknessHitEffect.SDG_DarknessHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_Strong_SkillAttack1HitEffect3",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0.45,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_DarknessHitEffect.SDG_DarknessHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_Strong_SkillAttack2HitEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/HitEffect/SDG_DarknessHitEffect.SDG_DarknessHitEffect",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_Strong_SkillAttack2AreaEffect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Area",
+			"HitDelayTimeSec": 0.1,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 300,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0.5,
+				"EffectDirection": "Front",
+				"MaxTargetCount": 5
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_Strong_SkillAttack2HitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/StrongBow/SDG_DefenseWarrior_StrongBow_AoE_SkillAttack2.SDG_DefenseWarrior_StrongBow_AoE_SkillAttack2",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	}
+]

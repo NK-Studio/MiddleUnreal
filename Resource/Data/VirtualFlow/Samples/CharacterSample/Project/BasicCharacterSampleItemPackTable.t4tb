@@ -1,0 +1,94 @@
+[
+	{
+		"Name": "Sample_StarterPack",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_Sample_StarterPack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Costume",
+				"ItemDBKey":
+				{
+					"Type": "Costume",
+					"RowName": "Sample_BlueCostume",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Sample_RedPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 5,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Sample_GreenPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 5,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Sample_BluePotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 5,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

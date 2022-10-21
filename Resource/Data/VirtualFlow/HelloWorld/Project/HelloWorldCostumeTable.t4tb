@@ -1,0 +1,641 @@
+[
+	{
+		"Name": "Modular_Default_Set",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Modular_Default_Set_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "CostumeSet",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/StarterPack/Entity/PC/Mannequin/ModularMesh/T4ModularCharacter_DefaultCostume.T4ModularCharacter_DefaultCostume",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 25,
+			"ShapeHeight": 25,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Modular_Torso_Red",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Modular_Torso_Red_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "Torso",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/StarterPack/Entity/Item/Costume/T4DefaultCostume_Torso_Red.T4DefaultCostume_Torso_Red",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 25,
+			"ShapeHeight": 25,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Modular_Torso_Yellow",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Modular_Torso_Yellow_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "Torso",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/StarterPack/Entity/Item/Costume/T4DefaultCostume_Torso_Yellow.T4DefaultCostume_Torso_Yellow",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 25,
+			"ShapeHeight": 25,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Modular_Pants_Red",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Modular_Pants_Red_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "Pants",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/StarterPack/Entity/Item/Costume/T4DefaultCostume_Pants_Red.T4DefaultCostume_Pants_Red",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 25,
+			"ShapeHeight": 25,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Modular_Pants_Orange",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Modular_Pants_Orange_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "Pants",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/StarterPack/Entity/Item/Costume/T4DefaultCostume_Pants_Orange.T4DefaultCostume_Pants_Orange",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 25,
+			"ShapeHeight": 25,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Modular_Gloves_Red",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Modular_Gloves_Red_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "Gloves",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/StarterPack/Entity/Item/Costume/T4DefaultCostume_Gloves_Red.T4DefaultCostume_Gloves_Red",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 25,
+			"ShapeHeight": 25,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Modular_Boots_Red",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Modular_Boots_Red_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "Boots",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/StarterPack/Entity/Item/Costume/T4DefaultCostume_Boots_Red.T4DefaultCostume_Boots_Red",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 25,
+			"ShapeHeight": 25,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Modular_Head_Red",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Modular_Head_Red_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "Head",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/StarterPack/Entity/Item/Costume/T4DefaultCostume_Head_Red.T4DefaultCostume_Head_Red",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 25,
+			"ShapeHeight": 25,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Modular_Head_Gray",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Costume_Modular_Head_Gray_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"PartsSlotName": "Head",
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumeEntityAsset": "/Game/VirtualFlow/StarterPack/Entity/Item/Costume/T4DefaultCostume_Head_Gray.T4DefaultCostume_Head_Gray",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"PutOnActionPackAsset": "None",
+			"TakeOffActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"GameplayFolder":
+		{
+			"UseGameplayFolder": false,
+			"FolderImage": "None",
+			"ParentFolderName": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 25,
+			"ShapeHeight": 25,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

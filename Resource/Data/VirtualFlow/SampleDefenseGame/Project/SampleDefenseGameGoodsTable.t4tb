@@ -1,0 +1,317 @@
+[
+	{
+		"Name": "Coin",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_Coin_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_Coin_Description",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/Coin.Coin",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/ActionPack/CoinDrop.CoinDrop",
+			"UseActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 35,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"PickupResultType": "Money",
+		"PickupAllowRange": 200,
+		"Stackable": true,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "SpeedBoostPotion",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_SpeedBoostPotion_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_SpeedBoostPotion_Description",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "SpeedBoostPotion_Buff",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/SpeedBoostPotion.SpeedBoostPotion",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/ActionPack/PotionDrop2.PotionDrop2",
+			"UseActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 20,
+			"AgentHeight": 50,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": true,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "HPRecoveryPotion",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_HPRecoveryPotion_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_HPRecoveryPotion_Description",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "HPRecoveryPotion_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/HPRecoveryPotion.HPRecoveryPotion",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/ActionPack/PotionDrop1.PotionDrop1",
+			"UseActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 20,
+			"AgentHeight": 50,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": true,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "AttackPowerBoostPotion",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_AttackPowerBoostPotion_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_AttackPowerBoostPotion_Description",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "AttackPowerBoostPotion_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/AttackPowerBoostPotion.AttackPowerBoostPotion",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/ActionPack/PotionDrop3.PotionDrop3",
+			"UseActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 30,
+			"AgentHeight": 40,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": true,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "EnemyBuffStone",
+		"Version": 3,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_EnemyBuffStone_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_EnemyBuffStone_Description",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/EnemyBuffPotion.EnemyBuffPotion",
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"UseActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": true,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

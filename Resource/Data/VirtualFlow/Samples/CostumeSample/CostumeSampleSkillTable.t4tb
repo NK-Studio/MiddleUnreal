@@ -1,0 +1,434 @@
+[
+	{
+		"Name": "Skill_Pose_A",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Skill_Pose_A_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Self",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 10,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+			"Using": "/Game/VirtualFlow/Samples/CostumeSample/Entity/ActionPack/CostumeSampe_Skill_A.CostumeSampe_Skill_A"
+		},
+		"IconTextureAsset": "/Game/VirtualFlow/Samples/CostumeSample/Asset/GUI/Icon/CostumeSample_SkillA.CostumeSample_SkillA",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Pose_B",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Skill_Pose_B_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Self",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 10,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+			"Using": "/Game/VirtualFlow/Samples/CostumeSample/Entity/ActionPack/CostumeSampe_Skill_B.CostumeSampe_Skill_B"
+		},
+		"IconTextureAsset": "/Game/VirtualFlow/Samples/CostumeSample/Asset/GUI/Icon/CostumeSample_SkillB.CostumeSample_SkillB",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Pose_C",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Skill_Pose_C_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Self",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 10,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+			"Using": "/Game/VirtualFlow/Samples/CostumeSample/Entity/ActionPack/CostumeSampe_Skill_C.CostumeSampe_Skill_C"
+		},
+		"IconTextureAsset": "/Game/VirtualFlow/Samples/CostumeSample/Asset/GUI/Icon/CostumeSample_SkillC.CostumeSample_SkillC",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Skill_Pose_D",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Skill_Pose_D_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Self",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 10,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+			"Using": "/Game/VirtualFlow/Samples/CostumeSample/Entity/ActionPack/CostumeSampe_Skill_D.CostumeSampe_Skill_D"
+		},
+		"IconTextureAsset": "/Game/VirtualFlow/Samples/CostumeSample/Asset/GUI/Icon/CostumeSample_SkillD.CostumeSample_SkillD",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

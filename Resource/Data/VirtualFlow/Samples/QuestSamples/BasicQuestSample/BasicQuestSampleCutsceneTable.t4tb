@@ -1,0 +1,100 @@
+[
+	{
+		"Name": "BasicCutscene1",
+		"Version": 3,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_BasicCutscene1_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 5,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/StarterPack/Map/T4CombatLevel/LevelSequence/T4CombatLevelSequence_Step1.T4CombatLevelSequence_Step1",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": true,
+			"bUseCameraBlendIn": true,
+			"CameraBlendInTimeSec": 1,
+			"bUseCameraBlendOut": true,
+			"CameraBlendOutTimeSec": 1
+		},
+		"bUseCameraPauseAtEnd": true,
+		"bUseCameraBlendIn": true,
+		"CameraBlendInTimeSec": 1,
+		"bUseCameraBlendOut": true,
+		"CameraBlendOutTimeSec": 1,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": true,
+		"bHideUI": true,
+		"bHideHud": true,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": false,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "BasicCutscene2",
+		"Version": 3,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_BasicCutscene2_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 5,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/StarterPack/Map/T4CombatLevel/LevelSequence/T4CombatLevelSequence_Step2.T4CombatLevelSequence_Step2",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": false,
+			"bUseCameraBlendIn": true,
+			"CameraBlendInTimeSec": 1,
+			"bUseCameraBlendOut": true,
+			"CameraBlendOutTimeSec": 1
+		},
+		"bUseCameraPauseAtEnd": false,
+		"bUseCameraBlendIn": true,
+		"CameraBlendInTimeSec": 1,
+		"bUseCameraBlendOut": true,
+		"CameraBlendOutTimeSec": 1,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": true,
+		"bHideUI": true,
+		"bHideHud": true,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": false,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

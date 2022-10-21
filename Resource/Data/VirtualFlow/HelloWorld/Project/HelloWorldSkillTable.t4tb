@@ -1,0 +1,649 @@
+[
+	{
+		"Name": "Soldier23",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+		},
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "Soldier23",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "T4SoldierPC_Default_Attack",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.6,
+			"CoolTimeSec": 0,
+			"AttackRange": 4000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 9000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 10
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Soldier_AR4_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_DefaultSkill_ActionPack.Soldier23_DefaultSkill_ActionPack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+			"Using": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_DefaultSkill_ActionPack.Soldier23_DefaultSkill_ActionPack"
+		},
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Soldier23"
+	},
+	{
+		"Name": "T4SoldierPC_Combat_Attack",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.75,
+			"CoolTimeSec": 0,
+			"AttackRange": 5000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 9000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 10
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Soldier_AR4_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_CombatSkill_ActionPack.Soldier23_CombatSkill_ActionPack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+			"Using": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_CombatSkill_ActionPack.Soldier23_CombatSkill_ActionPack"
+		},
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Soldier23"
+	},
+	{
+		"Name": "T4SoldierPC_Crouch_Attack",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.75,
+			"CoolTimeSec": 0,
+			"AttackRange": 5000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 9000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 10
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Soldier_AR4_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_CrouchSkill_ActionPack.Soldier23_CrouchSkill_ActionPack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+			"Using": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_CrouchSkill_ActionPack.Soldier23_CrouchSkill_ActionPack"
+		},
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Soldier23"
+	},
+	{
+		"Name": "T4SoldierPC_Prone_Attack",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.75,
+			"CoolTimeSec": 0,
+			"AttackRange": 5000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 9000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 10
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Soldier_AR4_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": true,
+			"bUseMagnifiedView": true,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_ProneSkill_ActionPack.Soldier23_ProneSkill_ActionPack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+			"Using": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_ProneSkill_ActionPack.Soldier23_ProneSkill_ActionPack"
+		},
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Soldier23"
+	},
+	{
+		"Name": "T4SoldierPC_BodyCheck_Attack",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.7,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 10
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Soldier_AR4_BodyHit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_BodyCheckSkill_ActionPack.Soldier23_BodyCheckSkill_ActionPack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"ActionPackAssets":
+		{
+			"Using": "/Game/VirtualFlow/HelloWorld/Assets/Entity/AnimStarterPack/ActionPack/Soldier23_BodyCheckSkill_ActionPack.Soldier23_BodyCheckSkill_ActionPack"
+		},
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Soldier23"
+	}
+]

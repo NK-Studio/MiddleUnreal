@@ -1,0 +1,182 @@
+[
+	{
+		"Name": "MagicalRing_Hit_Effect",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_MagicalRing_Hit_Effect_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Hit",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 1,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "SpeedUpPotion_Buff",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_SpeedUpPotion_Buff_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Status",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 5,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "SpeedUpPotion_Buff_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "/Game/VirtualFlow/Tutorials/GameTutorial/Character/Main/ActionPack/MainCharacter_SpeedUp_Buff_Example.MainCharacter_SpeedUp_Buff_Example",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "HpRecoveryPotion_Consumable",
+		"Version": 1,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Effect_HpRecoveryPotion_Consumable_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"EffectShapeData":
+		{
+			"EffectType": "Consumable",
+			"HitDelayTimeSec": 0,
+			"bInfiniteDuration": false,
+			"DurationSec": 0,
+			"MinEffectRange": 0,
+			"MaxEffectRange": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sphere",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"CentralAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"EffectDirection": "RightToLeft",
+				"MaxTargetCount": 0
+			},
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			}
+		},
+		"EffectStatDBKey":
+		{
+			"StatCategory": "Effect",
+			"Type": "Stat",
+			"RowName": "HpRecoveryPotion_Consumable_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"ChainEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotification": false,
+		"ActionPackAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

@@ -1,0 +1,3954 @@
+[
+	{
+		"Name": "Enemy",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": true,
+		"FolderName": "Enemy",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Golem_Boss_AttackType1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Golem_Boss_AttackType1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 10,
+				"SwingStartAngle": 10,
+				"CentralAngle": 160,
+				"SwingAngle": 160,
+				"MaxAddibleHitDelayTimeSec": 0.1,
+				"SwingDurationSec": 0.1,
+				"MaxTargetCount": 1
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 10,
+				"CentralAngle": 0,
+				"SwingAngle": 160,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.1,
+				"MaxTargetCount": 1
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 1,
+			"DurationSec": 2.07,
+			"CoolTimeSec": 1,
+			"AttackRange": 100,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Golem_Boss_AttackType1_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Golem_Boss_AttackTyp1_Hit",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/ActionPack/Golem_Boss_AttackType1.Golem_Boss_AttackType1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Boss_AttackType2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Golem_Boss_AttackType2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "AreaOfEffect",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 85,
+				"SwingStartAngle": 85,
+				"CentralAngle": 10,
+				"SwingAngle": 10,
+				"MaxAddibleHitDelayTimeSec": 1,
+				"SwingDurationSec": 1,
+				"MaxTargetCount": 1
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 85,
+				"CentralAngle": 0,
+				"SwingAngle": 10,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 1,
+				"MaxTargetCount": 1
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.4,
+			"DurationSec": 2,
+			"CoolTimeSec": 3,
+			"AttackRange": 500,
+			"bLimitAttackRange": true,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Golem_Boss_AttackType2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Golem_Boss_AttackType2_Area",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/ActionPack/Golem_Boss_AttackType2.Golem_Boss_AttackType2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Boss_Attack_AoE",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Golem_Boss_Attack_AoE_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 90,
+				"SwingStartAngle": 90,
+				"CentralAngle": 360,
+				"SwingAngle": 360,
+				"MaxAddibleHitDelayTimeSec": 1,
+				"SwingDurationSec": 1,
+				"MaxTargetCount": 1
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 90,
+				"CentralAngle": 0,
+				"SwingAngle": 360,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 1,
+				"MaxTargetCount": 1
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 2.5,
+			"DurationSec": 7,
+			"CoolTimeSec": 5,
+			"AttackRange": 600,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Golem_Boss_Attack_AoE_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Golem_Boss_AoE_Hit",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/ActionPack/Golem_Boss_Attack_AoE.Golem_Boss_Attack_AoE",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Mushroom_AttackType1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Mushroom_AttackType1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.2,
+			"DurationSec": 1,
+			"CoolTimeSec": 0.5,
+			"AttackRange": 10,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Mushroom_AttackType1_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Mushroom_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_DefaultAttack.Mushroom_DefaultAttack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Mushroom_AttackType2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Mushroom_AttackType2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.2,
+			"DurationSec": 1,
+			"CoolTimeSec": 1,
+			"AttackRange": 10,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Mushroom_AttackType2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Mushroom_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_AttackType2.Mushroom_AttackType2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Rat_AttackType1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Rat_AttackType1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.6,
+			"DurationSec": 1.2,
+			"CoolTimeSec": 2,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 1000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Rat_AttackType1_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Rat_AttackType1_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_AttackType1.Rat_AttackType1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Rat_AttackType2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Rat_AttackType2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.875,
+			"DurationSec": 1.5,
+			"CoolTimeSec": 5,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 1000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Rat_AttackType2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Rat_AttackType2_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_AttackType2.Rat_AttackType2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_AttackType1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Golem_AttackType1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.45,
+			"DurationSec": 1,
+			"CoolTimeSec": 0.5,
+			"AttackRange": 5,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Golem_AttackType1_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Golem_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem/ActionPack/Golem_AttackType1.Golem_AttackType1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_AttackType2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Golem_AttackType2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.35,
+			"DurationSec": 1,
+			"CoolTimeSec": 1.5,
+			"AttackRange": 50,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Golem_AttackType2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Golem_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem/ActionPack/Golem_AttackType2.Golem_AttackType2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Eagle_AttackType1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Eagle_AttackType1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.6,
+			"DurationSec": 1,
+			"CoolTimeSec": 1.5,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Eagle_AttackType1_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Eagle_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Eagle/ActionPack/Eagle_AttackType1.Eagle_AttackType1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Eagle_AttackType2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Eagle_AttackType2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.5,
+			"DurationSec": 1,
+			"CoolTimeSec": 2,
+			"AttackRange": 50,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Eagle_AttackType2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Eagle_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Eagle/ActionPack/Eagle_AttackType2.Eagle_AttackType2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Eagle_AttackType3",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Eagle_AttackType3_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.6,
+			"DurationSec": 1,
+			"CoolTimeSec": 3,
+			"AttackRange": 50,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Eagle_AttackType3_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Eagle_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Eagle/ActionPack/Eagle_AttackType3.Eagle_AttackType3",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Leshy_AttackType1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Leshy_AttackType1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 1,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Leshy_AttackType1_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Leshy_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Leshy/ActionPack/Leshy_AttackType1.Leshy_AttackType1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Leshy_AttackType2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Leshy_AttackType2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 1,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Leshy_AttackType2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Leshy_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Leshy/ActionPack/Leshy_AttackType2.Leshy_AttackType2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Leshy_AttackType3",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Leshy_AttackType3_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "AreaOfEffect",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 1.35,
+			"DurationSec": 2,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Leshy_AreaAttack_Hit_Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Leshy/ActionPack/Leshy_AttackType3.Leshy_AttackType3",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "WarriorType",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": true,
+		"FolderName": "WarriorType",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "ArcherType",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": true,
+		"FolderName": "ArcherType",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Arher_DefaultAttack",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Arher_DefaultAttack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.3,
+			"DurationSec": 1,
+			"CoolTimeSec": 0,
+			"AttackRange": 200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 2000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1.5
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Arher_DefaultAttack_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_DefaultAttackHitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultBow/SDG_DefenseWarrior_Bow_DefaultAttack.SDG_DefenseWarrior_Bow_DefaultAttack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Arher_SkillAttack1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Arher_SkillAttack1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 80,
+				"SwingStartAngle": 80,
+				"CentralAngle": 10,
+				"SwingAngle": 10,
+				"MaxAddibleHitDelayTimeSec": 0.1,
+				"SwingDurationSec": 0.1,
+				"MaxTargetCount": 5
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 80,
+				"CentralAngle": 0,
+				"SwingAngle": 10,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.1,
+				"MaxTargetCount": 5
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 1,
+			"CoolTimeSec": 5,
+			"AttackRange": 200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 2000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 0
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Arher_SkillAttack1_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_SkillAttack1HitEffect1",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": true,
+			"bCasting": true,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultBow/SDG_DefenseWarrior_Bow_SkillAttack1.SDG_DefenseWarrior_Bow_SkillAttack1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill5.T_Skill5",
+		"UICoolTimeSec": 5,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_SkillAttack2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Archer_SkillAttack2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "AreaOfEffect",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 1,
+			"DurationSec": 1,
+			"CoolTimeSec": 5,
+			"AttackRange": 200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Archer_SkillAttack2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_SkillAttack2AreaEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": true,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultBow/SDG_DefenseWarrior_Bow_SkillAttack2.SDG_DefenseWarrior_Bow_SkillAttack2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultBow/SDG_DefenseWarrior_Bow_Indicate_SkillAttack2.SDG_DefenseWarrior_Bow_Indicate_SkillAttack2",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill6.T_Skill6",
+		"UICoolTimeSec": 5,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Arher_DodgeAttack",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Arher_DodgeAttack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Dash",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 10,
+				"SwingStartAngle": 10,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 1,
+				"SwingDurationSec": 1,
+				"MaxTargetCount": 1
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 10,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 1,
+				"MaxTargetCount": 1
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.37,
+			"DurationSec": 1,
+			"CoolTimeSec": 3,
+			"AttackRange": 1000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Back",
+				"MoveMaxDistance": 200,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 2000
+			},
+			"RotationRateSpeed": 3
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Arher_DefaultAttack_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_DodgeAttackHitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": true,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultBow/SDG_DefenseWarrior_Bow_DodgeAttack.SDG_DefenseWarrior_Bow_DodgeAttack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill4.T_Skill4",
+		"UICoolTimeSec": 3,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Arher_Strong_SkillAttack1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Arher_Strong_SkillAttack1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 80,
+				"SwingStartAngle": 80,
+				"CentralAngle": 10,
+				"SwingAngle": 10,
+				"MaxAddibleHitDelayTimeSec": 0.1,
+				"SwingDurationSec": 0.1,
+				"MaxTargetCount": 5
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 80,
+				"CentralAngle": 0,
+				"SwingAngle": 10,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.1,
+				"MaxTargetCount": 5
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 1,
+			"CoolTimeSec": 5,
+			"AttackRange": 200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 2000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 0
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Arher_Strong_SkillAttack1_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_Strong_SkillAttack1HitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": true,
+			"bCasting": true,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/StrongBow/SDG_DefenseWarrior_StrongBow_SkillAttack1.SDG_DefenseWarrior_StrongBow_SkillAttack1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill5.T_Skill5",
+		"UICoolTimeSec": 5,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Archer_Storng_SkillAttack2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Archer_Storng_SkillAttack2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "AreaOfEffect",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 1,
+			"DurationSec": 1,
+			"CoolTimeSec": 5,
+			"AttackRange": 200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Archer_Storng_SkillAttack2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_Strong_SkillAttack2AreaEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": true,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/StrongBow/SDG_DefenseWarrior_StrongBow_SkillAttack2.SDG_DefenseWarrior_StrongBow_SkillAttack2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/StrongBow/SDG_DefenseWarrior_StrongBow_Indicate_SkillAttack2.SDG_DefenseWarrior_StrongBow_Indicate_SkillAttack2",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill6.T_Skill6",
+		"UICoolTimeSec": 5,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Arher_Strong_dodgeAttack",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Arher_Strong_dodgeAttack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Dash",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 10,
+				"SwingStartAngle": 10,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 1,
+				"SwingDurationSec": 1,
+				"MaxTargetCount": 1
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 10,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 1,
+				"MaxTargetCount": 1
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.37,
+			"DurationSec": 1,
+			"CoolTimeSec": 3,
+			"AttackRange": 1000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Back",
+				"MoveMaxDistance": 1000,
+				"MoveMaxHeight": 300,
+				"MoveMaxHeightSpeed": 2000
+			},
+			"RotationRateSpeed": 3
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Arher_DefaultAttack_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Archer_Strong_DodgeAttackHitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/StrongBow/SDG_DefenseWarrior_StrongBow_DodgeAttack.SDG_DefenseWarrior_StrongBow_DodgeAttack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill4.T_Skill4",
+		"UICoolTimeSec": 3,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "Warrior_DefaultAttack",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_DefaultAttack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 80,
+				"SwingStartAngle": 80,
+				"CentralAngle": 30,
+				"SwingAngle": 30,
+				"MaxAddibleHitDelayTimeSec": 0.504,
+				"SwingDurationSec": 0.504,
+				"MaxTargetCount": 1
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 80,
+				"CentralAngle": 0,
+				"SwingAngle": 30,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.504,
+				"MaxTargetCount": 1
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.175,
+			"DurationSec": 0.7,
+			"CoolTimeSec": 0,
+			"AttackRange": 10,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_DefaultAttack_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_DefaultAttackHitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultSword/SDG_DefenseWarrior_DefaultAttack.SDG_DefenseWarrior_DefaultAttack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_Dodge",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_Dodge_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Dash",
+			"AttackTargetType": "Self",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.5,
+			"CoolTimeSec": 2,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Front",
+				"MoveMaxDistance": 300,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 2000
+			},
+			"RotationRateSpeed": 5
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_Dodge_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_DodgeEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": true,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/SDG_DefenseWarrior_Dodge.SDG_DefenseWarrior_Dodge",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_SkillDash.T_SkillDash",
+		"UICoolTimeSec": 2,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_AttackType2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "LeftToRight",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 180,
+				"SwingAngle": 180,
+				"MaxAddibleHitDelayTimeSec": 0.35,
+				"SwingDurationSec": 0.35,
+				"MaxTargetCount": 3
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "LeftToRight",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 180,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.35,
+				"MaxTargetCount": 3
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.175,
+			"DurationSec": 0.7,
+			"CoolTimeSec": 0,
+			"AttackRange": 25,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_AttackType2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_AttackType2HitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultSword/SDG_DefenseWarrior_AttackType2.SDG_DefenseWarrior_AttackType2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType3",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_AttackType3_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Dash",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 70,
+				"SwingStartAngle": 70,
+				"CentralAngle": 45,
+				"SwingAngle": 45,
+				"MaxAddibleHitDelayTimeSec": 0.3,
+				"SwingDurationSec": 0.3,
+				"MaxTargetCount": 3
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 70,
+				"CentralAngle": 0,
+				"SwingAngle": 45,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.3,
+				"MaxTargetCount": 3
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.245,
+			"DurationSec": 0.7,
+			"CoolTimeSec": 0,
+			"AttackRange": 200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Front",
+				"MoveMaxDistance": 200,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 1000
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_AttackType3_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_AttackType3HitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultSword/SDG_DefenseWarrior_AttackType3.SDG_DefenseWarrior_AttackType3",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType4",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_AttackType4_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Dash",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "LeftToRight",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 30,
+				"SwingStartAngle": 30,
+				"CentralAngle": 120,
+				"SwingAngle": 120,
+				"MaxAddibleHitDelayTimeSec": 0.5,
+				"SwingDurationSec": 0.5,
+				"MaxTargetCount": 5
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "LeftToRight",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 30,
+				"CentralAngle": 0,
+				"SwingAngle": 120,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.5,
+				"MaxTargetCount": 5
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.5,
+			"DurationSec": 1,
+			"CoolTimeSec": 4,
+			"AttackRange": 600,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Front",
+				"MoveMaxDistance": 350,
+				"MoveMaxHeight": 8,
+				"MoveMaxHeightSpeed": 2000
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_AttackType4_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_AttackType4HitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultSword/SDG_DefenseWarrior_AttackType4.SDG_DefenseWarrior_AttackType4",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill1.T_Skill1",
+		"UICoolTimeSec": 4,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType5",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_AttackType5_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Air",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": true,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 360,
+				"SwingAngle": 360,
+				"MaxAddibleHitDelayTimeSec": 0.2,
+				"SwingDurationSec": 0.2,
+				"MaxTargetCount": 10
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 360,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.2,
+				"MaxTargetCount": 10
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.2,
+			"DurationSec": 0.5,
+			"CoolTimeSec": 6,
+			"AttackRange": 200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 1,
+				"MoveMaxHeight": 200,
+				"MoveMaxHeightSpeed": 850
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_AttackType5_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_AttackType5AreaEffect_1",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultSword/SDG_DefenseWarrior_AttackType5.SDG_DefenseWarrior_AttackType5",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill2.T_Skill2",
+		"UICoolTimeSec": 6,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_AttackType6",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_AttackType6_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Self",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 1,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_AttackType6_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_AttackType6StatusEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultSword/SDG_DefenseWarrior_AttackType6.SDG_DefenseWarrior_AttackType6",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultSword/SDG_DefenseWarrior_AttackType6_Area.SDG_DefenseWarrior_AttackType6_Area",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill3.T_Skill3",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_FireDefaultAttack",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_FireDefaultAttack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 80,
+				"SwingStartAngle": 80,
+				"CentralAngle": 30,
+				"SwingAngle": 30,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 1
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 80,
+				"CentralAngle": 0,
+				"SwingAngle": 30,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 1
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.175,
+			"DurationSec": 0.7,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_FireDefaultAttack_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_FireAttackHitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/FireSword/SDG_DefenseWarrior_FireDefaultAttack.SDG_DefenseWarrior_FireDefaultAttack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_FireAttackType2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_FireAttackType2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "LeftToRight",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 180,
+				"SwingAngle": 180,
+				"MaxAddibleHitDelayTimeSec": 0.35,
+				"SwingDurationSec": 0.35,
+				"MaxTargetCount": 3
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "LeftToRight",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 180,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.35,
+				"MaxTargetCount": 3
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.175,
+			"DurationSec": 0.7,
+			"CoolTimeSec": 0,
+			"AttackRange": 25,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_FireAttackType2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_FireAttackHitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/FireSword/SDG_DefenseWarrior_FireAttackType2.SDG_DefenseWarrior_FireAttackType2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_FireAttackType3",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_FireAttackType3_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Dash",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 70,
+				"SwingStartAngle": 70,
+				"CentralAngle": 45,
+				"SwingAngle": 45,
+				"MaxAddibleHitDelayTimeSec": 0.3,
+				"SwingDurationSec": 0.3,
+				"MaxTargetCount": 3
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 70,
+				"CentralAngle": 0,
+				"SwingAngle": 45,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.3,
+				"MaxTargetCount": 3
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.245,
+			"DurationSec": 0.7,
+			"CoolTimeSec": 0,
+			"AttackRange": 200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Front",
+				"MoveMaxDistance": 10,
+				"MoveMaxHeight": 1,
+				"MoveMaxHeightSpeed": 600
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_AttackType3_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_FireAttackHitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/FireSword/SDG_DefenseWarrior_FireAttackType3.SDG_DefenseWarrior_FireAttackType3",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_FireAttackType4",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_FireAttackType4_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Dash",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "LeftToRight",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 30,
+				"SwingStartAngle": 30,
+				"CentralAngle": 120,
+				"SwingAngle": 120,
+				"MaxAddibleHitDelayTimeSec": 0.5,
+				"SwingDurationSec": 0.5,
+				"MaxTargetCount": 5
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "LeftToRight",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 30,
+				"CentralAngle": 0,
+				"SwingAngle": 120,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.5,
+				"MaxTargetCount": 5
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.5,
+			"DurationSec": 1,
+			"CoolTimeSec": 4,
+			"AttackRange": 600,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Front",
+				"MoveMaxDistance": 1000,
+				"MoveMaxHeight": 300,
+				"MoveMaxHeightSpeed": 2000
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_AttackType4_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_FireAttackHitEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/FireSword/SDG_DefenseWarrior_FireAttackType4.SDG_DefenseWarrior_FireAttackType4",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill1.T_Skill1",
+		"UICoolTimeSec": 4,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_FireAttackType5",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_FireAttackType5_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Air",
+			"AttackTargetType": "NonTarget",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 360,
+				"SwingAngle": 360,
+				"MaxAddibleHitDelayTimeSec": 0.2,
+				"SwingDurationSec": 0.2,
+				"MaxTargetCount": 10
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 360,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0.2,
+				"MaxTargetCount": 10
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.2,
+			"DurationSec": 0.5,
+			"CoolTimeSec": 6,
+			"AttackRange": 200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 1,
+				"MoveMaxHeight": 200,
+				"MoveMaxHeightSpeed": 850
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_AttackType5_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_FireAttackType5AreaEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/FireSword/SDG_DefenseWarrior_FireAttackType5.SDG_DefenseWarrior_FireAttackType5",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill2.T_Skill2",
+		"UICoolTimeSec": 6,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Warrior_FireAttackType6",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_Warrior_FireAttackType6_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Self",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 1,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Skill_Warrior_AttackType6_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "Warrior_AttackType6StatusEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/FireSword/SDG_DefenseWarrior_FireAttackType6.SDG_DefenseWarrior_FireAttackType6",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/ActionPack/DefaultSword/SDG_DefenseWarrior_AttackType6_Area.SDG_DefenseWarrior_AttackType6_Area",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Player/Portrait/T_Skill3.T_Skill3",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	}
+]

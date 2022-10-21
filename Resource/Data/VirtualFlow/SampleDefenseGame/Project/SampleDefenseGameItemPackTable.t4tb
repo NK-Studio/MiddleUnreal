@@ -1,0 +1,883 @@
+[
+	{
+		"Name": "TestItemPack",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_TestItemPack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_TestItemPack_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Weapon",
+				"ItemDBKey":
+				{
+					"Type": "Weapon",
+					"RowName": "Bow",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Weapon",
+				"ItemDBKey":
+				{
+					"Type": "Weapon",
+					"RowName": "FireSword",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "StartPack",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_StartPack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "DropItem",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_TestItemPack_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HPRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 3,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [],
+		"MainEntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Item/HPRecoveryPotion.HPRecoveryPotion",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "RedMushroomDeathReward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_MushroomDeathReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "DropItem",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_MushroomDeathReward_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Coin",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HPRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 70
+			}
+		],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Experience",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 10,
+				"MinValue": 0,
+				"MaxValue": 0
+			},
+			{
+				"AbstractAssetTypeName": "Point",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Random",
+				"Value": 100,
+				"MinValue": 30,
+				"MaxValue": 50
+			}
+		],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "YellowMushroomDeathReward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_YellowMushroomDeathReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "DropItem",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_MushroomDeathReward_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Coin",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 2,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HPRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 50
+			}
+		],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Experience",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 15,
+				"MinValue": 0,
+				"MaxValue": 0
+			},
+			{
+				"AbstractAssetTypeName": "Point",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Random",
+				"Value": 100,
+				"MinValue": 35,
+				"MaxValue": 55
+			}
+		],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "RatDeathReward_Type1",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_RatDeathReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "DropItem",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_MushroomDeathReward_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Coin",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 2,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HPRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 80
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "SpeedBoostPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 80
+			}
+		],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Experience",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 20,
+				"MinValue": 0,
+				"MaxValue": 0
+			},
+			{
+				"AbstractAssetTypeName": "Point",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Random",
+				"Value": 100,
+				"MinValue": 40,
+				"MaxValue": 60
+			}
+		],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "RatDeathReward_Type2",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_RatDeathReward_Type2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_MushroomDeathReward_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Coin",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 2,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HPRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 80
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "SpeedBoostPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 80
+			}
+		],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Experience",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 20,
+				"MinValue": 0,
+				"MaxValue": 0
+			},
+			{
+				"AbstractAssetTypeName": "Point",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 60,
+				"MinValue": 0,
+				"MaxValue": 0
+			}
+		],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "EagleDeathReward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_EagleDeathReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "DropItem",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_MushroomDeathReward_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Coin",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 3,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HPRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 80
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "SpeedBoostPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 80
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "AttackPowerBoostPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 60
+			}
+		],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Experience",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 25,
+				"MinValue": 0,
+				"MaxValue": 0
+			},
+			{
+				"AbstractAssetTypeName": "Point",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Random",
+				"Value": 100,
+				"MinValue": 60,
+				"MaxValue": 70
+			}
+		],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "GolemDeathReward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_GolemDeathReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "DropItem",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_MushroomDeathReward_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Coin",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 3,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HPRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "SpeedBoostPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 80
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "AttackPowerBoostPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 70
+			}
+		],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Experience",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 30,
+				"MinValue": 0,
+				"MaxValue": 0
+			},
+			{
+				"AbstractAssetTypeName": "Point",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Random",
+				"Value": 100,
+				"MinValue": 60,
+				"MaxValue": 80
+			}
+		],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "GolemBossDeathReward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_GolemBossDeathReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_MushroomDeathReward_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Coin",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 10,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Point",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Random",
+				"Value": 100,
+				"MinValue": 100,
+				"MaxValue": 150
+			}
+		],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "LeshyDeathReward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_LeshyDeathReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "DropItem",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "ItemPack_MushroomDeathReward_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Experience",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 290,
+				"MinValue": 0,
+				"MaxValue": 0
+			}
+		],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

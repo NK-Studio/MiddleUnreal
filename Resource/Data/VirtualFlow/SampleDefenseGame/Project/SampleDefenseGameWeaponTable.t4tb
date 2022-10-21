@@ -1,0 +1,1814 @@
+[
+	{
+		"Name": "LongSword",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_LongSword_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+			"Combat":
+			{
+				"Type": "SkillSet",
+				"RowName": "LongSwordSkillSet",
+				"ValidationResult": "CheckIt"
+			}
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "LongSwordStat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Buckler",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Weapons/SampleLongSword.SampleLongSword",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "RightHand",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	},
+	{
+		"Name": "Mushroom_Unarmed",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Mushroom_Unarmed_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "Mushroom_SkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 0,
+		"MaxAttackRange": 70,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": true,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Enemy",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": true,
+		"FolderName": "Enemy",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Rat_Unarmed",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Rat_Unarmed_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "Rat_SkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 700,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": true,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Rat_Type2_Unarmed",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Rat_Type2_Unarmed_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "Rat_SkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 2100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": true,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Unarmed",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Golem_Unarmed_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "Golem_SkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 0,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": true,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Leshy_Unarmed",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Leshy_Unarmed_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "Leshy_SkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": true,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Eagle_Unarmed",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Eagle_Unarmed_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "Eagle_SkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 0,
+		"MaxAttackRange": 120,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": true,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Boss_Unarmed",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Golem_Boss_Unarmed_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "Golem_Boss_SkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 0,
+		"MaxAttackRange": 200,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": true,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Test",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": true,
+		"FolderName": "Test",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "WarriorType",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": true,
+		"FolderName": "WarriorType",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Sword",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Sword1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "WarriorDefaultSkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "Weapon_Sword1_Player",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Shield1",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Weapon/SDG_Sword.SDG_Sword",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "RightHand",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "FireSword",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_FireSword_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "WarriorFireSkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "Weapon_FireSword_Player",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Shield1",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Weapon/SDG_FireSword.SDG_FireSword",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Weapon/ActionPacks/FireSword_DropEffect.FireSword_DropEffect",
+			"AttachActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Weapon/ActionPacks/FireSword_AttachEffect.FireSword_AttachEffect",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "Shield1",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Shield1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "Weapon_Shield1_Player",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Weapon/SDG_Shield1.SDG_Shield1",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "LeftHand",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "WarriorType"
+	},
+	{
+		"Name": "ArcherType",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "None",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": true,
+		"FolderName": "ArcherType",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Bow",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Bow1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Archer",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "ArcherTypeSkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 2000,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "Weapon_Bow1_Player",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Weapon/SDG_Bow.SDG_Bow",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "LeftHand",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 45.1793,
+			"AgentHeight": 54.0637,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "StrongBow",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_StrongBow_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Archer",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "ArcherStrongSkillSet",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 2000,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "Weapon_StrongBow_Player",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Weapon/SDG_StrongBow.SDG_StrongBow",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "LeftHand",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 45.1793,
+			"AgentHeight": 54.0637,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "ArcherType"
+	},
+	{
+		"Name": "MagicStaff",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_MagicStaff_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Weapon/SDG_Staff.SDG_Staff",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "Unarmed",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Buckler",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_Buckler_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 200,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "BucklerStat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Weapons/SampleBuckler.SampleBuckler",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "DualHand",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	},
+	{
+		"Name": "LongSword_Simple",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Weapon_LongSword_Simple_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"DescriptionTextDBKey":
+		{
+			"TextCategory": "Description",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultAnimSetName": "Default",
+		"DefaultSkillSetDBKey":
+		{
+			"Type": "SkillSet",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"StanceSkillSetDBKey":
+		{
+			"Combat":
+			{
+				"Type": "SkillSet",
+				"RowName": "LongSwordSkillSet",
+				"ValidationResult": "CheckIt"
+			}
+		},
+		"MinAttackRange": 10,
+		"MaxAttackRange": 100,
+		"ItemStatDBKey":
+		{
+			"StatCategory": "Item",
+			"Type": "Stat",
+			"RowName": "LongSwordStat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"UseEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DualWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bDontUseMesh": false,
+		"WeaponEntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Weapons/SampleLongSword.SampleLongSword",
+		"StanceAttachPoints":
+		{
+		},
+		"PlayActionData":
+		{
+			"DropActionPackAsset": "None",
+			"AttachActionPackAsset": "None",
+			"DetachActionPackAsset": "None",
+			"MountActionPackAsset": "None",
+			"UnmountActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None"
+		},
+		"WeaponStanceType": "RightHand",
+		"VRDataSetName": "Default",
+		"ShapeData":
+		{
+			"ShapeRadius": 0,
+			"ShapeHeight": 0,
+			"AgentRadius": 25,
+			"AgentHeight": 25,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"PickupResultType": "Inventory",
+		"PickupAllowRange": 200,
+		"Stackable": false,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	}
+]

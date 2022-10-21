@@ -1,0 +1,184 @@
+[
+	{
+		"Name": "WarriorStatLevel",
+		"Version": 2,
+		"LevelCategory": "Player",
+		"Level": 2,
+		"LevelConditionData":
+		{
+			"MinExperience": 40
+		},
+		"LevelEffectData":
+		{
+			"LevelStatDBKey":
+			{
+				"StatCategory": "Player",
+				"Type": "Stat",
+				"RowName": "Player_DefenseWarrior_PC_Lv.2",
+				"ValidationResult": "CheckIt"
+			}
+		},
+		"LevelDataMap":
+		{
+			"2":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 40
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "Player_DefenseWarrior_PC_Lv.2",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			},
+			"3":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 80
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "Player_DefenseWarrior_PC_Lv.3",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			},
+			"4":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 150
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "Player_DefenseWarrior_PC_Lv.4",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			},
+			"5":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 250
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "Player_DefenseWarrior_PC_Lv.5",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			},
+			"6":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 380
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "Player_DefenseWarrior_PC_Lv.6",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			},
+			"7":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 520
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "Player_DefenseWarrior_PC_Lv.7",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			},
+			"8":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 700
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "Player_DefenseWarrior_PC_Lv.8",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			},
+			"9":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 900
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "Player_DefenseWarrior_PC_Lv.9",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			},
+			"10":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 1000
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "Player_DefenseWarrior_PC_Lv.10",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			}
+		},
+		"Description": "",
+		"ProjectID": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

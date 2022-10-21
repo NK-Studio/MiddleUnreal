@@ -1,0 +1,126 @@
+[
+	{
+		"Name": "MainCharacterEnemyDeathReward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_MainCharacterEnemyDeathReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "DropItem",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "MainCharacterEnemy_RewardDropRate",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "SpeedUpPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "SpeedUpPotion",
+				"ItemCountType": "Constant",
+				"ItemCount": 3,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HpRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "HpRecoveryPotion",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TutorialGameReward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_TutorialGameReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "TutorialMission_Rate",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Weapon",
+				"ItemDBKey":
+				{
+					"Type": "Weapon",
+					"RowName": "MagicalRing",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "MagicalRing",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HpRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "HpRecoveryPotion",
+				"ItemCountType": "Constant",
+				"ItemCount": 5,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [],
+		"MainEntityAsset": "/Game/VirtualFlow/Tutorials/GameTutorial/Weapon/Weapon_MagicalRing_Example.Weapon_MagicalRing_Example",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

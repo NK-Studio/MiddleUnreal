@@ -1,0 +1,1666 @@
+[
+	{
+		"Name": "W_GroundSmash",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_GroundSmash_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 1.1,
+			"DurationSec": 2.53,
+			"CoolTimeSec": 5,
+			"AttackRange": 1200,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 2000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "SkillAttack",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "W_GroundSmashEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": true,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_SkillAttack.SampleWarrior_SkillAttack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Effects/Skill/Textures/T_SkillSwordAttack.T_SkillSwordAttack",
+		"UICoolTimeSec": 5,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Warrior"
+	},
+	{
+		"Name": "W_Block",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_W_Block_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 5,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "W_BlockEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Block.SampleWarrior_Block",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Warrior"
+	},
+	{
+		"Name": "W_Dash",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_W_Dash_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Dash",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "Static",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.53,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Front",
+				"MoveMaxDistance": 1000,
+				"MoveMaxHeight": 250,
+				"MoveMaxHeightSpeed": 2000
+			},
+			"RotationRateSpeed": 10
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "W_DashEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Dodge.SampleWarrior_Dodge",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Effects/Skill/Textures/T_SkillDash.T_SkillDash",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Warrior"
+	},
+	{
+		"Name": "Warrior",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": true,
+		"FolderName": "Warrior",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Magician",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": true,
+		"FolderName": "Magician",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "M_Teleport",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_M_Teleport_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Dash",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.87,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Front",
+				"MoveMaxDistance": 1000,
+				"MoveMaxHeight": 400,
+				"MoveMaxHeightSpeed": 2000
+			},
+			"RotationRateSpeed": 3
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "M_TeleportEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Teleport.SampleMagician_Teleport",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Effects/Skill/Textures/T_SkillDash.T_SkillDash",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Magician"
+	},
+	{
+		"Name": "M_DefaultAttack",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_M_DefaultAttack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "Dynamic",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": true
+			},
+			"HitDelayTimeSec": 0.2,
+			"DurationSec": 0.8,
+			"CoolTimeSec": 0,
+			"AttackRange": 1000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 2000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "DefaultAttackStat",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "M_DefaultAttackEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_DefaultAttack.SampleMagician_DefaultAttack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Magician"
+	},
+	{
+		"Name": "M_Combo1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_M_Combo1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "Dynamic",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": true
+			},
+			"HitDelayTimeSec": 0.25,
+			"DurationSec": 1.13,
+			"CoolTimeSec": 0,
+			"AttackRange": 1000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 2000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Combo2Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "M_Combo1Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Combo1.SampleMagician_Combo1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Magician"
+	},
+	{
+		"Name": "W_DefaultAttack",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_W_DefaultAttack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.1,
+			"DurationSec": 0.8,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 100,
+				"MoveMaxHeight": 200,
+				"MoveMaxHeightSpeed": 100
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "DefaultAttackStat",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "W_DefaultAttackEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_DefaultAttack.SampleWarrior_DefaultAttack",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Warrior"
+	},
+	{
+		"Name": "W_Combo1",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_W_Combo1_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": true,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.2,
+			"DurationSec": 0.87,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "DefaultAttackStat",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "W_Combo1Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_ComboAttack1.SampleWarrior_ComboAttack1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Warrior"
+	},
+	{
+		"Name": "W_Combo2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_W_Combo2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "AreaOfEffect",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": true
+			},
+			"HitDelayTimeSec": 0.4,
+			"DurationSec": 1.27,
+			"CoolTimeSec": 0,
+			"AttackRange": 300,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": true,
+			"MovementData":
+			{
+				"MoveAngleType": "Front",
+				"MoveMaxDistance": 200,
+				"MoveMaxHeight": 10,
+				"MoveMaxHeightSpeed": 2000
+			},
+			"RotationRateSpeed": 10
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Combo2Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "W_Combo2Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_ComboAttack2.SampleWarrior_ComboAttack2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Warrior"
+	},
+	{
+		"Name": "W_Combo3",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_W_Combo3_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Swing",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0.3,
+			"DurationSec": 1.07,
+			"CoolTimeSec": 0,
+			"AttackRange": 300,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "None",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 0,
+				"MoveMaxHeightSpeed": 0
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Combo3Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "W_Combo3Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_ComboAttack3.SampleWarrior_ComboAttack3",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Warrior"
+	},
+	{
+		"Name": "M_Combo2",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_M_Combo2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Throw",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "Dynamic",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": true
+			},
+			"HitDelayTimeSec": 0.52,
+			"DurationSec": 1.33,
+			"CoolTimeSec": 0,
+			"AttackRange": 1000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 2000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Combo3Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "M_Combo1Effect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Combo2.SampleMagician_Combo2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Magician"
+	},
+	{
+		"Name": "M_Thunder",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_M_Thunder_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "AreaOfEffect",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": true
+			},
+			"HitDelayTimeSec": 0.25,
+			"DurationSec": 0.9,
+			"CoolTimeSec": 5,
+			"AttackRange": 100,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "Combo3Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "M_ThunderAreaEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_SkillAttack1.SampleMagician_SkillAttack1",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Effects/Skill/Textures/T_SkillThunder.T_SkillThunder",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Magician"
+	},
+	{
+		"Name": "M_MagicGuard",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_M_MagicGuard_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "Using",
+			"AttackTargetType": "Self",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "All",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": false
+			},
+			"HitDelayTimeSec": 0,
+			"DurationSec": 0.9,
+			"CoolTimeSec": 0,
+			"AttackRange": 0,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 0,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "None",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "None",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Magician"
+	},
+	{
+		"Name": "M_Meteor",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Skill_M_Meteor_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillShapeData":
+		{
+			"AttackType": "AreaOfEffect",
+			"AttackTargetType": "Target",
+			"ProjectileHitType": "SingleRayCast",
+			"bUseAreaEffect": false,
+			"MaxEffectCount": 1,
+			"EffectTimeInterval": 0,
+			"TargetDetectionAreaData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"NonTargetData":
+			{
+				"AreaShape": "Sector",
+				"AttackDirection": "RightToLeft",
+				"Width": 0,
+				"Height": 0,
+				"StartAngle": 0,
+				"SwingStartAngle": 0,
+				"CentralAngle": 0,
+				"SwingAngle": 0,
+				"MaxAddibleHitDelayTimeSec": 0,
+				"SwingDurationSec": 0,
+				"MaxTargetCount": 0
+			},
+			"FindTargetType": "Dynamic",
+			"AttackOptionData":
+			{
+				"bMoveable": false,
+				"bUseOverlapEvents": true
+			},
+			"HitDelayTimeSec": 2.9,
+			"DurationSec": 3.83,
+			"CoolTimeSec": 0,
+			"AttackRange": 2000,
+			"bLimitAttackRange": false,
+			"ProjectileSpeed": 2000,
+			"bUseMovement": false,
+			"MovementData":
+			{
+				"MoveAngleType": "Up",
+				"MoveMaxDistance": 0,
+				"MoveMaxHeight": 100,
+				"MoveMaxHeightSpeed": 200
+			},
+			"RotationRateSpeed": 1
+		},
+		"SkillStatDBKey":
+		{
+			"StatCategory": "Skill",
+			"Type": "Stat",
+			"RowName": "SkillAttack",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillEffectDBKey":
+		{
+			"Type": "Effect",
+			"RowName": "M_MeteorAreaEffect",
+			"ValidationResult": "CheckIt"
+		},
+		"SkillControlOption":
+		{
+			"bLockOn": false,
+			"bCasting": false,
+			"bApproach": false,
+			"bTurnDisabled": false,
+			"bUseMagnifiedView": false,
+			"AimingPitchAngle": 0
+		},
+		"UsingActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_SkillAttack2.SampleMagician_SkillAttack2",
+		"CastingActionPackAsset": "None",
+		"CancelActionPackAsset": "None",
+		"IndicateActionPackAsset": "None",
+		"LevelUpActionPackAsset": "None",
+		"IconTextureAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Effects/Skill/Textures/T_SkillProjectile.T_SkillProjectile",
+		"UICoolTimeSec": 0,
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Magician"
+	}
+]

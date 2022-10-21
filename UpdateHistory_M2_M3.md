@@ -1,0 +1,782 @@
+- **Update History**
+  - v0.9.10.5 : 2022.04.08
+    - New feature or Enhancement
+	  - Client or Server
+		- [Server] 퀘스트 자동저장 활성 (#1023)
+		  - 클리어할때 자동저장
+		  - 위치는 로비로 나갈때 저장
+		  - 시작 퀘스트가 위치 저장에 영향을 주고 있습니다
+        - [Server] 퀘스트 자동저장 옵션화 (#1164)
+	  - Editor
+	    - [Entity] Prop Entity에 첫번째 ModularParts 추가 시 "Root" Parts로 자동 등록하도록 개선 (#1056)
+	  - Common
+	    - [Common] UE5 정식 버전 지원 (#1161)
+	- Bugfix
+	  - Client or Server
+	    - [Server] 비전투 NPC PropNeutral 설정이 정상적으로 동작하지 않던 문제 수정 (#1039)
+		- [Server] 반복적으로 로비와 인게임 오고가면 발생하는 크래쉬 현상 수정(#1023)
+		- [Server] 서버시작상태 아닐때 월드 저장 무시 처리
+		- [Server] Movement 옵션을 사용하는 스킬에서, MaxHeight가 낮은 경우 호출할 직선 이동용 함수 추가 (#1142)
+		- [Client] MediaProp, EventParamter로 FileMediaSource Slot Index를 선택해 플레이 할 수 있는 기능 추가 (#1056)
+		- [Client] 근소한 거리로 Movement 스킬을 사용할 경우 방향에 관계없이 +X 축으로 캐릭터가 회전을 하는 문제 수정 (#1142)
+		- [Client] 컷씬의 카메라 컷과 인게임 캐릭터 카메라 블랜딩이 간헐적으로 튀는 문제 개선 (#1146)
+	  - Editor
+	    - [Content] SpawnObject 내 WayPoint Type 미설정 시 시뮬레이션 모드 사용에서 발생하는 크래시 수정 (#1155)
+		- [Content] Cinematic Cutscene 플레이 시 NPCInteraction이 동작하지 않던 문제 수정 (#1056)
+	    - [QuestFlow] MediaPlay Details에서 에디터용 ThumbnailImage 프로퍼티 편집이 UI DB에 저장되지 않던 문제 수정 (#1056)
+		- [Action] Prop Entity를 Parent Entity로 지정할 경우 Animation Detail에서 SectionName Droplist가 출력되지 않던 문제 수정 (#1158)
+- **Previous updates**
+  - v0.9.10.4 : 2022.04.06 (HOTFIX-1)
+    - HOTFIX-1
+	  - Editor
+	    - [Content] SpawnObject의 "SelectInteraction" 설정으로 NPC선택 Event를 사용할 수 있도록 개선 (#1056)
+	    - [Content] SpawnObject의 "HUD BossHPBar" 설정을 NPC DB의 "ShowHPBar" 로 이전 (#1031)
+	  - Common
+		- [Common] ET4GameEffectType::Common을 NoEffect로 리네임 (효과 없이 Action 연출로만 사용) (#958)
+	- Bugfix
+	  - Client or Server
+		- [Server/Client] CoolTimeSec와 UI CoolTime Sec이 맞지 않는 문제 수정 (#1152)
+		- [Client] 스탠스 변경에 따른 스킬 UI 갱신 오류 수정 (#895)
+	  	- [Action] MediaProp의 영상 재생 시 Stop 시에도 계속 영상이 출력되던 문제 수정 (#1056)
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Server/Client] 인벤토리/장비창 아이템 업데이트 시 상황에 맞는 효과음을 처리할 수 있도록 개선 (#728)
+		  - Inventory_Update ActionPack 내 ConditionName 을 통해 소리 제어
+		    - Add/Remove/Trade/Swap/AddSlot/RemoveSlot
+	    - [Client] Player 이동 시 Navigation 엣지에 AgentRadius 만큼 떨어지도록 개선 (#1151)
+		- [Server] NPC 도 논타겟팅 스킬 사용이 가능하도록 기능 추가 (#990)
+		- [Client] 스킬 쿨타임 옵션 구현 (ControlTask, NPCAIMemory에 남은 Cool Time을 조회할 수 있도록 SkillCoolTimeLeftSecMap 추가) (#1049)
+		- [Server] 지연된 퀘스트, 월드이동, 미션 저장, 로드 처리 (#1023)
+		- [Server] Drop Item이 NPC 이동에 방해가 되는 문제 수정 (#619)
+	  - Editor
+	    - [Quest Flow] Cutscene/MediaPlay Task Details에서 Cutscene/UI DB 프로퍼티를 수정할 수 있도록 개선 (#1056)
+	- Bugfix
+	  - Client or Server
+	    - [Server] 맵 이동 시 DefaultSpawnAsset의 StartCameraSetting이 적용되지 않던 문제 수정 (#1146)
+	    - [Server] 논타겟 스킬 계산에서 HitDelayTime이 긴 스킬 사용 시 발생하는 간헐적인 크래시 수정 (#1104)
+	    - [Server] NPC 이동 중 Navigation Mesh 아래로 떨어지는 문제 우회 (#1151)
+		  - NPC의 지형에 끼이거나, 낙하 발생 시 5초 뒤 초기 스폰 위치로 리스폰 되도록 처리
+		- [Client] iM+D Presentation에서 Cutscene 카메라 BlendOut 시 FOV 블랜딩이 누락된 문제 수정 (#1146)
+		- [Client] 동일 AnimSet를 사용하는 무기 스왑이 동작하지 않던 문제 수정 (#1067)
+		  - Alice, Sword <=> Fire Sword
+        - [Server] 퀘스트 대화가 완료되지 않은 상황에서 새로운 퀘스트의 대화가 시작되면 기존 퀘스트의 대화 응답 대기가 Skip 되어 이후 진행이 안 되는 문제 수정 (#1148)
+    	- [Server] 클리어한 퀘스트가 저장되어 복구되는 현상 수정 (#1023)
+        - [Server] 대화중 영상 재생시 시뮬레이션 모드 종료하면 크래쉬 나는 현상 수정
+		- [Server] 논타겟팅 MovementSkill 시전 시 마우스 포인터 위치까지 이동하는 문제 수정 (#1142)
+		- [Client] CoolTimeSec도중 Indicate와 LockOn이 발동하는 문제 수정 (#1153)
+	  - Editor
+	    - [Content Editor] 시뮬레이션 모드에서 퀘스트 플레이 중 에디터 종료 시 발생하는 크래시 수정 (#1023)
+	    - [Common] 에디터 초기화 시 GameProject MasterTable이 항상 갱신되던 문제 수정 (#1141)
+  - v0.9.10.3 : 2022.04.01 (HOTFIX-6)
+    - HOTFIX-6
+	  - New feature or Enhancement
+		- [Client] 인벤토리/장비창 아이템 업데이트 시 효과음 추가 (#728)
+	  - Bugfix
+	    - [Server] Skill DB의 Air/Dash 공격에 AttackTargetType Self 옵션이 적용되지 않던 문제 수정 (#1142)
+		- [Client] 무기스왑(Tab키) 사용 시 전/현 MainWeapon의 PlayActionPack이 출력/사라지지 않는 문제 수정 (#1067)
+		- [Client] 인벤토리 Weapon에서 Mount/Unmount 시에도 Attach/Detach ActionPack이 출력되던 문제 수정 (#1067)
+		- [Client] Cutscene 플레이 후 플레이어 카메라와의 BlendOut 구간에서 카메라 튐 현상 수정 (#1146)
+		- [Server] Item Trade Task로 코인 회수가 불가한 문제 수정 (#1149)
+		- [Server] NPC 논타겟팅 스킬을 피해도 맞는 문제 수정 (#990)
+		- [Client] Android 모바일 패키징 테스트 (#1150)
+    - HOTFIX-5
+      - New feature or Enhancement
+		- [Server] NPC 도 논타겟팅 스킬 사용이 가능하도록 기능 추가 (#990)
+		- [Client] 스킬 쿨타임 옵션 구현 (#1049)
+		  - ControlTask, NPCAIMemory에 남은 Cool Time을 조회할 수 있도록 SkillCoolTimeLeftSecMap 추가
+	    - [Content Editor] Skill DB에서 AttackType Air/Dash 일 경우만 Movement 관련 프로퍼티가 노출되도록 개선 (#1142)
+	  - Bugfix
+	    - [Server] 플레이어 사망 후 부활 시 아이템 자동 습득이 되지 않던 문제 수정 (#1140)
+		- [Server] 종료중인 퀘스트가 있을때 지연되어 시작되도록 변경 (#1082)
+		- [Client] BGM이 설정된 Quest DB에서 QuestFlow를 통해 월드 이동을 할 경우 발생하는 크래시 수정 (#1147)
+		- [Client] 패키징 클라이언트에서 NonTarget 공격의 Movement, MaxTarget 설정등이 작동하지 않던 문제 수정 (#1142)
+		- [Client] 패키징 클라이언트 로비의 플레이어 리스트에 관리용 폴더 이름이 함께 출력되던 문제 수정 (#1137)
+		- [Client/Editor] DialogueTalk & Movie 일경우 다이얼로그 UI 출력 우선순위를 더 높게 변경 (#1124)
+		- [Client/Editor] Media UI Frame은 Option처리 (Display UIFrame - Default false) (#1124)
+		- [Client] 부활 직후 UI상 체력이 0으로 표시되는 현상 (#1144)
+		- [Client/Server] Hide Spawn 후, Visibility Task로 Visible을 끈 경우 Collision이 활성화 되는 문제 수정 (#1143)
+		- [Client] 스탠스변경에 따른 스킬 UI가 정상적으로 적용되지 않는 문제 (#895)
+		- [Client/Server]  Shipping 빌드에서 경험치 보상이 이루어지지 않는 문제 수정 (#1141)
+	    - [Content Editor] Skill DB의 Movement 관련 옵션 미설정 시 ActionPack의 TestSettings 옵션으로 동작하던 문제 수정 (#1142)
+    - HOTFIX-4
+      - New feature or Enhancement
+	    - [Server] Stat DB의 Status 효과를 기본 중복 불허용으로 하고 bAllowDuplicates 옵션으로 허용하도록 추가 (#1033)
+		- [Client] 패키징 클라이언트 로비에서 프로젝트 이름 및 소개글이 나오지 않는 문제 수정 (#1137)
+	    - [Content Editor] NPC DB / PlayActionData 내 bDisableHitAnimation 옵션으로 Hit시 애니메이션 사용 여부 옵션 추가 (#1139)
+	    - [Content Editor] Effect DB의 Stat 정보를 EffectType에 따라 사용 옵션만 노출되도록 툴 개선 (#1033)
+	  - Bugfix
+	    - [Client] 파티클이 있는 Game 객체를 HideSpawn 후 Visible 시킬 경우 파티클 랜더링이 안 되는 문제 수정 (#1120)
+		- [Server] Chain Quest로 퀘스트 시작 시, UseTurnToTarget 동작이 안 되는 문제 수정 (#1135)
+		- [Server] 퀘스트를 통한 레벨 이동 후 플레이어 시작 위치가 Wrold DB의 기본 위치로만 스폰 되던 문제 수정 (#1138)
+		  - 플레이어 스폰 위치룰 (DefaultSpawnAsset => WorldDB)
+	    - [Content Editor] Player/NPC DB의 Locomotion/InPlaceRotationRate가 적용되지 않는 문제 수정 (#1136)
+		  - 수정한 프로퍼티 적용은 캐릭터 리로드를 통해 적용 가능
+    - HOTFIX-3
+	  - [Server] 미션 기본 스폰 에셋이 미지정일때 Target형 퀘스트 오동작 문제 수정(#1129)
+	  - [Client/Server] PIE 실행시 주인공 캐릭터 무기 장착 없이 Spawn되는 문제 수정 (#1130)
+	  - [Client] 공격 시 스킬의 Attack Range를 표시하는 디버깅 라인 플래그 옵션 구현 (#1121)
+	  - [Client] Cutscene/UI DB의 PauseBGM 옵션이 동작하지 않던 문제 수정 (#1128)
+	  - [Client] Item Trade Task를 이용해 아이템을 회수하면 소지 개수가 0개가 되어도 인벤토리 슬롯에 사라지지 않는 문제 (#1114)
+	  - [Client] QuestFlow로 실행시키는 미디어가 풀사이즈로 고정되어 있는 문제 (#1132)
+	  - [Client] 캐릭터 생성 시 16byte이상 경고 출력 (#1085)
+	  - [Editor] Action Editor, Setting Detail에서 Preview Entity Asset을 지정하면 크래시 나는 문제 수정 (#1133)
+	  - [Action Editor] UE5 Preview 2버전에서 Action Editor의 TrackArea가 출력되지 않던 문제 수정 (#960)
+    - HOTFIX-2
+	  - [Server] Spawn Target Rule이 정상 동작하지 않는 문제 수정(#1129)
+	  - [Server] 시뮬레이션 종료 후에도 스폰된 미션 오브젝트들이 사라지지 않는 문제 (#1125)
+	  - [Client] 논타겟팅 공격 시 FindAttackTargetsInArea에서 발생하는 크래시 수정 (#1131)
+	  - [Client/Server] Defense Game, Hide Spawn으로 Spawn한 NPC가 Control Visible로 안 보이게 되는 문제 수정 (#1120)
+	  - [Client] 논타겟팅 스킬 시전 시점과 영역 판정 시점 분리에 따른 Miss 처리 추가 (#1104) 
+	  - [Client] 캐릭터 생성 시 한글이름 글자 수 제한 (#1085)
+	  - [Client] DropItem을 위한 Drop PlayAction 출력이 정상적으로 동작하지 않는 문제 수정 (#1067)
+	  - [Client] Dialogue Task 에서 지정 실행 되는 Media가 Full Size일 때, 강제 마진을 주도록 수정 (#1124)
+	  - [Client/Content Editor] 시뮬레이션 모드에서 디펜스게임 결과창 UI를 사라지게 할 수 있는 방법이 없는 문제 (#1127)
+	  - [Client/Content Editor] Media/Cutscene DB내 BGMPause, BGMUIDBKey 프로퍼티로 BGM 제어를 할 수 있도록 기능 추가 (#1128)
+	  - [Content Editor] 공격 시 AttackRange 디버깅 표시 출력 제어 옵션을 위한 기본 환경 설정 (#1121) 
+    - HOTFIX-1
+	  - [Content Editor] 플레이어 스폰 후 시뮬레이션 모드 사용 시 발생하는 크래시 수정 (#1123)
+    - New feature or Enhancement
+	  - Client or Server
+		- [Client/Server] 논타겟팅 스킬 시전 시 회전 후 끊기는 느낌 개선 (#1101)
+			- 회전 사용 시, 마우스로 선택한 지점 방향을 고려해 영역 판정 기준 벡터를 수정
+		- [Client/Server] 논타겟팅 스킬 시전과 영역 판정 시점을 분리하기 위한 SkillNonTargetInfo류 패킷 처리 추가 (#1104)
+		- [Server] 퀘스트 스폰 복구 (#1023)
+          - FT4SQM_Mission에 Employee 존재, 관계자 스폰, 기존 스폰된 관계자 모으기
+		  - 로드시 복구, 상태 갱신, 미션 완료 여부, 디스폰등을 처리
+	  - Editor
+	    - [Content Editor] World/Quest DB내 기본 BGM(SoundWave) 설정 및 출력 기능 추가 (#1027)
+		- [Content Editor] 논타겟팅 360도 Swing 스킬 사용이 가능하도록 SwingAngle 프로퍼티의 최대값을 360로 수정 (#990)
+		- [Quest Flow] Cutscene/Media Task내 선택한 DBKey의 LevelSequence/FileMediaSource 에셋 PropertyEntryBox 추가 (#1056)
+		- [Quest Flow] Mission 플레이 동안 BGM을 사용할 수 있도록 Mission Composite 내 BGMUIDBKey 프로퍼티 추가 (#1027)
+	- Bugfix
+	  - Client or Server
+	    - [Client/Server] MainWeapon이 설정된 Player클래스로 클라이언트에서 신규 캐릭터 생성이 불가하던 문제 수정 (#872)
+	    - [Client] Weapon or Costume 교체 또는 교환에 사용되는 PlayAction 사용 시 ActionPack 잔상이 남는 문제 수정 (#1067)
+		  - Weapon : Attach/Detach, Costume : PutOn/TakeOff
+	    - [Client] Hide Spawn으로 Spawn 된 객체가 ControlVisible Task로 보이게 할 수 없는 문제 수정 (#1120)
+	    - [Client] DropItem을 위한 Drop PlayAction 출력이 정상적으로 동작하지 않는 문제 수정 (#1067)
+		- [Client] Quest DB의 bDisableNotifications 옵션과 관계없이 Quest UI가 출력되던 문제 수정 (#1113)
+		  - Quest Title UI Large/Small Text 편집을 QuestFlow의 Quest Composite에서 QuestDB로 이전
+	    - [Server] 캐릭터 생성 실패했는데 성공으로 응답하는 버그 수정 및 원인 로그 출력
+	  - Editor
+	    - [Content Editor] Media DB의 "미디어 플레이 시간 얻기" 사용 시 행이 되는 문제 수정 (#1094)
+		- [Content Editor] Spawn Prefab, Human/Prop Neutral 타입의 일부 편집 프로퍼티가 보이지 않던 문제 수정 (#1103)
+		  - Override Not Interactive Override/SensoryRange/VisionAngle
+  - v0.9.10.2 : 2022.03.24
+    - New feature or Enhancement
+	  - Client or Server
+		- [Server] 마지막 저장된 월드와 위치에서 시작 처리 추가 (#1023)
+		  - 임베딩 서버로 동작중일때, 서버 월드 설정을 변경하여 처리됨 
+		- [Server] 타겟팅 스킬의 Throw 타입 공격이 Attack Range 밖에서도 데미지가 적용되도록 개선 (#1110)
+		- [Server] 레벨, 경험치, 포인트 저장 및 로드 처리 (#1106)
+		- [Client/Content Editor] 컷씬 및 영상 재생중에는 기본으로 마우스 커서가 보이지 않도록 옵션 추가 (#1054)
+		  - 반대로 Content Editor에서 Cutscene/UI DB내 ShowMouseCursor 옵션으로 마우스를 보일 수 있도록 옵션이 추가됨
+	    - [Client/Editor] 디펜스게임 결과/실패 UI (#1083)
+		- [Client/Editor] 디펜스게임 Wave UI 추가 (#1113)
+		  - [UMG추가] UIPack/Common/T4Builtin_QuestInfoWidget
+		- [Client] TurnDisabled 옵션으로 스킬 시전 시 회전 사용 여부를 선택할 수 있는 기능 추가 (#1101)
+		- ...
+	  - Editor
+	    - Effect DB - Finite Duration Sec 입력 제한 값을 10 -> 1000으로 수정 (#1112)
+	  - Common
+		- [Common] AttackTargetType의 명확한 의미 전달을 위해 Default에서 Target으로 변경 및 Effect DelayTime 결정 요소에 거리 추가 (#990)
+		- [Common] Quest Flow, DialogTalk에서 Media 지정해서 Play하고, OK응답 혹은 Dialogue 종료시 Stop 되는 기능 추가 (#1066)
+		   - https://www.notion.so/DialogueTalk-f66d4b764efc4f02b22951e51898d980 Media Info 설명 참조
+		- [Common] Quest Flow, Has Item Condition에서 아이템 소유 여부 조건 중 HasAllInEquipment, HasAllInInventory, HasOneOfInEquipment, HasOneOfInInventory 카테고리 룰 추가 (#1051)
+		   - https://www.notion.so/HasItems-0c19aeec85fe41058a01ce64442f107b HasItem Rule 설명참조
+        - [Common] NPC DB Table에서 Interaction 불가 여부를 지정할 수 있는 NotInteractive 기능 추가 (#1103)
+		- [Common] NPC DB Table, Behavior Type이 Human Neutral, Prop Basic/Neutral 에 SensoryRange와 VisionAngle을 변경 지정할 수 있도록 기능 추가 (#1108)
+		    - https://www.notion.so/NPC-GameDB-Details-63042ded7bca4fdaa0a33fcf86c94e60 Behavior Data 설명 참조
+	- Bugfix
+	  - Client or Server
+	    - [Server] Cinematic 컷씬 사용 후 다음 풀스크린 영상 MediaPlay Task를 사용할 경우 퀘스트 진행이 되지 않던 문제 수정 (#1056)
+        - [Server] 월드 이동시 다음 이동할 지역의 위치를 저장하도록 수정 (#1023)
+		- [C/S] Hide Spawn 시 충돌체가 활성화 되어 있는 문제 수정 (#1111)
+		- [Client] T4Engine의 MPC(MaterialParameterCollection) 초기화가 실패할 경우 아웃라인 사용 시의 크래시 수정 (#1056)
+		- [Client] CutScene 재생 중, 게임 외 다른 화면으로 Focus 이동 하면, Cutscene  종로 후 카메라가 엉뚱한 곳으로 가는 문제 수정 (#1038)
+		- [Server] 경험치 Over가 발생했을 때  Level이 1씩만 오르는 문제 수정 (#1116)
+	  - Editor
+	    - [Content Editor] GameSettings의 Start InGameWorldDB 설정이 정상적으로 적용되지 않던 문제 수정 (#1023)
+  - v0.9.10.1 : 2022.03.21
+    - HOTFIX-1
+	  - [Common] World DB내 Default LoadingLoadingImage를 지정하고, QuestFlow를 통해 로딩 이미지를 교체할 수 있는 기능 추가 (#1056)
+	    - Quest Flow의 Cutscene/Media Task에 PrapareNextWorldDBKey를 설정해 약속된 로딩 이미지 출력 처리
+	  - [Common] ItemPack Data에서 Min~Max Count 중 Random 개수 생성 기능, Abstract Data에서 Min~Max Value 중 Random 값 지급 기능 추가 (#1100)
+	    - Client Only 설명 내 Item Package Datas/Abstract Asset Datas 변경 내용 참조
+	      - https://www.notion.so/ItemPack-GameDB-Details-54877e12f00b43bdbb9f64d1efe3fea5
+	  - [Client] 논타겟팅 스킬 Hit 판정이 HitDelayTimeSec에 처리되도록 수정 (#990)
+	  - [Client] Player 별 LevelUp Action Pack 지정해서 연출 할 수 있도록 기능 추가 (#1097)
+	    - Play Action Data 설명 참조
+	      - https://www.notion.so/Player-GameDB-Details-af201f1cb35046758c14abfd3b948b80
+	  - [Client] 풀스크린 영상 정지 상태에서 Enter키를 누를 경우 영상 제어가 되지 않던 문제 수정 (#1056)
+	  - [Client] 간헐적으로 MediaProp을 통한 영상 출력이 되지 않던 문제 수정 (#1056)
+	  - [Client] Approach 옵션을 켜고 몬스터를 선택하며 논타겟 스킬을 사용하면 가격이 되지 않는 문제 수정 (#1109)
+	  - [Server] 데미지가 0인 경우 미스 판정 시 Hit Effect가 터지지 않도록 수정 (#1092)
+	  - [Content Editor] Effect DB내 InfinityDuration 옵션으로 무한 Effect 적용 기능 추가 (#1056)
+	    - 기존 Duraction Sec를 Finite Duration Sec로 이름을 표기하고, Infinity Duration (Warning) 체크 옵션을 제어함
+	  - [Content Editor] World DB의 PlayerScaleLocalization 프로퍼티가 플레이어의 이속에도 영향을 주도록 개선 (#1056)
+	    - 해당 프로퍼티가 플레이어 이속에도 영향을 주도록 변경되며 이름 변경 (PlayerObjectScale => PlayerScaleLocalization)
+	  - [Entity Editor] AnimSequence의 EndLoop 옵션이 켜져 있을 경우 AnimMontage 생성 시 크래시 수정 (#1107)
+    - New feature or Enhancement
+	  - Client or Server
+	    - [C/S] Event Trigger의 Change Control Mode 기능 추가 (#1040)
+		  - https://www.notion.so/Spawn-Object-2a1eed84c6c54594ba6a9318da890b42 Change Control Mode 설명 참조
+        - [C/S] ItemPack의 Payment Type이 Drop Item일 때에도 Abstract Asset 보상(경험치)은 받도록 개선 (#1075)
+		- [Server] 개선된 자료구조에서 퀘스트 저장 로드 기능 개발 (#1023)
+		- [Server] 로그인, 로비 과정 패스한뒤 월드로 진입하는 FT4ClientEnterWorldServerExpress 추가(#1055)
+		- [Server] Event Execute Task MaxPlayTimeSec == 0 일때 즉시 완료 처리(#1099)
+		- [Server] 타겟팅 스킬 시전 시 Skill Attack Range를 표시하는 디버깅 라인 추가 (#1091)
+		- [Client] 디펜스게임 결과/실패 UI 추가(#1083)
+	  - Editor
+	    - [Content Editor] World DB의 PlayerObjectScale 프로퍼티를 통해 월드 별 플레이어 크기를 변경할 수 있는 기능 추가 (#1056)
+	    - [Content Editor] GameSettings에 인게임 모드로 바로 진입할 수 있는 EnableGuestMode 옵션 추가 (#1055)
+	    - [Content Editor] UI DB Media 출력 위치 조절 기능 추가 (#1060)
+		- [Quest Flow] MissionPlay Task에 지정 시간 이후 그룹 스폰(SpawnAsset)을 처리할 수 있는 DelayTimeSec 프로퍼티 추가 (#1056)
+	    - [Quest Flow] CutscenePlay Task의 썸네일 이미지를 레벨 시퀀스 썸네일을 사용하도록 개선 (#1056)
+	  - Common
+	    - [Common] Spawn Prefab에 Prefab Scale 기능 추가 (#1089)
+		    - 실제 ObjectScale은 Prefab Scale 과 Spawn Object에서 설정한 Scale 값의 곱으로 계산함
+	    - [Common] 논타겟팅 전투 옵션 제작을 위한 기본 환경 설정 (#990)
+	- Bugfix
+	  - Client or Server
+		- [Server] PIE모드에서 월드이동 + 캐릭터 저장 안되는 문제 수정
+		  - 시뮬레이션 모드 종료 후 플레이어의 레벨, 경험치 UI가 초기화되지 않는 문제 (#1081)
+		  - 게임 시작 시 Stat Level DB가 반영되지 않는 문제 (#1080)
+		- [Client] Cinematic Cutscene 사용 시 마지막 카메라 블랜딩에서 카메라가 미세하게 튀는 문제 수정 (#1056)
+		- [Client] 퀘스트 종료시 재빠르게 다음 퀘스트 대화 진행시 대화 무반응 수정 (#1082)
+		- [Server] Quest-Action-Visibility 로드시 상태 복구 안되던 문제 수정(#1023)
+		- [Client] Limit Attack Range 옵션을 켜고 Area of Effect 스킬 시전 시 Attack Range를 벗어난 경우 Miss 출력이 안되도록 수정(#1063)
+		- [C/S] 레밸 상승시 해당 Stat이 적용되지 않는 문제 수정 (#1076)
+		- [C/S] 점프 중 사망시 지형 밑으로 빠지는 문제 수정 (#1074)
+	  - Editor
+		- [Content Editor] Cutscene DB의 InGame Type 사용 시 캐릭터 컨트롤이 불가하던 문제 수정 (#1056)
+		- [Content Editor] Viewport에서 Edit Mode 활성화 후 PC를 드래그앤 드롭으로 생성 시 카메라 튀는 문제 수정 (#1090)
+	    - [StatLevel Editor] Table Row 복제기능 오류 수정 (#1034)
+		- [StatLevel Editor] NPC, Item, Skill 카테고리 편집 속성 Detail View 개선 (#1079)
+		- [Quest Flow] MissionPlay Task 사용이 종료되지 않던 문제 수정 (#833)
+		- [Entity Editor] Prop Entity의 Default Idle BlendSpace Animation 설정이 동작하지 않던 문제 수정 (#1105)
+		- [Entity Editor] Prop Entity Animation 설정에 AnimSequence Name 선택이 불가하던 문제 수정 (#1105)
+		- [Entity Editor] System/Skill Animation Layer에 AnimSequence 설정이 없으면 AnimsetAsset 저장이 실패하던 문제 수정 (#1056)
+	  - Common
+	    - [Common] Scale된 SpawnObject의 Bound영역을 얻어올 때, Scale값이 적용되지 않는 문제 수정 (#1087)
+  - v0.9.9.9 : 2022.03.13
+    - HOTFIX 1
+	  - [Common] UE4.27.2 지원 (#543)
+	  - [C/S] QuestFlow를 통한 레벨 이동이 동작하지 않던 문제 수정 (#1059)
+	  - [Client] 디펜스 게임 스코어 UI (#1072)
+	    - System/T4GameplayUIStringDataTable(T4Gameplay_Score_Title 추가)
+	  - [Client] 아이템 장착/탈착 시 같은 타입의 이전 PlayAction을 삭제하고 재생성하도록 수정 (#1067)
+	  - [Common] Area Of Effect 타입 스킬 사용 시 AttackRange 제한 여부를 선택할 수 있는 옵션 추가 (#1063)
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Client] 공격 데미지 MISS 표현 수정 및 BLOCK 표시 추가 (#1057)
+		- [Client] 디펜스 게임 UI 오버라이딩 (#1011)
+		  - [UMG 수정]T4BuiltinGameHUDWidget.uasset
+		  - [UMG 추가]DefenceGameHUDWidget, DefenceGameUIAsset
+        - [Client] PC 이동 가능 판정 영역을 Navi Data로만 한정하는 기능 추가 (#1064)
+		  - GameSettingsAsset의 PCMoveOnOnlyNav 옵션 추가
+		- [Client] 디펜스 게임 플레이타임 UI (#1044)
+		- [Client] 경험치 보상 시스템 UI (#1034)
+		  - [UMG 수정] T4Gameplay_CharacterLV_Level.uasset
+		  - [테이블 수정] T4GameplayMessageDataTable
+	  - Editor
+	    - [Content Editor] Game DB 탭의 "편집 DB 저장"과 "모든 DB 저장"을 "모든 DB 저장" 버튼으로 통합 (#960)
+	    - [Content Editor] Item(Weapon/Costume/Goods) DB내 클라이언트 특정 연출에 ActionPack 플레이 지원 (#1067)
+		  - PlayActionData (Weapon : Drop, Attach, Detach, Costume : Drop, PutOn, TakeOff, Goods : Drop, Use)
+		  - 기존 Player/NPC DB의 ReactionData도 PlayActionData로 모두 리네임
+		  - ObjectState와 함께 튜토리얼 업데이트 필요
+	    - [Content Editor] Play/NPC DB의 ReactionData를 PlayAction으로 이름 변경 (역할 확장 준비) (#1003)
+	    - [Content Editor] 툴바 Save 또는 CTRL + S로 게임프로젝트 저장 시 연관된 Spawn/Settings/GameDB가 함께 저장되도록 개선 (#1069)
+		  - World Explorer도 Save 액션으로 연관된 MapEntity, LevelAsset도 함께 저장되도록 수정
+	    - [Content Editor] Cutscene DB의 옵션으로 InGame Type 과 bLoop 옵션으로 컷씬 루핑 플레이 기능 추가 (#1056)
+	    - [Quest Flow] Cutscene/Media Play Task 내 LoadingScreenControl 옵션으로 월드 이동 간 로딩화면 제어 기능 추가 (#1046)
+		  - 월드 이동 전/후 클라이언트의 LoadingScreen을 제어해 로딩에서의 매끄러운 장면 연출 지원
+	    - [Entity Editor] MediaProp의 MediaPlayerData 설정에 SoundAttenuation 설정 기능 추가 (#1056)
+		  - 거리에 따라 영상의 사운드 볼륨 조절 Factor (3D Sound)
+	  - Common
+	    - [Common] UE5.0 Preview 2 지원 (#960)
+		- [Common] 경험치 보상 시스템 개발 (#1034)
+		  - 보상 ItemPack DB에서 무형자산 (경험치, 점수...)을 획득할 수 있도록 개발
+		      - https://www.notion.so/ItemPack-GameDB-Details-2be89bb42d7d4f709eb48299898764b4 Abstract Asset Datas 내용 참조
+		  - StatLevelDB 에디터 기능 개발
+		      - https://www.notion.so/Game-DB-f767926c6eb74af78164f130d6daa434 StatLevelDB 내용 참조 
+	- Bugfix
+	  - Client or Server
+	    - [C/S] 시작 플레이어 스폰 위치가 랜덤하게 틀려지는 문제 수정 (#1058)
+		  - 멀티 캐릭터의 스폰 위치 겹침 방지가 작동해 발생. Spawn/World 시작 위치 정보에 Spawn Spread를 직접 입력하도록 수정됨
+	    - [C/S] Cutscene 플레이 Pause 상태에서 빨리감기를 할 경우 카메라 위치가 어긋나던 문제 수정 (#1056)
+		- [Client] 게임 시작시 서버의 Status로 업데이트 되지 않는 현상 (#1048)
+		- [Server] 퀘스트 조건 Inverse 체크시 오동작 수정
+		  - 언리얼 Composite내부 구현에서 IsInverse()를 통해 역판단 하는 로직들이 이곳저곳 존재한다.
+		  - 역판단 자체를 응용계층에서 구현해버리면 이곳저곳에서 기현상이 발생.
+        - [Server] 퀘스트 중지시 Once목록에서 제거 로직 추가 
+		- [C/S] DialogueTalk - Use TurnToTarget 기능이 동작하지 않는 문제 수정 (#1061)
+		- [C/S] 간헐적으로 몬스터 NPC들이 스폰 후 움직이지 않는 문제 개선 (#1053)
+		- [Server] Quest HP Condition 반대로 처리되던 문제 수정(#1071)
+	  - Editor
+	    - [Content Editor] Goods DB의 Init Effect DBKey Droplist에 Goods Item이 출력되던 문제 수정 (#1065)
+  - v0.9.9.8 : 2022.03.06
+    - New feature or Enhancement
+		- [Client] 디펜스 게임 타겟 HP Bar UI(#1031)
+		 - [UMG 수정] UT4Builtin_GaugeWidget
+		 - [테이블 수정] FT4GameplayMessageTableRow
+	  - Editor
+	    - [Content Editor] 비전투 NPC 설정을 위한 Behavior Human/Prop Neutral Type 추가 (#1039)
+		  - 전투 관련 처리가 빠진 간소화 된 별도의 Human/Prop용 BehaviorFlow 사용
+		  - 클라이언트 HPBar 출력 제외 및 서버 공격 타겟 선정에서 제외가 적용됨
+		  - NPC 인터렉션을 위한 "NPC 선택 + 좌클릭 + CTRL" 삭제하고 "NPC 선택 + 좌클릭"으로 통합
+		    - 명시적으로 Human/Prop Neutral Behavior Type일 경우는 Interaction 동작 (그외에는 일반 전투 클릭)
+		  - NPC DB의 ReactionData로 Pick ActionPack이 추가되었고, NPC를 선택할 경우 출력됨 (찍었다는 피드백 처리)
+	    - [Content Editor] Effect DB내 클라이언트 시스템 메시지 출력 제어를 위한 옵션 "DisableNotification" 추가 (#1042)
+	    - [Content Editor] Cutscene DB내 레벨시퀀스 비동기 로딩 사용 옵션 "bUseAsyncLoading" 추가 (#1045)
+		  - 기본은 동기 로딩 사용 (이전은 자동으로 bUseAsyncLoading이 동작하고 있었음)
+	    - [Quest Flow] 에디터 또는 PIE 환경에서의 QuestFlow Debugger 기능 추가 (#1041)
+		  - 상단 탭메뉴 Attach Debugger를 통해 Quest Flow가 사용되면 자동으로 동작중인 Node를 표시하게 됨
+	- Bugfix
+	  - Client or Server
+		- [C/S] ControlVisibleTask로 Invisible 시킨 객체의 Collision이 사라지지 않는 문제 수정 (#1035)
+		- [C/S] ControlVisibleTask에서 적용한 DelayTimeSec 적용이 안 되는 문제 수정 (#1036)
+		- [Server] 퀘스트 재 로드시 반복 처리되던 문제 수정 (#1023)
+		- [Server] 퀘스트 소비 아이템 체크 못하는 문제 수정 (#1025)
+		- [Server] 퀘스트 반복 퀘스트 미완료시에도 새롭게 시작되는 문제 수정 (#1028)
+		- [Client] MediaProp 설정 "PlayOnOpen=false"에서 ActionPack Event의 MediaControl Play가 동작하지 않던 문제 수정 (#958)
+		- [Client] 연속된 컷씬 플레이 전환 시 짧은 카메라 위치가 튀거나 Hide된 UI가 보이던 문제 수정 (#1045)
+		- [Client] Ingame Hotkey 5번과 6번의 적용이 뒤바뀐 문제 (#1043)
+  - v0.9.9.7 : 2022.03.02 (HOTFIX-3)
+    - HOTFIX-3
+      - [Common] Spawn된 객체의 Visible 제어 기능 처리 (#996)
+        - Hide Spawn 기능 처리
+		  - https://www.notion.so/Spawn-Object-2a1eed84c6c54594ba6a9318da890b42 Spawn Object/Hide Spawn 설명 참조
+        - Quest Flow, ActionControlVisible Task 기능 추가
+		  - https://www.notion.so/ActionControlVisible-7580e658fc4f468ab73178809a249ae1 설명 참조
+	  - [Server] QuestFlow Cutscene/MediaPlay의 "Wait For Response" 옵션이 적용되지 않던 문제 수정 (#833)
+      - [Server] NPC가 근거리 공격을 멈추고, 대상에서 먼 거리로 이동하는 현상 개선 (#982)
+      - [Server] /RQ or /refrash_quest 를 채팅 전송시 퀘스트 DB에 저장,  메모리 리셋, DB에서 로드 하는 기능 추가 (#1023)
+	  - [Client] 데모프로젝트 디펜스 게임 코인 UI 추가 (#1030)
+      - [Content Editor] UE5에서 특정 월드 오픈 후 레벨에디터에서 다시 오픈할 경우 레벨 엑터가 출력되지 않는 문제 개선 (#223, #958)
+      - [Quest Flow] 툴 오픈 시 GraphNode를 업데이트해 최신 변경이 반영되도록 수정 (#1012)
+      - [Quest Flow] DialogueTalk Task 복제 시 CoolResponseTextDBKey도 함께 리셋 되도록 개선 (#1026)
+    - HOTFIX-2
+      - [Client] 디펜스 게임 HUD UI 목업 추가 (#1011)
+        - T4Builtin_GoodsWidget, T4Builtin_ScoreWidget, T4Builtin_PlaytimeWidget, T4Builtin_CharacterLVWidget, T4Builtin_HPBarWidget
+	  - [Common] QuestFlow를 통한 Cutscene/Media 플레이 시 추가 컨트롤 키 지원 (#958)
+		- Rewind Play : 방향키 Up, Stop Play : 방향키 Down, SpaceBar : Toggle Play
+		- Backward 5s : 방향키 Left, Forward 5s : 방향키 Right
+	  - [Content Editor] 특정 월드 오픈 후 레벨에디터에서 다시 오픈할 경우 레벨 엑터가 출력되지 않는 문제 개선 (#223)
+		- 툴을 닫고 레벨에디터에서 월드를 오픈 할 경우는 동작할 수 있도록 우회 처리 (정식 수정은 엔진 코드 수정 필요)
+	  - [Content Editor] SpawnObject내 네비게이션을 무시한 스폰이 가능한 "IgnoreNavMesh" 옵션 추가 (#958)
+	  - [Quest Flow] DialogueTalk Task 복제 시 TextDBKey는 리셋 되도록 개선 (#1026)
+	  - [Quest Flow] 이미지를 사용하는 GraphNode(Mission)에서 원본 섬네일을 업데이트 할 경우 발생하는 크래시 수정 (#1012)
+		- 단, 섬네일 변경이 GraphNode에 실시간 반영은 되지 않고, 업데이트 시 반영됨
+	  - [Quest Flow] Node 복제 시 ID가 함께 복사되어 중복 Guid가 존재하는 문제 수정 (#833)
+    - HOTFIX-1
+      - [Server] NPC Skill의 SkillShapeData DurationSec 옵션이 NPC AI에 반영되지 않아 연속 공격이 발생하던 문제 수정 (#982)
+	  - [Content Editor] Player/NPC/Item DB의 Item의 뷰포트 DragDrop 스폰이 시뮬모드가 아니면 동작하지 않던 문제 수정 (#1022)
+	  - [Content Editor] PlayPolicy Once 옵션의 퀘스트도 작업 편의를 위해 시뮬레이션 종료 시 함께 리셋 되도록 개선 (#1021)
+	  - [Content Editor] 일부 캐릭터를 플레이어로 사용할 경우 EventZone 영역에 관계없이 EventTrigger가 발동하는 문제 수정 (#1020)
+	  - [Quest Flow] QuestWait Task의 Chain Quest가 간헐적으로 적용되지 않는 문제 수정 (#1006)
+	  - [Entity Editor] EventZone탭 이동 시 UseEventTrigger 옵션을 사용함에도 영역 표시가 출력되지 않던 문제 수정 (#1020)
+    - New feature or Enhancement
+	  - Client or Server
+		- [Server] 퀘스트 서버 저장, 로드 및 멀티 대응을 위한 자료구조 변경 (#833)
+		  - Serialize, Deserialize To JSON이 가능하도록 자료 구조 변경
+          - FT4ServerQuest(Model, Controller) 객체를 통해 퀘스트의 State, Context를 보관하고 동기화에 활용하도록 자료구조 조정
+          - Mission의 자료를 기존 다차원 자료에서 일차원으로 변경
+          - 시간을 통해 동기화 되는 요소(Media, Cutscene, Action)의 기준을 UTC+0 UNIX Timestamp 기준으로 변경
+          - QuestController 함수명에서 동사와 명사 순서를 일관되게 조정
+          - ET4QuestFlowResult -> ET4AyncResult로 개명하고 반드시 비동기 처리가 필요한 QuestController함수에 대해서만 적용
+          - QuestController.Event -> QuestController.Condition으로 개명하고 Condition 로직은 Controller에서 구현하도록 조정
+          - Interaction을 Proact -> React 방식으로 변경
+          - QuestFlow의 모든 노드는 ID가 존재합니다
+            - GUID가 기본적으로 발급되지만 사용자는 임의로 ID를 변경할수 있습니다
+		- [Client] 아이템 PopUp 메뉴 정리 (#690)
+		  - [UMG수정] T4Builtin_WeaponMount
+	  - Editor
+	    - [Content Editor] GameDB Tab 출력 순서 변경 (ItemPack 메뉴를 Goods 다음으로 이전) (#1003)
+	    - [Content Editor] Cutscene DB 내 로딩 후 정지 상태로 특정 키(SpaceBar)로 플레이 할 수는 "PlayOnOpen" 옵션 추가 (#958)
+	    - [Content Editor] Consumable Stat 내 기본 체력에 비율로 HP를 증가할 수 있는 HP_Rate 프로퍼티 추가 (#1015)
+		  - 기존 Stat 중 절대값 프로퍼티의 최대 범례를 100에서 10000으로 일괄 조정
+		- [Content Editor] Quest DB 내 "DisableNotifications" 프로퍼티로 Quest/Mission UI를 사용하지 않는 옵션 추가 (#1016)
+	    - [Content Editor] Cutscene DB 아이템을 뷰포트 DragDrop으로 플레이 테스트 지원 (#1017)
+		- [Content Editor] SpawnObject 설정에 초기 스폰 시 Invisible로 만드는 HideSpawn 프로퍼티 추가 (#996)
+		- [Quest Flow] 지정 오브젝트의 Invisible 상태를 제어하는 ActionControlVisible Task 추가 (#996)
+	    - [Quest Flow] MissionWait Task내 "CompleteAfterTimeDelay" 프로퍼티로 미션 완료 조건에서 지정 시간 후 종료 처리 지원 (#999)
+	  - Common
+	    - [Common] C/S간 오브젝트의 상태 동기화를 위한 기본 처리 추가 (#1003)
+		  - Content Editor, Player/NPC GameDB 내 ObjectState 프로퍼티 추가
+			- Editor용 State Constant Table 추가
+		    - Player/NPC GameDB 의 일부 Reaction을 ObjectState 로 이동 (자동 마이그레이션)
+		  - Quest Flow, Action ObjectState Task 추가 (특정 오브젝트의 State 변경)
+		  - 1차 동작 샘플은 SimplePresentation 프로젝트의 Level1Quest 동작 참조
+	    - [Common] 플레이중인 Cutscene(LevelSequence)를 SpaceBar를 통해 TogglePlay 기능 지원 (#958)
+	- Bugfix
+	  - Client or Server
+	    - [C/S] 캐릭터간 이동 겹침이 발생하는 문제 개선 (#982)
+		- [Client] Consumable Effect 사용 시 발생하는 클라이언트 크래시 수정 (#1014)
+		- [Client] Cutscene 종료 후 플레이어 컨트롤이 동작하지 않던 문제 수정 (#1017)
+		- [Client] 클라이언트 또는 PIE에서의 풀스크린 동영상 재생에 사운드가 출력되지 않던 문제 수정 (#870, #958)
+	  - Editor
+  	    - [Content Editor] Player/NPC DB의 ShapeData 프로퍼티 수정 시 프리뷰의 디버깅 표시가 중복 출력되던 문제 수정 (#1010)
+	    - [Content Editor] Player/NPC DB의 ShapeData의 "Sync With EntityAsset" 반영이 저장되지 않던 문제 수정 (#1010)
+	    - [Content Editor] 시작 퀘스트에 Cutscene을 사용할 경우 "HidePlayer" 옵션이 적용되지 않던 문제 수정 (#1013)
+	    - [Content Editor] 퀘스트 내 MediaPlay Task 사용 시 Quest 종료 복구에서 검은 바탕 화면이 출력되던 문제 수정 (#935)
+	    - [Content Editor] UI GameDB의 "미디어 시간 얻기" 기능이 실제 FileMediaSource의 MP4가 없을 경우 행 발생 문제 수정 (#958)
+	    - [Content Editor] Cutscene DB의 "레벨 시퀀스 시간 얻기" 기능이 동작하지 않던 문제 수정 (#1009)
+		- [Quest Flow] QuestWait의 ChainQuest 실행이 정상적으로 동작하지 않던 문제 수정 (#1006)
+	    - [Quest Flow] Object Guids DropList에 SpawnObject의 폴더도 함께 출력되던 문제 수정 (#1007)
+	    - [Action Editor] Resurrect Reaction 플레이가 동작하지 않던 문제 수정 (#997)
+  - v0.9.9.6 : 2022.02.22 (HOTFIX-2)
+    - HOTFIX-2
+	  - [Content Editor] SpawnObject EventTrigger, Add InpuBinding A,B키 Enter에서 SpaceBar로 변경 (#995)
+		- Cutscene/Media Play시는 플레이어 컨트롤 키 홀드 (캐릭터 점프 키/SpaceBar 동작 블럭)
+		- Cutscene Play시 bHideUI 옵션을 통해 UI를 제어할 수 있도록 Cutscene GameDB 프로퍼티 추가
+	  - [Content Editor] Zone타입의 SpawnObject의 영역 표시가 "UseEventTrigger" 옵션에 영향을 받던 문제 수정 (#1000)
+	  - [Quest Flow] 특정 상황에서 Condition Interaction이 정상적으로 동작하지 않던 문제 수정 (#985)
+	  - [Action Editor] ActionPack CameraShake 사용 시 크래시 및 기능 미동작 수정 (#998)
+    - HOTFIX-1
+	  - [Client] Item 획득시 발생하는 크래시 개선 (#993)
+	  - [Client] 인벤/퀵슬롯 개선사항 (#690)
+	    - [Resource] 수정된 UMG (T4Builtin_QuickPosion, T4Builtin_QuickSkill, T4Builtin_Stat, T4BuiltinGameHUDWidget)
+	  - [Content Editor] SpawnObject의 UseEventTrigger 실시간 옵션 변경이 DebugDraw에만 반영되고 기능은 적용되지 않던 문제 수정 (#987)
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Server] ItemPack을 구성하는 개별 Item의 획득확률을 지정할 수 있는 Item Drop Rate 기능 추가 (#758)
+		    - https://www.notion.so/ItemPack-GameDB-Details-2be89bb42d7d4f709eb48299898764b4
+			- ItemPack 획득 Test를 위한 "t4.ItemPack.Reward" 명령어 추가
+		- [Client] 무기 마운트 선택기능 추가(#728)
+		  - [UMG 수정] T4Builtin_WeponMount/T4Builtin_Stat
+	  - Editor
+	    - [Content Editor] SpawnObject의 EventTrigger WorldTravel ExecuteType 옵션에 StartQuest를 사용할 수 있도록 기능 추가 (#988)
+		  - 단, StartQuest는 월드 서버(C/S모델)에서는 사용할 수 없고, 솔로 콘텐츠에서만 사용할 수 있음
+	    - [Content Editor] PIE "Run Editor PlayMode"에서도 퀘스트에 의한 맵이동이 가능하도록 개선 (#988)
+	    - [Content Editor] SpawnObject의 EventTrigger를 EventZone과 관계없이 사용할 수 있는 bUseEventTrigger 옵션 추가 (#976)
+		  - EventZoneScale 프로퍼티는 오브젝트에 EventZone이 설정되어 있을 경우에만 옵션이 노출됨
+		- [Quest Flow] QuestWait Task에 다음 퀘스트(ChainQuestDBKey)와 월드 이동(WorldTravel Info)를 사용할 수 있도록 기능 추가 (#988)
+		  - 단, StartQuest는 월드 서버(C/S모델)에서는 사용할 수 없고, 솔로 콘텐츠에서만 사용할 수 있음
+		- [Quest Flow] 진행 중인 퀘스트에 독립적인 NPC Spawn을 사용할 수 있는 NPCSpawnTask 추가 (#991)
+		- [Quest Flow] ActionComposite GraphNode에 대표 SpawnObject의 Thumbnail이 표시되도록 개선 (#958)
+	    - [Quest Flow] SpawnObject에 설정한 EventTrigger를 동작시킬 수 있는 ActionEventExecute Task 추가 (#976)
+	  - Common
+	    - [Common] Quest Flow의 MediaPlay Task로 동작중인 영상을 "Enter"키를 통해 TogglePlay 할 수 있는 기능 추가 (#958)  
+	- Bugfix
+	  - Client or Server
+	    - [Server, Quest Flow] PIE 실행 시 Interaction이 동작하지 않는 문제 수정 (#985)
+	  - Editor
+	    - [Content Editor] Particle로 구성된 PropEntity를 스폰레이어로 스폰할 경우 파티클이 보이지 않던 문제 수정 (#992)
+	    - [Content Editor] Zone SpawnObject의 EventZone 영역은 옵션에 관계없이 화면에 출력하도록 수정 (#987)
+	    - [Content Editor] 시뮬레이션 모드 진입 시 GameSettings의 GameControlMode가 적용되지 않던 문제 수정 (#974)
+		- [Content Editor] Text GameDB 추가 후 DB Tab 이동 후 복귀 시 TextEditor 편집이 불가하던 문제 수정 (#981)
+		- [Content Editor] 첫 프로젝트 RunGame 실행 후, 다른 프로젝트 실행 시에는 비정상적인 Spawn 이 발생하는 문제 재수정 (#972)
+		   - Game Setting Asset이 프로젝트에 지정되어 있음에도 불구하고, Default World DB가 World DB의 0번 키값으로 지정되는 오류 수정
+		- [Content Editor] 에디터 실행 후, Project Setting 값 설정에서 Game Setting Asset 미설정에 의한 게임실행 오류 재수정 (#966)
+		- [Quest Flow] Action Composite의 ActionObjectGuids 개별 삭제가 불가능한 문제 수정 (#989)
+		- [Quest Flow] Multiline TextDB의 줄바꿈 Text로 인해 Droplist의 세로 폭이 늘어나는 문제 수정 (#978)
+		- [Quest Flow] Multiline TextDB에서의 Text 수정이 불가하던 문제 수정 (포커스 이동으로 자동 저장하도록 수정) (#977)
+		  - ESC키를 누를 경우 편집중이었던 내용을 Clear하도록 QuestFlow와 GameDB모두 함께 개선함
+	  - Common
+	    - [Quest Flow] Has Items Condition에서 Item을 여러 개 지정시 한 종류의 Item 조건 충족만으로도 Task 진행이 되는 문제 수정 (#979)
+			- HasItems Rule을 All과 OneOf로 사용자가 선택할 수 있도록 하고, Rule에 따른 조건 처리 로직으로 변경
+			- https://www.notion.so/HasItems-0c19aeec85fe41058a01ce64442f107b
+        - [Quest Flow] 퀘스트 진행 중 Spawn된 NPC가 사라지지 않는 문제 수정 (#980)
+  - v0.9.9.5 : 2022.02.14 (HOTFIX-1)
+    - HOTFIX-1
+	    - [Client/Editor] Item(Weapon/Goods/Costume GameDB) DB의 Description TextDB 항목 추가 (#968)
+		  - UMG Update (T4Builtin_DescriptionItem)
+	    - [C/S, Quest Flow] 아이템 거래/교환 기능 개발 추가 (#954)
+			- Test Command 로 아이템 거래가 가능하도록 "t4.Item.Trade" 기능 개발
+			- Quest 진행 중 아이템 거래가 이루어지도록 Item Trade Task 기능 추가
+			    - https://www.notion.so/Trade-Item-d768f0c1fc3c428abd8690c2417300bd
+	    - [Server] 첫번째 Dialogue 이후 두번째 Dialogue 진행이 되지 않던 문제 수정 (#973)
+		- [Server] NPC, 등장 경로 이동 중 피격 당할 시 무적 상황임에도 불구하고 피격 연출이 나오는 문제 수정 (#766)
+		- [Client] 미디어 영상이 출력 중일 땐 퀘스트 시작, 종료, 시스템 메세지 등 위젯이 출력 문제 수정 (#946)
+	    - [Content Editor] UI GameDB의 NameTextDBKey 이름이 Goods Prefix로 생성되는 문제 수정 (#975)
+	    - [Content Editor] 첫 프로젝트 RunGame 실행 후, 다른 프로젝트 실행 시에는 비정상적인 Spawn 이 발생하는 문제 수정 (#972)
+		- [Entity Editor] UI Anchor Location 리셋이 UI Anchor에만 적용되고 출력중인 Text 메시지에는 표시되지 않던 문제 수정 (#957)
+		  - 혼란이 있을 수 있어 테스트용 5cm Offset 적용 제외
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Client] UI Frame Image 교체 (#874)
+		- [Server] NPC, 등장 연출 경로 이동 중엔 무적상태(No Damage)가 되도록 처리 (#766)
+		- [Client] 개발 Test용, Item 거래 Command ("t4.Item.Trade") 추가 (#954)
+	  - Editor
+	    - [Content Editor] Cutscene GameDB 내 컷씬 카메라의 마지막 위치를 유지하는 옵션 추가 (bUseCameraPauseAtEnd) (#958)
+	    - [Content Editor] UI GameDB 내 FileMediaSource 에셋의(MP4) 플레이 타임을 얻을 수 있는 버튼 추가 (#958)
+	    - [Content Editor] GameDB 내 StatDB를 선택하지 않을 경우 Stat Details가 표시 되지 않도록 개선 (#952)
+		- [Quest Flow] MissionWait 완료 조건에 인터렉션(ALT+Picking)이 있을 경우의 "Interact" Type 추가 (#958)
+		  - Cutscene 카메라로 전환 중 사용을 위해 추가된 것으로 현재는 Cutscene 사용중일 때만 동작하도록 제한
+		- [Quest Flow] Cutscene/Media Play Task에 "Wait For Response" 옵션 추가 (#958)
+		  - 클라이언트가 특정 키(Enter)를 호출하지 않을 경우 Task애서 계속 대기하는 기능
+		  - 기존 Play And Waiting은 Wait For Duration으로 함께 수정됨
+		- [Quest Flow] QF Details의 Text DB 사용 UX를 GameDB Text 추가/업데이트 방법과 동일하도록 개선 (#958)
+		- [Action Editor] Event Action의 Play/Stop에 대응하는 별도의 EventParameter를 선택할 수 있도록 옵션 추가 (#958)
+		- [Entity Editor] Char/Prop/Item의 Nameplate or HPBar등의 UI Anchor Location 및 확인용 표시 기능 추가 (#957)
+	  - Common
+	    - [C/S, Content Editor] SpawnObject EventTrigger를 통한 InputBinding 기능 추가 (#971)
+		  - NPC EventTrigger 영역에 들어갈 경우 클라이언트 특정 키(ALT+O, ALT+P)로 NPC를 제어할 수 있는 기능
+		  - Asymmetry 프로젝트에서 MediaProp 영상을 위 기능으로 제어하게 됨
+	- Bugfix
+	  - Client or Server
+	    - [Client] Event Trigger로 발생되는 퀘스트 진행 시 간헐적으로 Player의 위치 이동이 발생하는 문제 수정 (#927)
+		  - QuestTalk Task/Lookat Override Action에 카메라 액션을 사용할 경우 문제 발생
+		- [Client] UMG Binding Error (#964)
+	  - Editor
+	    - [Content Editor] 에디터 실행 시 스폰 레이어 별 마지막 카메라 위치로 복원되지 않던 문제 수정 (#932)
+		- [Content Editor] 에디터 실행 후, 최초 게임 실행 시도시 까만화면으로 게임 진행이 되지 않는 문제 수정 (#963)
+		- [Content Editor] 에디터 실행 후, Project Setting 값 설정에서 Game Setting Asset 미설정에 의한 게임실행 오류 수정 (#966)
+	    - [Quest Flow] UE5로 에디터 실행 시, QuestFlow/Guid 프로퍼티 표식이 안 보이는 문제 수정 (#949)
+		- [Action Editor] Mesh/Particle/Niagara Action 추가시 크래시 나는 문제 수정 (#967)
+		- [Entity Editor] Die Reaction 연속 사용 시 캐릭터가 바닥으로 추락하는 문제 수정 (#969)
+		- [Entity Editor] AnimSet Template에 BasicSimple System 외 Jump 파라미터 설정이 노출되지 않던 문제 수정 (#970)
+  - v0.9.9.4 : 2022.02.06
+    - New feature or Enhancement
+	  - Editor
+	    - [Content Editor] Player/NPC GameDB 내 Default AnimSet 프로퍼티 추가 (#958)
+	    - [Content Editor] Effect GameDB 내 Common EffectType 추가 (#958)
+		  - 기본값을 Hit에서 Common으로 변경
+		  - 별다른 기능 없이 StoC 패킷으로 클라이언트에 Effect 전달
+	    - [Content Editor] SpawnObject에 EventTrigger를 설정하지 않으면 EventZoen 영역 표시를 하지 않도록 수정 (#958)
+	    - [Content Editor] GameSettings/GameUISettigs 내 HideHUD 옵션 추가 (#952)
+	    - [Quest Flow] ActionEffectPlay Task 추가 (Action Composite 하위, 지정 Effect 즉시 발동) (#958)
+		  - 프로퍼티 이름 정리
+		    - Select ActorSpawnObjectGuid => Action Object Guid
+			- Select ActorWaypont => Weaypoint Name
+			- SpawnAssetFilter for WaypointName => SpawnFilter for Waypoint
+		- [Entity Editor] Portrait 내 Default AnimSequence Name에서도 캡처 당시의 포즈 저장/재생 할 수 있도록 개선 (#953)
+	    - [Entity Editor] Metahuman Lighting Preset 지원 (#953)
+		  - 선택한 Preview Preset을 저장/복원할 수 있도록 지원
+		  - 툴바 상단의 "프리뷰 씬으로 이동"의 SubMenu로 Preview Preset을 선택할 수 있도록 추가
+		  - Thumbnail Update 편의를 위해 Preview 캐릭터는 T포즈가 기본이 되도록 수정 (Content Editor와 같음)
+		  - Portrait 실행 옵션에 Preview Preset(Metahuman Lighting Preset)을 선택할 수 있도록 추가
+		  - Portrait 프리뷰에 "Reload" 버튼 추가 (캐릭터 리로드)
+		- [Editor Common] Editor Preview의 기본 Preset을 Metahuman_Portrait을 사용하도록 수정 (#953)
+		  - DefaultT4FrameworkEditor.ini의 PreviewDefaultPreset에서 변경 가능
+	  - Common
+	    - [Common] 인게임 플레이어 카메라와 컷씬 카메라 간의 블랜딩 기능 추가 (#956)
+		  - Content Editor, Cutscene GameDB
+		    - LevelSequence의 PlayTimeSec(Length)를 얻을 수 있는 버튼 추가
+		    - Cinematic Camera Blend In/Out 및 Time 설정 프로퍼티 추가
+		  - QuestFlow의 CutscenePlay Task를 사용해 동작
+		  - HelloWorld 프로젝트 / PlayCutScene Layer 참조
+	- Bugfix
+	  - Client or Server
+	    - [Client] Turn 애니메이션 설정된 캐릭터가 Turn 동작 이후 T포즈로 이동이 되던 문제 수정 (#930)
+	  - Editor
+	    - [Content Editor] 프리뷰 또는 에디터 편집 모드에서 Media Prop의 사운드가 출력되던 문제 수정 (#958)
+	    - [Content Editor] UI GameDB의 2D Media 플레이가 동작하지 않던 문제 수정 (#958)
+	    - [Content Editor] 에디터 뷰포트에서 LevelSequence 카메라가 정상적으로 동작하지 않던 문제 수정 (#956)
+	    - [Content Editor] SpawnObject Nameplate의 한글 출력이 깨지던 문제 수정 (#837)
+          - SpawnObject 선택 시 텍스트 아웃 라인이 보기 좋지 않아 선택 컬러를 Red에서 에디터 아웃라인 색과 맞춤
+	    - [Content Editor] Prop SpawnObject의 Scale 조정 시 Nameplate 위치가 어긋나던 문제 수정 (#837)
+	    - [World Explorer] 특정 레벨(CombatMap)의 Minimap 생성이 정상적이지 않던 문제 수정 (#953)
+	    - [Entity Editor] Metahuman AttachParts Groom(HairStrands) 메시가 간헐적으로 Head에 Attach되지 않던 문제 수정 (#931)
+		- [Editor Common] 간헐적으로 Preview 캐릭터의 모델이 출력되지 않던 문제 수정 (#953)
+	  - Common
+	    - [Common] UE5.0EA 버전에서 MetaHuman 캐릭터 로딩 시 간헐적으로 발생하던 크래시 수정 (#931)
+  - v0.9.9.3 : 2022.01.26 (HOTFIX-1)
+    - HOTFIX
+	    - [Content Editor] MediaProp을 통한 동영상 플레이에서 사운드가 나오지 않던 문제 수정 (#947) (HOTFIX-1)
+	    - [Content Editor] Character Entity SpawnObject의 EventZone DebugDraw가 출력되지 않던 문제 수정 (#880) (HOTFIX-1)
+		- [Editor Common] 특정 PropEntity 오픈 시 발생하는 크래시 수정 (#955) (HOTFIX-1)
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Client] UI 관련 코드 안정성 강화
+		  - UserWidget InitWidget 관련 예외 처리 추가 (#919)
+	      - 인벤토리 리뉴얼 (#872)
+	  - Editor
+	    - [Content Editor] SpawnObject DetailView의 EventTrigger 메뉴 출력 정리 (#880)
+		  - Character/Prop Entity에 UseEventTrigger 사용 및 Zone Entity의 경우만 메뉴 노출
+	    - [Content Editor] Run Editor PlayMode 실행 시 Player가 없으면 MapEntity의 초기 카메라 위치를 사용하도록 수정 (#947)
+		- [Entity Editor] EventZone의 BrushType에 Sphere 추가 (#880)
+		- [Entity Editor] Character/Prop Entity 내 EventZone 설정 기능 추가 (EventZone Tab) (#880)
+		- [Entity Editor] Prop Entity의 ModularParts 내 MediaPlayer 옵션 및 기능 동작 처리 추가 (#947)
+		- [Editor Common] 뷰포트 Show 메뉴 내 EventZone DebugDraw Show/Hide 기능 추가 (기본 Show) (#880)
+	  - Common
+	    - [Common] SpawnObject, EventTrigger를 통한 Media 제어 처리 추가 (#950)
+		  - Content Editor: EventTrigger의 SendEvent Parameter 옵션으로 Media Default/Prev/Next/Random Play 제어 지원
+		  - Content Editor: EventTrigger내 EventZoneScale 옵션 추가
+		  - Sample/MediaSample의 VideoProp SpawnLayer의 MediaProp_Outro SpawnObject 동작 참조
+	    - [Common] SpawnObject, EventTrigger를 통한 Prop Entity에 설정된 Media Play 처리 추가 (#947)
+		  - Entity Editor: Prop Entity 내 EventZone 설정
+		  - Content Editor: SpawnObject EventTrigger에 Inbound 진입 시 SendEvent Execute, Send EventName 설정
+		  - Sample/MediaSample의 VideoProp SpawnLayer 참조
+        - [Server] Quest, Dialogue 진행시 화자가 대화 대상자를 향해 몸을 틀 수 있는 기능 추가 (#922)  
+	- Bugfix
+	  - Client or Server
+	    - [Quest Flow] Interaction 조건에 의한 퀘스트 진행이 막히는 문제 수정 (#942)
+           - Branch 하위에 Dialogue Talk 에 설정해 놓은 CoolResponse 대사 메시지가 나오지 않는 문제 수정
+		   - Interaction이 없는 Dialogue 진행시에도 CoolResponse 메지지가 나오도록 수정
+		   - Decorators 간 드래그 앤 드롭으로 순서 위치 바꾸기 기능 지원
+	  - Editor
+	    - [Content Editor] SpawnObject - EventTrigger의 DB 바로가기 기능이 동작하지 않는 문제 수정 (#951)
+	    - [Editor Common] ZoneBrushType Cube(Box)의 DebugDraw 출력 오류 수정 및 리네임 (Cube => Box) (#880)
+  - v0.9.9.2 : 2022.01.20
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Client] 퀘스트 대화 중에는 시스템 메세지 위젯이 출력되지 않도록 개선 (#784)
+	  - Editor
+	    - [Quest Flow] MediaPlay Task 추가 (#935)
+		  - UI GameDB의 UI Category Media와 연동해 FileMediaSoruce(동영상, MP4)를 재생할 수 있게 됨
+		  - CutscenePlay Task와 마찬가지로, 플레이 후 즉시 다음 스탭 이동 또는 동영상 재생 종료 후 다음 스탭 이동 지원
+		- [Level Editor] Editor PlayMode PIE 실행 시 레벨 에디터 편집 카메라 위치가 시작 위치가 되도록 수정 (#943)
+		- [Quest Flow] Quest Flow, Items 소지 여부에 따라 하위 노드 진행 여부를 체트하는 Deco_HasItems 추가 (#856)
+	- Bugfix
+	  - Client or Server
+	    - [Server] 데미지 계산에서 피격자의 DodgeRate가 공격자의 HitRate보다 높을 경우, 공격 성공 판정이 되는 문제 수정 (#924)
+		- [Server] 월드 이동 시 이동한 월드의 Default Spawn Asset이 스폰되지 않는 문제 수정 (#938)
+	  - Editor
+	    - [Quest Flow] Cool Response Text DBKey 추가시 Text DBkey 값에 작성된 내용이 복사되는 문제 수정 (#865)
+		- [World Explorer] Detail 패널의 "Save MapEntity Asset" 저장이 실패하던 문제 수정 (#943)
+		- [World Explorer] 특정 레벨을 Default Level 지정 시 발생하는 크래시 수정 (#943)
+		- [Level Editor] Play => Editor PlayMode 체크 후 PIE 실행 시 인게임 로그인 창이 뜨던 문제 수정 (#943)
+		- [Content Editor] Stat GameDB의 Multiplt => Multiply 프로퍼티 이름 오류 수정 (#944)
+  - v0.9.9.1 : 2022.01.17 (HOTFIX-1)
+    - HOTFIX
+	  - [Content Editor] "t4.Debug.Combat.DamageLog 1" 커맨드 사용 후 공격 유효타 발생 시 크래시 수정 (#941) (HOTFIX-1)
+	  - [Quest Flow] Branch 하위의 노드가 Check Condition 류 중 Inverse 조건이 될 때, 동작 오류 문제 수정 (#937) (HOTFIX-1)
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Server] Weapon/Goods Item Stat의 DeviationRate는 +-%를 설정할 수 있도록 수정 (#940)
+		  - Character + Item DeviationRate가 양수일 경우 : (100 - DeviationRate) ~ 100
+		  - Character + Item DeviationRate가 음수일 경우 : 100 ~ (100 + DeviationRate)
+	    - [Server] 공격력/방어력에 대한 버프, 디버프 효과를 Multiply Rate로 제어할 수 있도록 수정 (#939)
+		  - 기존 StatusEffect의 DodgeRate, DefensivePower를 Multiply Rate와 중복임으로 제거
+		  - Multuply Rate 적용도 스킬 공격자와 피격자용 프로퍼티를 별도로 적용하도록 분리
+		    - Attacker : HitRate, StrikingPower, DeviationRate
+			- Defender : DodgeRate, DefensivePower
+	  - Editor
+	    - [Content Editor] GameDB Row DetailView의 Text 추가 버튼 변경(+버튼) 및 업데이트 버튼 제거 (#936)
+	  - Common
+	    - [Quest Flow] 미션 완료 전 인터렉션으로 대화를 시도한 객체에게 인터렉션 재시도 시의 시스템 메시지 추가 (#865)
+	- Bugfix
+	  - Client or Server
+	    - [Server] 전투 공식 수정 관련 피드백 반영 (#924)
+	      - Item HitRate가 적용되지 않던 문제 수정 및 메뉴 표시 (+%) 추가
+		  - Skill/Effect Stat의 HitRate, StrikingPower 설정 제거 (MultiplyRate로 완전 대체)
+		  - "t4.Debug.Combat.DamageLog 1" 커맨드 출력 메시지 정리 및 보완
+	  - Editor
+	    - [Quest Flow] DialogResult/HP/Level/Race Inverse 조건에 부합되지 않음에도 불구하고 하위 Task가 실행되는 문제 수정 (#928)
+  - v0.9.9.0 : 2022.01.16
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Server] 기본 전투 공식 변경 (#924)
+		  - 명중률과 회피율 계산은 공격 성공/실패 여부 판단
+		  - 데미지 계산에 공격력, 방어력과 함께 난수를 곱해 최소/최대 데미지를 랜덤하게 얻을 수 있도록 수정
+		  - Skill/Effect Stat에 MultiplyRate를 추가해 데미지 계산 조정 팩터 제공
+		  - Status Effect로 Dodge_Rate와 Defensive_Power를 추가해 방어력 증가감
+		  - "t4.Debug.Combat.DamageLog 1" 커맨드를 통해 데미지 계산 결과 확인 지원
+	  - Editor
+	    - [Content Editor] GameDB Detail의 StatDB Droplist의 +버튼으로 새로운 StatDB를 추가할 수 있도록 개선 (#883)
+	    - [Content Editor] GameDB Detail에서 선택한 StatDB 데이터를 TextDB와 같이 바로 편집할 수 있도록 기능 추가 (#883)
+	    - [Content Editor] 로컬 머신에서 처음 오픈한 SpawnLayer 카메라 위치가 원점에 출력되는 문제 개선 (#932)
+	    - [Content Editor] 시뮬레이션 모드 미사용 시는 플레이어 캐릭터 교체 지원 (CTRL+캐릭터 선택+R-Click) (#924)
+	  - Common
+	    - [Cliet/Server] SpawnObject 별로, 다른 객체의 이동에 의해 서 있을 때 밀림 여부를 결정할 수 있는 MovePushable 기능 추가 (#860)
+		- [Cliet/Server] 존 타입 스폰오브젝트 월드 이동 기능 추가 (#737)
+	- Bugfix
+	  - Client or Server
+	    - [Quest Flow] HP/Race Condition Deco 조건이 정상 동작하지 않는 문제 수정 (#926, #928)
+		- [Quest Flow] 특정 조건의 퀘스트의 Init Quest DB key에 퀘스트 등록 시 정상 발현이 안 되는 문제 개선 (#933)
+		  - DialogueResult/HP/Level/Race Deco 조건류가 존재하는 Quest
+	  - Editor
+	    - [Content Editor] Parts CostumeEntity의 AttachParts 설정이 캐릭터에 적용되지 않던 문제 수정 (#932)
+	    - [Content Editor] 한 개 이상 Content Editor를 사용할 경우 캐릭터 인벤토리/장비창이 동작하지 않던 문제 수정 (#924)
+		- [Quest Flow] ActionMovePath, ActionStagePlay의 ActorSpawnObjectGuid 드랍리스트에 SpawnObject ID도 보이도록 개선 (#917)
+  - v0.9.8.9 : 2022.01.11 (HOTFIX-1)
+    - HOTFIX
+	  - [Client] UE5.0EA에서 로비/로그인/캐릭터 생성 UI의 Text 출력이 비정상적으로 보이던 문제 수정 (#918)
+	  - [Action Editor] '프리뷰 씬으로 이동' 아이콘이 출력되지 않던 문제 수정 (#906)
+    - New feature or Enhancement
+	  - Editor
+	    - [Quest Flow] GraphNode Thumbnail 크기 제한(최대 140x130) 및 정렬, 레이아웃, 컬러 조정 (#909)
+	    - [Quest Flow] GraphNode의 Thumbnail 알림 표시 이미지 세분화 (NoImage, Exclamation, Question) (#906)
+		  - NoImage(Verbose), Exclamation(Warning), Question(Error) 대응
+		  - Exclamation는 현재 Reward를 설정하지 않았을 경우 출력
+	    - [Quest Flow] Quest 중, Mission, Dialogue, Action, Branch 하위 노드 진행 조건 판단 로직 변경 (#881)
+		  - Service Condition 류에서 Decorator Condition 류로 기능 전환
+		- [Quest Flow] ActionMovePath에서 WaypointName을 Quest Action Type 형으로만 제한 (#898)
+		- [Entity Editor] Entity에서 사용하는 에셋의 출처를 남길 수 있는 'Marketplace' 탭 추가 (Zone Entity 제외) (#915)
+	  - Common
+		- [Client/Editor] Widet영상 출력 기능 지원-2DMedia (#870)
+	- Bugfix
+	  - Client or Server
+	    - [Content Editor] SpawnObject Rename 시 간헐적으로 이전 모델이 출력되던 문제 수정 (#916)
+	    - [Quest Flow] Spawn Object - Event Trigger - NPC 선택으로 이벤트 발현이 안 되는 문제 수정 (#876)
+		- [Quest Flow] ChainQuest 기능이 동작하는 않는 문제 수정 (#897)
+		- [Quest Flow] AcionMovePath Node 반응 속도가 늦어지는 문제 수정 (#882)
+		- [Quest Flow] Portrait Name의 Animation이 지정되어 있다면 Animation 연출이 되도록 기능 수정 (#735)
+		- [Quest Flow] Dialogue ReturnType과 별개로 UseLookat이라면 카메라 전환 (#735)
+		   - UseLookat 이더라도 화자 전환이 없으면 카메라 전환 안 됨
+        - [Quest Flow] Quest Abort가 되었을 때, Quest Start, Finish UI가 출력되는 문제 수정 (#884)
+		- [Entity Editor] Character Fullbody Skin, Override Material Item 선택 시 편집 불가 문제 수정 (#912)
+	  - Editor
+	    - [Quest Flow] MissionPlay Node의 MissionObjectFilter 선택 시 GUID Droplist 미출력 문제 수정 (#892)
+	    - [Entity Editor] Costume Entity의 AttachParts AttachMeshType::Groom 변경 시 Manipulator가 남아있던 문제 수정 (#902)
+	    - [Entity Editor] MaterialOverride에 Material 설정 시 전체 DetailView가 Refresh 되던 문제 수정 (#905)
+  - v0.9.8.8 : 2022.01.09
+    - New feature or Enhancement
+	  - Client or Server
+		- [Client] Skeleton 본 구조가 다른 캐릭터의 Partial Blending/Aim/FootIK를 사용할 수 있도록 기능 개선 (#885)
+		  - 기본 AnimBP가 일괄 업데이트 되었고, T4Framework 전용 AnimGraphNode가 추가되었음. 타 프로젝트에서 사용 불가
+		  - Entity Editor, Animation 탭 내 AnimNode Setup 프로퍼티의 BoneName을 선택해 동작하도록 변경 됨
+	  - Editor
+	    - [Quest Flow] SpawnObject Guid Candidates DropList Item 표시를 'ID {Guid}'로 표시하도록 개선 (#890)
+	    - [Quest Flow] GraphNode의 설정 오류 (물음표) / 썸네일 미설정 시 별도의 Thumbnail 표시 추가 (#906)
+		- [Action Editor] Animation Action 내 'bDisablePartialBlending' 옵션 추가 (#888)
+		  - Movement Action이 이동으로 간주 상하체 블랜딩이 동작하는데, 풀바디 애니메이션을 사용하고 싶을 경우 해당 옵션 사용
+		- [Entity Editor] Costume AttachParts로 GroomType 선택 시는 RelativeTransform 설정없이 Attach되도록 개선 (Hetahuman) (#908)
+		  - Groom Target Parts Name으로 어떤 Modular Parts에 붙일지 옵션이 추가됨 (Metahuman의 경우 "Head" 사용)
+		  - GroomType 선택 시는 RelativeTransform 설정이 없음으로 Manipulator도 출력되지 않음에 유의
+	    - [Editor Common] 에디터 툴바 아이콘 교체 (UE4 & UE5) (#906)
+	  - Common
+	    - [Client/Server] AttachType Dash 사용 시 타겟이 없을 경우 픽킹 위치로 캐릭터 회전이 동작하지 않던 문제 수정 (#888)
+		  - AttackType Launch 기능은 삭제 (캐릭터가 발사체로 동작하는 걸 가정한 기능인데, 다른 기능으로 대체 가능해 삭제함)
+	- Bugfix
+	  - Client or Server
+	    - [Server] AoE 스킬 효과로 Area => Hit를 사용할 경우 데미지가 정상적으로 적용되지 않던 문제 수정 (#900)
+	    - [Server] 스킬 시전 시 Weapon의 ItemStatDB가 적용되지 않던 문제 수정 (#891)
+	  - Editor
+	    - [Quest Flow] MissionPlay Node의 MissionObjectFilter 프로퍼티 미출력 문제 수정 (#892)
+	    - [Quest Flow] Mission Node의 MissionObjectFilter의 World GameDB 바로가기 버튼이 동작하지 않던 문제 수정 (#893)
+	    - [Quest Flow] 한 퀘스트 내에 Dialogue 조건이 Auto와 Interaction이 공존하면, 퀘스트 수행시 크래시 나는 문제 수정 (#879, #867)
+		- [Entity Editor] Costume AttachParts의 Groom 설정 시 GroomAsset만 설정할 경우 CostumeMesh가 사라지던 문제 수정 (#903)
+		- [Entity Editor] Costume AttachParts의 Item Manipuator 편집 오류 및 초기 선택이 정상적으로 동작하지 않던 문제 수정 (#902)
+		- [Entity Editor] Costume AttachParts Details에서 RelativeTransform 수정이 반영되지 않던 문제 수정 (#902)
+		- [Entity Editor] Costume Entity에서 AttachParts Manipulator의 Rotation/Scale 변경이 되지 않던 문제 수정 (#901)
+		  - 뷰포트의 R키가 캐릭터 스탠스 변경과 겹쳐 EditMode가 켜질 경우 무기/스탠스 교체가 되지 않도록 수정
+		- [Entity Editor] Costume Entity의 AttachParts 삭제 시 캐릭터의 파츠 모델이 삭제되지 않는 문제 수정 (#904)
+	    - [Entity Editor] Character Entity의 Test Weapon 착용 시 간헐적 크래시 수정 (#886)
+	    - [Editor Common] Entity/Action Editor등의 테스트용 ProjectID 설정에 ServiceEnabled 프로젝트만 노출되던 문제 수정 (#888)
+	    - [Editor Common] GameProject 전체 경로 이동 시 GameMasterTable을 읽지 못하던 문제 수정 (#894)
+  - v0.9.8.7 : 2022.01.04
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Server] Quest 중단을 처리할 수 있는 QuestAbort Task 기능 추가 (#878)
+	  - Editor
+	    - [Content Editor] Skill/Effect DB의 Attack/EffectType ShapeData 설정을 DetailGroup Header Title로 노출 (#877)
+	    - [Content Editor] SpawnLayer Rename 시 마지막 편집 카메라 위치를 유지하도록 개선 (#863)
+		- [Quest Flow] Quest 완료 조건을 개별 객체별로 지정하여 모든 조건이 완료됨을 검사하는 Spawn Target 형 Mission Rule 구현 (#839)
+		- [Entity Editor] 캐릭터 AnimSet StateLayer에 걷기용 AimSequence와 MoveSpeed Parameter 추가 (#742)
+		- [Entity Editor] 상당 툴바에 편집 중인 플레이어 캐릭터로 카메라 포커스를 이동하는 "플레이어 포커스" 버튼 추가 (#875)
+		- [Entity Editor] Prop Entity, ModularParts ListView의 Item 더블클릭으로 카메라 포커스 이동 기능 추가 (#875)
+	- Bugfix
+	  - Client or Server
+	    - [Server] 인벤토리에서 무기 교체 시 기존 아이템 탈착이 되지 않던 문제 수정 (#869)
+		- [Server] QuestSample1 프로젝트, Quest1 DB 수행 도중 발생하는 크래쉬 수정 (#867)
+	  - Editor
+	    - [Quest Flow] Action Composite에 첫 번째 등록한 Guid값이 ActionMovePath, ActionStagePlay에서 선택될 수 없는 상황 개선 (#866)
+	  - Common
+	    - [Common] Skill/Effect DB의 AttackType Air, EffectType Knockback/Airborne 옵션 사용 시 간헐적 크래시 수정 (#877)
+  - v0.9.8.6 : 2022.01.02
+    - New feature or Enhancement
+	  - Editor
+	    - [Content Editor] ItemPackDB에 등록된 모든 ItemPackageData의 타 프로젝트로 Migration 지원 (#859)
+	    - [Entity Editor] Weapon Entity, 선택한 Attach/Mount 포인트가 모델에 없을 경우에 대한 메시지 추가 (#853)
+		  - EquipMesh/ExchangeMesh Tab의 Attach/MountPoint Droplist에 존재하는 액션포인트 표시 추가
+	  - Common
+	    - [Common] Game/UI/Editor MessageTable에 영문 번역이 없을 경우 "(MsgID)한글"로 화면에 출력되도록 수정 (#853)
+		  - 단, 위 기능은 Shpping 빌드와 에디터 상수 테이블은 제외
+	- Bugfix
+	  - Editor
+	    - [Content Editor] OtherPC의 장착 무기/코스튬이 보이지 않던 문제 수정 (#607)
+	    - [Action Editor] 테스트용 Project의 Weapon/CostumeDB 장착 및 해제가 되지 않던 문제 수정 (#852, #607)
+	    - [Entity Editor] 플레이어 캐릭터를 "ALT + R-Click"으로 삭제할 경우 마지막 카메라 위치 보존 처리 (#847)

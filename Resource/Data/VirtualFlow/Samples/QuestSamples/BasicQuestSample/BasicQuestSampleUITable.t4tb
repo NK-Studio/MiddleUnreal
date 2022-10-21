@@ -1,0 +1,136 @@
+[
+	{
+		"Name": "Movie",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Goods_Movie_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 3.0929999351501465,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/StarterPack/Prop/MediaProp/MediaProp_Intro_FileSource.MediaProp_Intro_FileSource",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/Samples/MediaSample/Entity/Prop/MediaPlayer_Outro_FileSource.MediaPlayer_Outro_FileSource",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Stage1BGM",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_Stage1BGM_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "BGM",
+		"PlayTimeSec": 1,
+		"BGMData":
+		{
+			"SoundWaveAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Sound/S_Stage1_BGM.S_Stage1_BGM",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "None",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "None",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

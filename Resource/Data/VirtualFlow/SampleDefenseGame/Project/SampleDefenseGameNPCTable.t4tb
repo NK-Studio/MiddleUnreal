@@ -1,0 +1,4059 @@
+[
+	{
+		"Name": "Mushroom_Type1",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Mushroom_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 42,
+			"AgentHeight": 85.7143,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 320,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 400
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Mushroom_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Mushroom_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 1.5,
+			"DisappearAfterDeathTimeSec": 1.5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "RedMushroomDeathReward",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/Mushroom.Mushroom",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_Hit.Mushroom_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_Hit.Mushroom_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_Die.Mushroom_Die"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Mushroom_Type1_Wave3",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Mushroom_Type1_Wave3_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 42,
+			"AgentHeight": 85.7143,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 320,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 400
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Mushroom_Type1_Wave3_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Mushroom_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 1.5,
+			"DisappearAfterDeathTimeSec": 1.5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "RedMushroomDeathReward",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/Mushroom.Mushroom",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_Hit.Mushroom_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_Hit.Mushroom_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_Die.Mushroom_Die"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Mushroom_Type2",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Mushroom_Type2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 42,
+			"AgentHeight": 85.7143,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 350,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 400
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Mushroom_Type2_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Mushroom_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 1.5,
+			"DisappearAfterDeathTimeSec": 1.5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "RedMushroomDeathReward",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/Mushroom.Mushroom",
+		"FullbodySkinName": "Skin01",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_Hit.Mushroom_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_Hit.Mushroom_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Mushroom/ActionPack/Mushroom_Die.Mushroom_Die"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "TestDoor",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_TestDoor_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 0.1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 0,
+			"RoamingRate": 0,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Prop/TestDoor2.TestDoor2",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	},
+	{
+		"Name": "TriggerZone",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "None",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Zone/EventTrigger_Cylinder.EventTrigger_Cylinder",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	},
+	{
+		"Name": "Rat_Type1",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Rat_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 29.6667,
+			"AgentHeight": 95.2381,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 400,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 400
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Rat_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Rat_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 1,
+			"IdleWaitTimeSec": 2,
+			"DisappearAfterDeathTimeSec": 3,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "RatDeathReward_Type1",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/Rat.Rat",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Hit.Rat_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Hit.Rat_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 3,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Die.Rat_Die"
+			},
+			{
+				"StateName": "Resurrect",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Resurrect.Rat_Resurrect"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Rat_Type2",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Rat_Type2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 29.6667,
+			"AgentHeight": 95.2381,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 400,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 400
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Rat_Type2_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Rat_Type2_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 1,
+			"IdleWaitTimeSec": 2,
+			"DisappearAfterDeathTimeSec": 3,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "RatDeathReward_Type2",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/Rat.Rat",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Hit.Rat_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Hit.Rat_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 3,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Die.Rat_Die"
+			},
+			{
+				"StateName": "Resurrect",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Resurrect.Rat_Resurrect"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Rat_Type3",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Rat_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 29.6667,
+			"AgentHeight": 95.2381,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 400,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 400
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Rat_Type3_Skill",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Rat_Type2_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 1,
+			"IdleWaitTimeSec": 2,
+			"DisappearAfterDeathTimeSec": 3,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "RatDeathReward_Type1",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/Rat.Rat",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Hit.Rat_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Hit.Rat_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 3,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Die.Rat_Die"
+			},
+			{
+				"StateName": "Resurrect",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Rat/ActionPack/Rat_Resurrect.Rat_Resurrect"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Golem_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 43.6667,
+			"AgentHeight": 102,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 200,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 400
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Golem_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Golem_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 1.5,
+			"DisappearAfterDeathTimeSec": 3,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "GolemDeathReward",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem/Golem.Golem",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem/ActionPack/Golem_Hit.Golem_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem/ActionPack/Golem_Hit.Golem_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 1.66998,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem/ActionPack/Golem_Die.Golem_Die"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Eagle",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Eagle_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 43.6667,
+			"AgentHeight": 180.952,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 380,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 400
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Eagle_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Eagle_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 1.5,
+			"DisappearAfterDeathTimeSec": 3,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "GolemDeathReward",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Eagle/Eagle.Eagle",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem/ActionPack/Golem_Hit.Golem_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem/ActionPack/Golem_Hit.Golem_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 1.66998,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem/ActionPack/Golem_Die.Golem_Die"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Leshy",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Leshy_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Leshy_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Leshy_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 1.5,
+			"DisappearAfterDeathTimeSec": 3,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "LeshyDeathReward",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Leshy/Leshy.Leshy",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Eagle/ActionPack/Eagle_Hit.Eagle_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Eagle/ActionPack/Eagle_Hit.Eagle_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Eagle/ActionPack/Eagle_Die.Eagle_Die"
+			},
+			{
+				"StateName": "Resurrect",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Eagle/ActionPack/Eagle_Resurrect.Eagle_Resurrect"
+			},
+			{
+				"StateName": "Stun",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Eagle/ActionPack/Eagle_Stun.Eagle_Stun"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Golem_Boss",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Golem_Boss_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 93.3882,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 180,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 180,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 100
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Golem_Boss_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Golem_Boss_Unarmed",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 5000,
+			"VisionAngle": 180,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 2,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "GolemBossDeathReward",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/Golem_Boss.Golem_Boss",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": true,
+		"bShowHPBar": true,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/ActionPack/Golem_Boss_Hit.Golem_Boss_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/ActionPack/Golem_Boss_Hit.Golem_Boss_Hit",
+			"bDisableHitAnimation": true,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/ActionPack/Golem_Boss_Die.Golem_Boss_Die"
+			},
+			{
+				"StateName": "Resurrect",
+				"StateTimeSec": 2,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Golem_Boss/ActionPack/Golem_Boss_Rise.Golem_Boss_Rise"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Enemy",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "None",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "None",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": true,
+		"FolderName": "Enemy",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Zone",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "None",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "None",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": true,
+		"FolderName": "Zone",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "PC_Carrier_Test",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_PC_Carrier_Test_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "PCCarrier",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Zone/EventTrigger_Cylinder.EventTrigger_Cylinder",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Zone"
+	},
+	{
+		"Name": "Zone_Cube",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Zone_Cube_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "ZoneBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Zone/SDGZone_Cube.SDGZone_Cube",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "ZoneBasic",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "ZoneBasic",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Zone"
+	},
+	{
+		"Name": "Zone_Cylinder",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Zone_Cylinder_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "ZoneBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Zone/SDGZone_Cylinder.SDGZone_Cylinder",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "ZoneBasic",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "ZoneBasic",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Zone"
+	},
+	{
+		"Name": "Zone_Sphere",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Zone_Sphere_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "ZoneBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Zone/SDGZone_Sphere.SDGZone_Sphere",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "ZoneBasic",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "ZoneBasic",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Zone"
+	},
+	{
+		"Name": "NPC",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "None",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "None",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": true,
+		"FolderName": "NPC",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TradeNPC",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_TradeNPC_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "Human",
+		"DefaultAnimSetName": "Archer",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 25,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 100,
+			"JumpHeightSpeed": 300,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 200
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "MagicStaff",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanNeutral",
+		"BehaviorData":
+		{
+			"EnemyType": "NoEnemy",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 180,
+			"RoamingRange": 0,
+			"RoamingRate": 0,
+			"IdleWaitTimeSec": 0,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/NPC/SDG_NPC_Magician.SDG_NPC_Magician",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanNeutral",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanNeutral",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "NPC"
+	},
+	{
+		"Name": "TradeNPC2",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_TradeNPC2_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "Human",
+		"DefaultAnimSetName": "Archer",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 25,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 100,
+			"JumpHeightSpeed": 300,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 200
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanNeutral",
+		"BehaviorData":
+		{
+			"EnemyType": "NoEnemy",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 180,
+			"RoamingRange": 0,
+			"RoamingRate": 0,
+			"IdleWaitTimeSec": 0,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/NPC/SDG_NPC_Archer.SDG_NPC_Archer",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanNeutral",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanNeutral",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "NPC"
+	},
+	{
+		"Name": "Test",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "None",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "None",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": true,
+		"FolderName": "Test",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Prop",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "None",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "None",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": true,
+		"FolderName": "Prop",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Barrier",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Barrier_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "FieldObject",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "PropNeutral",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": true,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Prop/Barrier/Barrier.Barrier",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "PropBasic",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Prop"
+	},
+	{
+		"Name": "Barrier_NoCollision",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Barrier_NoCollision_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "FieldObject",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "PropBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Prop/Barrier/Barrier_NoCollision.Barrier_NoCollision",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "PropBasic",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "PropBasic",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Prop"
+	},
+	{
+		"Name": "TreasureBox",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_TreasureBox_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 126.164,
+			"AgentHeight": 90.8396,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "PropNeutral",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Prop/TreasureBox/TreasureBox.TreasureBox",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "OFF",
+				"StateTimeSec": 3.4,
+				"TriggerEventName": "NPCSelected",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Prop/ActionPack/TreasureBoxOpen.TreasureBoxOpen"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Prop"
+	},
+	{
+		"Name": "TestProp",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_TestProp_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "None",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Prop/TestBarrels.TestBarrels",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	},
+	{
+		"Name": "ScarecrowEnemy",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_ScarecrowEnemy_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Mushroom_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 0,
+			"RoamingRate": 0,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 1,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Leshy/Leshy.Leshy",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	},
+	{
+		"Name": "LevelUpTestEnemy",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_LevelUpTestEnemy_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "MonsterA",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 450
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "NPC_Leshy_Stat",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 0,
+			"RoamingRate": 0,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 1,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "LeshyDeathReward",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/SampleDefenseGame/Entity/Character/Leshy/Leshy.Leshy",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Test"
+	}
+]

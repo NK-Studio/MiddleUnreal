@@ -1,0 +1,55 @@
+[
+	{
+		"Name": "TutorialGameQuest",
+		"Version": 1,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Quest_TutorialGameQuest_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"bDisableNotifications": false,
+		"QuestType": "Single",
+		"QuestFlowAsset": "/Game/VirtualFlow/Tutorials/GameTutorial/Project/Quest/TutorialGameQuestFlow_Example.TutorialGameQuestFlow_Example",
+		"ChainQuestDBKey":
+		{
+			"Type": "Quest",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"QuestTimeType": "None",
+		"QuestGameUI": "None",
+		"SmallTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"LargeTitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

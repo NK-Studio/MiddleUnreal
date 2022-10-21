@@ -1,0 +1,1006 @@
+[
+	{
+		"Name": "Warrior_NPC",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Warrior_NPC_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "Human",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Combat",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 250,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 300
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "WarriorStat_Enemy",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "LongSword_Simple",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 2,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/SampleWarrior.SampleWarrior",
+		"FullbodySkinName": "Default",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Hit.SampleWarrior_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Stun.SampleWarrior_Stun",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Die.SampleWarrior_Die",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Hit.SampleWarrior_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Die.SampleWarrior_Die"
+			},
+			{
+				"StateName": "Stun",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Stun.SampleWarrior_Stun"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Enemy",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 300
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "None",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "None",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": true,
+		"FolderName": "Enemy",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Girl_NPC",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Girl_NPC_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "Human",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 300
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "NoEnemy",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 0,
+			"AggroMoveSpeedScale": 0.1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 0,
+			"VisionAngle": 1,
+			"RoamingRange": 0,
+			"RoamingRate": 0,
+			"IdleWaitTimeSec": 0,
+			"DisappearAfterDeathTimeSec": 0,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleArcher/SampleArcher.SampleArcher",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "NPC"
+	},
+	{
+		"Name": "NPC",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "None",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 300
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "None",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": false,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "None",
+		"FullbodySkinName": "None",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "None",
+			"HitActionPackAsset": "None",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "None",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "None",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "None",
+			"HitActionPackAsset": "None",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [],
+		"bFolder": true,
+		"FolderName": "NPC",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Warrior_NPC_DeffenseMax",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Warrior_NPC_DeffenseMax_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "Human",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Combat",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": false
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 250,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 300
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "WarriorStat_Sandbag",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Buckler",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 2,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/SampleWarrior.SampleWarrior",
+		"FullbodySkinName": "Default",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Hit.SampleWarrior_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Stun.SampleWarrior_Stun",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Die.SampleWarrior_Die",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Hit.SampleWarrior_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Die.SampleWarrior_Die"
+			},
+			{
+				"StateName": "Stun",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleWarrior/ActionPack/SampleWarrior_Stun.SampleWarrior_Stun"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "Magician_NPC",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_Magician_NPC_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "Human",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 300
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "MagicianStat_Enemy",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Staff_Simple",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/SampleMagician.SampleMagician",
+		"FullbodySkinName": "Default",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Hit.SampleMagician_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Stun.SampleMagician_Stun",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Die.SampleMagician_Die",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Hit.SampleMagician_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Die.SampleMagician_Die"
+			},
+			{
+				"StateName": "Stun",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Stun.SampleMagician_Stun"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	},
+	{
+		"Name": "BossMagician_NPC",
+		"Version": 6,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "NPC_BossMagician_NPC_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"RaceName": "Human",
+		"DefaultAnimSetName": "Default",
+		"DefaultStanceName": "Default",
+		"ShapeData":
+		{
+			"AgentRadius": 50,
+			"AgentHeight": 200,
+			"bUseShapeHitOverlapEvents": true
+		},
+		"LocomotionData":
+		{
+			"DefaultMoveSpeed": 500,
+			"StanceMoveSpeeds":
+			{
+			},
+			"JumpMaxHeight": 200,
+			"JumpHeightSpeed": 500,
+			"SprintData":
+			{
+				"SpeedScale": 1,
+				"DurationSec": 0,
+				"HoldTimeSec": 0
+			},
+			"InPlaceRotationRate": 300
+		},
+		"DefaultNPCStatDBKey":
+		{
+			"StatCategory": "NPC",
+			"Type": "Stat",
+			"RowName": "MagicianStat_Boss",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultCostumeDBKey":
+		{
+			"Type": "Costume",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"CostumePartsDBKeys":
+		{
+		},
+		"MainWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "Staff",
+			"ValidationResult": "CheckIt"
+		},
+		"MountAWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MountBWeaponDBKey":
+		{
+			"Type": "Weapon",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultItemPackDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"BehaviorType": "HumanBasic",
+		"BehaviorData":
+		{
+			"EnemyType": "Player",
+			"bNotInteractive": false,
+			"bAggressive": true,
+			"ActiveOrKeepAggroTimeSec": 5,
+			"AggroMoveSpeedScale": 1,
+			"CallForHelpRange": 0,
+			"SensoryRange": 1000,
+			"VisionAngle": 90,
+			"RoamingRange": 1000,
+			"RoamingRate": 0.75,
+			"IdleWaitTimeSec": 5,
+			"DisappearAfterDeathTimeSec": 5,
+			"OpeningEventName": "None",
+			"ClosedEventName": "None"
+		},
+		"DeathRewardDBKey":
+		{
+			"Type": "ItemPack",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"EntityAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/SampleMagician.SampleMagician",
+		"FullbodySkinName": "Skin02",
+		"bShowHUDHPBar": false,
+		"bShowHPBar": false,
+		"ReactionData":
+		{
+			"ReactionTemplate": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Hit.SampleMagician_Hit",
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"PickActionPackAsset": "None",
+			"KnockbackActionPackAsset": "None",
+			"StunActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Stun.SampleMagician_Stun",
+			"AirborneActionPackAsset": "None",
+			"DieActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Die.SampleMagician_Die",
+			"ResurrectActionPackAsset": "None",
+			"OpeningActionPackAsset": "None",
+			"ClosedActionPackAsset": "None"
+		},
+		"PlayActionData":
+		{
+			"PlayActionType": "HumanBasic",
+			"HitActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Hit.SampleMagician_Hit",
+			"bDisableHitAnimation": false,
+			"SprintStartActionPackAsset": "None",
+			"SprintEndActionPackAsset": "None",
+			"LevelUpActionPackAsset": "None",
+			"PickActionPackAsset": "None"
+		},
+		"ObjectStateDatas": [
+			{
+				"StateName": "Die",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Die.SampleMagician_Die"
+			},
+			{
+				"StateName": "Stun",
+				"StateTimeSec": 5,
+				"TriggerEventName": "None",
+				"DefaultActionPackAsset": "/Game/VirtualFlow/DemoProjects/CharacterDemo/Characters/SampleMagician/ActionPack/SampleMagician_Stun.SampleMagician_Stun"
+			}
+		],
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "Enemy"
+	}
+]

@@ -1,0 +1,873 @@
+[
+	{
+		"Name": "IntroMovie",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_IntroMovie_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 74.2177,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/IntroMedia.IntroMedia",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": true,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/IntroMedia.IntroMedia",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "OutroMovie",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_OutroMovie_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 50.6017,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/OutroMedia.OutroMedia",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": true,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/IntroMedia.IntroMedia",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "LobbyBGM",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_LobbyBGM_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "BGM",
+		"PlayTimeSec": 1,
+		"BGMData":
+		{
+			"SoundWaveAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Sound/IntroBGM.IntroBGM",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "None",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "None",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Stage1BGM",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_Stage1BGM_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "BGM",
+		"PlayTimeSec": 1,
+		"BGMData":
+		{
+			"SoundWaveAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Sound/S_Stage1_BGM.S_Stage1_BGM",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "None",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "None",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Stage2BGM",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_Stage2BGM_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "BGM",
+		"PlayTimeSec": 1,
+		"BGMData":
+		{
+			"SoundWaveAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Sound/S_Stage2_BGM.S_Stage2_BGM",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "None",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "None",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "BossBGM",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_BossBGM_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "BGM",
+		"PlayTimeSec": 1,
+		"BGMData":
+		{
+			"SoundWaveAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Sound/BossBGM.BossBGM",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "None",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "None",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TestMovie",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_TestMovie_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 6.656,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/Samples/MediaSample/Prop/MediaPlayer_Outro_GryunKim.MediaPlayer_Outro_GryunKim",
+			"bFullSize": false,
+			"ViewOffset":
+			{
+				"Left": 350,
+				"Top": 50,
+				"Right": 350,
+				"Bottom": 300
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/Samples/PresentationSample/Assets/Prop/MediaPlayer_Outro_FileSource.MediaPlayer_Outro_FileSource",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "ActionEditor",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_ActionEditor_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 41.1083,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/ActionEditor.ActionEditor",
+			"bFullSize": false,
+			"ViewOffset":
+			{
+				"Left": 410,
+				"Top": 250,
+				"Right": 410,
+				"Bottom": 250
+			},
+			"bDiaplayUIFrame": true,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/Samples/PresentationSample/Assets/Prop/MediaPlayer_Outro_FileSource.MediaPlayer_Outro_FileSource",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "QuestEditor",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_QuestEditor_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 77.311,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/QuestFlow.QuestFlow",
+			"bFullSize": false,
+			"ViewOffset":
+			{
+				"Left": 410,
+				"Top": 250,
+				"Right": 410,
+				"Bottom": 250
+			},
+			"bDiaplayUIFrame": true,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/Samples/PresentationSample/Assets/Prop/MediaPlayer_Outro_FileSource.MediaPlayer_Outro_FileSource",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "SpawnLayer",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_SpawnLayer_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 23.1883,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/SpawnLayer.SpawnLayer",
+			"bFullSize": false,
+			"ViewOffset":
+			{
+				"Left": 410,
+				"Top": 250,
+				"Right": 410,
+				"Bottom": 250
+			},
+			"bDiaplayUIFrame": true,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/Samples/PresentationSample/Assets/Prop/MediaPlayer_Outro_FileSource.MediaPlayer_Outro_FileSource",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "CharacterEntity",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_CharacterEntity_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 44.2443,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/CharacterEntity.CharacterEntity",
+			"bFullSize": false,
+			"ViewOffset":
+			{
+				"Left": 410,
+				"Top": 250,
+				"Right": 410,
+				"Bottom": 250
+			},
+			"bDiaplayUIFrame": true,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/Samples/PresentationSample/Assets/Prop/MediaPlayer_Outro_FileSource.MediaPlayer_Outro_FileSource",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "SkillStatDB",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_SkillStatDB_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 28.095,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/SkillStatDB.SkillStatDB",
+			"bFullSize": false,
+			"ViewOffset":
+			{
+				"Left": 410,
+				"Top": 250,
+				"Right": 410,
+				"Bottom": 250
+			},
+			"bDiaplayUIFrame": true,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/Samples/PresentationSample/Assets/Prop/MediaPlayer_Outro_FileSource.MediaPlayer_Outro_FileSource",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "TravelWorld",
+		"Version": 4,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_TravelWorld_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 23.5083,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/SampleDefenseGame/Movies/TravelWorld.TravelWorld",
+			"bFullSize": false,
+			"ViewOffset":
+			{
+				"Left": 410,
+				"Top": 250,
+				"Right": 410,
+				"Bottom": 250
+			},
+			"bDiaplayUIFrame": true,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "/Game/VirtualFlow/Samples/PresentationSample/Assets/Prop/MediaPlayer_Outro_FileSource.MediaPlayer_Outro_FileSource",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

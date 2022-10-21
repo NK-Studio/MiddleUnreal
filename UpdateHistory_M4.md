@@ -1,0 +1,554 @@
+- **Update History**
+  - v1.0.0.0 : 2022.08.29
+    - New feature or Enhancement
+	  - Client or Server
+		- [Client] CreateWidget 만들어 쓰는 Widget들 일부 WidgetManager로 등록 (#t4f-218)
+		- [Client] Widget의 연출 기능 추가 (#t4f-235)
+		- [Client] UT4BuiltinButton 기능 확장과 Widget 버튼 교체 (#t4f-240)
+		- [Client] 점프 시간이 착지 모션 길이보다 작을 때, Start/Loop 없이 Land 뒷부분을 우선적으로 재생하도록 수정 (#t4f-253) 
+		- [Client/Server] JumpReadyTimeSec 이후 공중에 뜨도록 패킷 전송 시점 수정 (#t4f-257)
+		- [Editor/Client] Dialogue 화자의 2DTexture 지원 (#t4f-244)
+		- [Client] JumpLand 뒷부분을 복구 모션으로 사용하는 경우, 재생 시작 시점에 이동 시, Run 모션이 나오지 않는 문제 수정 (#t4f-261)
+	  - Editor
+	    - [Content] Project Category = Storytelling 사용 시 GameDB 출력 프로퍼티 제어 (#t4f-242)
+		  - 아이템 장착, 스킬 관련 프로퍼티 일부 오픈 (Player/NPC/Weapon/Skill)
+		  - ActionPack 설정에서 불필요한 프로퍼티 제외 (Weapon/Skill)
+		- [Content] Camera Type의 Spawn Object는 Camera Anchor가 출력되도록 처리 (#t4f-222)
+		- [Content, Action] Spawn Camera Default Mesh, Waypoint Path Segments, ActionPack Camera Anchor의 Selected, Unselect Mesh 변경 (#t4f-221)
+		  - DefaultT4FrameworkEditor.ini, DefaultT4FrameworkCore에 사용 Mesh 노출화
+		- [Action] CameraWork Track Section 선택 또는 Scrubbing 시 카메라 위치 표시 및 PreviewActor 출력 동기화 (#t4f-241)
+		- [Action] CameraWork Action 내 Bezier Curve 동작 추가 (DisableBezierCurve로 미사용 옵션 선택 가능) (#t4f-241)
+		- [Entity] Entity Editor, Preview Scene - T4PreviewLevel 추가 (#t4f-220)
+		- [Entity] Entity Editor - Preview Viewport 기본 레벨을 T4PreviewLevel로 변경 (#t4f-225)
+		- [Editor] T4Framework 용어 관제 2차 작업 반영 (#t4f-238)
+		- [Entity] 여러 동작이 포함된 시퀀스 하나를 단독 사용하는 경우를 위한 Integrated Jump 옵션 추가 (#t4f-227) 
+		  - 참조 : https://virtualflow.atlassian.net/wiki/spaces/VIRTUALFLOWINTERNAL/pages/41680938/Jump+Control+Animation
+		- [Editor] T4ProjectBrowser에 MainProject를 선택할 수 있는 기능 추가 (#t4f-251)
+		- [Entity, Action] 상단 툴바에 Main Project를 선택할 수 있는 기능 추가 (#t4f-250)
+		- [Editor] Expand toolbar 목록에 보여지는 메뉴 명이 T4EditorMessageDataTable을 따라가도록 개선 (#t4f-255)
+		- [Content, Entity] PlayerDB - Locomotion Data 와 Entity Details - Testings 에 JumpReadyTimeSec 프로퍼티 추가 (#t4f-257)
+	  - Common
+	    - [Server] 세션 패킷 분리 로직 ParallelFor로 수정 (#T4F-233)
+	- Bugfix
+	  - Client or Server 
+		- [Server] 퀘스트 미디어 멀티 플레이 컨트롤 규칙에 따라 동작 안되는 오류 수정(#T4F-35)
+		- [Client] 제자리 회전을 사용하지 않는 경우, 점프시 수직으로 점프되는 문제 수정 (#t4f-231)
+	  - Editor
+	    - [EditorCommon] PreviewActor(CameraWork/Waypoint)의 FOV 및 AspectRatio 값이 InGame 정보와 틀린 문제 수정 (#t4f-241)
+	    - [Content] Spawn Object 복수 선택시 기즈모 편집이 한 개의 Object 밖에 적용이 안 되는 문제 수정 (#t4f-230)
+		- [Content] Project 파일 삭제 후 동일 이름으로 재생성시 기존 Project 파일의 Layer 이름이 재생성된 Project Viewport에서 보이는 문제 수정 (#t4f-200) 
+		- [Content] QuestFlow, Project Asset 등록시 그래프가 자동 갱신되지 않던 문제 수정 (#t4f-243) 
+		- [Action] CameraWork Start/End 구간 SourceCamera LookAtPoint 사용이 정상적으로 동작하지 않던 문제 수정 (#t4f-241)
+		- [Action] ActionPack 오픈 시 사용자가 편집한 Action Track의 순서로 정렬되지 않던 문제 수정 (#t4f-248)
+		- [Action] CameraWork Track에서 SectionKey 추가 시 DebugLine 출력 오류 수정 (#t4f-236)
+		- [Action] ControlRig/CameraWork Track 셀렉션 변경 시 간헐적으로 CameraWork Anchor가 삭제되는 문제 수정 (#t4f-101)
+		- [Action] ControlRig Action 의 SaveAnimSet 기능이 동작하지 않던 문제 수정 (#t4f-101)
+		- [Entity] 대소문자 구분이 안되는 문제로 AnimSetTemplate => AnimTemplate으로 Enum, Prooperty명 변경 (#t4f-237)
+		- [Content] QuestFlow, TimeWait노드 노드액션이 작동되지 않는 문제 수정 (#t4f-252) 
+		- [Content] QuestFlow, Empty Composite에 '데코레이터 영역 적용' 옵션이 출력되던 문제 수정 (#t4f-254) 
+    - AssetUpdate (Dev to TD)
+      - #t4f-240 (TD업데이트 이후 수동 업데이트 예정)
+        - Content\VirtualFlow\UIPack\Common\T4Builtin_DescriptionItem.uasset
+        - Content\VirtualFlow\UIPack\Common\T4Builtin_Stat.uasset
+        - Content\VirtualFlow\UIPack\Common\T4BuiltinButton.uasset
+        - Content\VirtualFlow\UIPack\Common\T4BuiltinButtonExt.uasset (New)
+        - Content\VirtualFlow\UIPack\InGame\T4BuiltinEquipmentLayoutWidget.uasset
+        - Content\VirtualFlow\UIPack\InGame\T4BuiltinInventoryLayoutWidget.uasset
+        - Content\VirtualFlow\UIPack\InGame\T4BuiltinOptionWidget.uasset
+        - Content\VirtualFlow\UIPack\T4Builtin_CreatCharacter_Widget.uasset
+        - Content\VirtualFlow\UIPack\T4BuiltinLobbyMainWidget.uasset
+        - Content\VirtualFlow\UIPack\T4BuiltinLoginMainWidget.uasset
+	  - #t4f-244  (TD업데이트 이후 수동 업데이트 예정)
+        - Content\VirtualFlow\UIPack\Common\T4Builtin_MediaWidget.uasset
+        - Content\VirtualFlow\UIPack\InGame\T4BuiltinDialogueWayWidget.uasset
+        - Content\VirtualFlow\UIPack\InGame\T4BuiltinDialogueWidget.uasset
+  - v0.9.99.9 : 2022.08.09
+    - New feature or Enhancement
+	  - Editor
+		- [Editor] Project별로 UserConstantTable을 관리할 수 있도록 Editor개발 (#t4f-156)
+		  - MainProject의 UserConstantData가 DropList에 출력되도록 처리
+		- [Action] CameraWork Action 사용 시 뷰포트에 카메라 연결 디버깅 라인 표시 추가 (#t4f-101)
+		- [Action] ControlRig Action 추가 (Experimental) (#t4f-101)
+		  - /Game/VirtualFlow/StarterPack/ActionPack/Examples/ControlRig/T4ControlRigAction
+		  - /Game/VirtualFlow/StarterPack/ActionPack/UnitTests/UTest_CameraWorkAndControlRig_ActionPack
+		- [Content] Spawn Object, 기본 더미 앵커 선택 모드 추가 (#t4f-224)
+	  - Common
+	    - [Quest] 다음 Task 실행을 지연 시키는 용도인, T4TimeWait Task 기능 추가 (#t4f-54)
+	- Bugfix
+	  - Client or Server 
+		- [Client] 이동가능 위젯의 Anchor가 TopLeft가 아닐때 초기화 위치 이상(#t4f-201)
+		- [Client] Falling 직전 또는 도중 마우스 우클릭 시, 이동이 정지되는 문제 수정 (#t4f-217)
+		- [Client] Widget관련 Util Class들 폴더 정리 (#t4f-219)
+	  - Editor
+	    - [Content] Gizmo 편집 대상인 SpawnObject Details에서 Scale 변경 후 Gizmo 이동 시 Scale 복구 되는 문제 수정 (#t4f-104)
+	    - [Content] UE4.27에서 PIE 실행 후 Content Editor 종료시 발생하는 크래시 수정 (#t4f-215)
+		- [Action] CameraWork Key 선택 시 간헐적으로 Manipulator와 Preview가 출력되지 않던 문제 수정 (#t4f-101)
+		- [Action] Animation Action 편집 중 AnimSequence Name(Skill) 선택 시 Skill Layer에 지정된 AnimSequence 들이 보이지 않는 문제 수정 (#t4f-214)
+		- [Content] Stat, StatLevel, Text Editor, Copy시 이전 Copy List가 비워지지 않는 문제 수정 (#t4f-223)
+    - AssetUpdate (Dev to TD)
+	  - <주의>
+	    - [#t4f-201 리소스 수정 알림 - 배포 이후 수동 업데이트 예정임]
+		  - Plugins\T4Framework\T4FrameworkCore\Config\DefaultT4FrameworkCore.ini
+		  - Content\VirtualFlow\UIPack\InGame\T4BuiltinInventoryWidget.uasset
+		  - Content\VirtualFlow\UIPack\InGame\T4BuiltinInventoryLayoutWidget.uasset (New)
+		  - Content\VirtualFlow\UIPack\InGame\T4BuiltinEquipmentWidget.uasset
+		  - Content\VirtualFlow\UIPack\InGame\T4BuiltinEquipmentLayoutWidget.uasset (New)
+		  - Content\VirtualFlow\UIPack\InGame\T4BuiltinDBBrowserWidget.uasset
+		  - Content\VirtualFlow\UIPack\InGame\T4BuiltinDBBrowserLayoutWidget.uasset (New)
+		  - Content\VirtualFlow\UIPack\Common\T4Builtin_OptionSlot.uasset
+		  - Content\VirtualFlow\UIPack\Common\T4Builtin_DescriptionItem.uasset
+  - v0.9.99.8 : 2022.07.31
+    - HOTFIX-1 (2022.08.03)
+	  - New feature or Enhancement
+	    - [Action] CameraWork Section, Camera Preview 제공 (#t4f-209)
+	    - [Editor] T4Framework내 용어 수정 (#t4f-206)
+	  - Bugfix
+	    - [Client] 장착 Item을 Inventory에 옮긴 후 버리면 버려지지 않는 문제 수정 (#t4f-212)
+	    - [Content] Story Tutorial의 Spawn Layer 변경 후 기즈모 편집 상태가 보존되지 않는 문제 수정 (#t4f-184)
+	    - [Entity] Character SystemLayer의 Stance 변경 시 크래시 나는 문제 수정 (#t4f-211)
+	    - [Action] Decal Action 추가시 크래시가 나는 문제 수정 (#t4f-208)
+	    - [Level] Export Prop Entity 로 Prop Entity 생성시 Mesh Part가 보여지지 않는 문제 수정 (#t4f-207)
+    - New feature or Enhancement
+	  - Client or Server
+		- [Client] 인벤토리/장비창 위젯 D&D 유저 이동 기능 적용(#t4f-173)
+		- [Client] GameHUD에 옵션창 추가 (#t4f-195)
+		- [Client] Fall 상태 시작/종료 시, 낙하 루핑/착지 애니메이션이 재생되도록 개선 (#t4f-196) 
+		- [Client/Server] 낙사 시간이 다 되면, Falling 체크 후 사망 처리하도록 개선 (#t4f-202)
+	  - Editor
+	    - [Client] 뷰포트의 Playback Speed 변경 시 카메라 조정 속도가 변하지 않도록 개선 (#t4f-176)
+	- Bugfix
+	  - Client or Server 
+	    - [Client] Use Turn Control이 해제된 캐릭터가 이동방향으로 회전하지 않는 문제 수정 (#t4f-178)
+		- [Client] D&D 동작후  마우스 포인터가 사라지고난뒤 다시 마우스우클릭을 해야 나타남 (#t4f-185)
+		- [Client] UseTurnControl 옵션 사용 시, 이동 중 마우스 우클릭으로 회전하는 경우, 제자리 회전하는 문제 수정 (#t4f-193)
+		- [Client/Server] NPC의 Target 타입 AreaOfEffect 스킬 사용 시 Effect가 발동하지 않는 문제 수정 (#t4f-205)
+		- [Client] 퀵슬롯에 등록한 아이템이 마우스 클릭되지 않는 문제 (#t4f-204)
+		- [Client/Editor] T4GameplayEquipSlotDataTable 이름이 잘못된 PartName 수정 (#t4f-190)
+		- [Editor] ContentEditor에서 DBBrowser를 연 후 PIE를 실행 -> 종료하면 크래시가 발생하는 문제 (#t4f-188)
+		- [Editor] ContentEditor, CostumeParts DBKeys세팅이 정상적으로 적용되지 않는 문제 (#t4f-190)
+		- [Editor] HPBar Portrait 이미지에 따라서 데이터 세팅처리 개선 (#t4f-163)
+		- [Quest] ItemTrade 시 Consume과 Earn이 지정되어 있으면, Item 소비가 되지 않는 문제 수정 (#t4f-167)
+	  - Editor
+		- [Content] Spawn Layer 추가 시 크래시 나는 문제 수정 (#t4f-181)
+		- [Content] Spawn Layer 변경으로 인한 Map 이동 후, 실시간 기즈모 조작이 되지 않는 문제 수정 (#t4f-184)
+		- [Content] Spawn Layer, Map Entity Asset Property를 Clear시 크래시가 나는 문제 수정  (#t4f-186)
+		- [Content] ItemPack DB의 Package Data가 정상적으로 추가되지 않는 문제 수정 (#t4f-198)
+		- [Content]  PC 스폰(재스폰 포함) 시 DBKey 에 적용된 장착 Costume의 Material 적용이 안 되는 문제 수정 (#t4f-171)
+	    - [Entity] Testing 용 Parent Asset 에 Character를 지정하면 ThirdPersonView Camera 조작이 이상해 지는 문제 수정 (#t4f-110)
+		- [Entity] 기즈모 변환 중 간헐적으로 카메라 이동이 Lock 되는 상황 개선 (#t4f-155)
+		- [Entity] Part Name 변경 시 변경된  Part의 기즈모 조작이 되지 않고, 전체 Part가 조작이 되는 문제 수정 (#t4f-143)
+		- [Entity] Prop Entity, Root Parts의 PartName을 변경 하면, 이후 정상적으로 Spawn이 되지 않는 문제 수정 (#t4f-143)
+		- [Entity] Weapon Entity, Equip -> Drop Mesh 전환 후 기즈모 이동하면, 회전값도 변하는 문제 수정 (#t4f-187)
+		- [Action] 기즈모 조작시, Relative Rotation, Scale 값이 변형되는 문제 수정 (#t4f-182)
+		- [Action] Particle Action, 편집 시 Particle 축과 Play시 축이 다른 문제 수정 (#t4f-182)
+		- [Action] Particle Action, 편집 시 Particle 과 Play 시 Particle의 크기가 다른 문제 수정 (#t4f-179)
+		- [Action] CameraWork Action, 기즈모 드래그 후 크래시 나는 문제 수정 (#t4f-191)
+		- [Action] CameraWork Action, 편집 중 Viewport에서 카메라 선택 시, 기즈모가 기존 선택된 위치에서 이동되지 않는 문제 수정 (#t4f-194)
+		- [Action] TestSetting에서  World 이동 후 다시 [Virtual] Preview 로 이동하려고 선택하면 크래시가 발생하는 문제 수정 (#t4f-189)	
+		- [Action] Particle,Niagara 트랙에서 Parent Point First항목 선택시 크래시가 발생하는 문제 수정 (#t4f-197)
+		- [Action] DecalAction Relative Transform 추가 및 기즈모 사용으로 편집될 수 있도록 기능 추가 (#t4f-74)
+		- [Quest Flow] Condition 복사, 붙여 넣기 시 새로운 ID(Guid)가 발급 안 되는 문제 수정 (#t4f-78)
+		- [Quest Flow] UE5에서, DialogueTalk Task - Use LookAt - Override CameraAction - Dialogue Action Pack 설정이 되지 않는 문제 수정 (#t4f-70)
+	  - Common
+	    - [Common] Free Camera Mode에서 Z방향 이동이 막히는 문제 수정 (#t4f-32)
+		- [Common] Content 폴더 Root에서 T4GameProject 생성 후 더블 클릭하여 GameDB 생성하면 크래시나는 문제 수정 (#t4f-203)
+  - v0.9.99.7 : 2022.07.19
+    - New feature or Enhancement
+	  - Client or Server
+		- [Client] DBBrowser 개선 이슈 (#t4f-139)
+		- [Client] Movement 스킬에서 Turn Disabled 체크 시 마우스 방향이 아닌 캐릭터 방향으로 스킬이 발동되도록 개선 (#t4f-157)
+		- [Client] 클라이언트 사용 INI 추가와 UI Data 저장 (#t4f-154)
+	  - Editor
+		- [Client] 테스트 클라이언트 배치파일 추가(t4f-102)
+		- [Client] 테스트 클라이언트 JSON설정으로 변경(t4f-102)
+		- [Quest] Quest Flow, Quest, QuestWait Node 복제 및 사용 제한 처리 추가 (#t4f-148) 
+		- [Entity] Prop Entity, 복수 개의 Parts Mesh를 선택하여 기즈모 이동/회전/확대,축소 변환 기능 개발 (#t4f-144)
+		- [Entity] AnimsetTemplate 별 SystemParameter 설정 UI 개선 (#t4f-145)
+		- [Entity] Basic Advanced AnimsetTemplate에 180도 Turn 시퀀스 슬롯 추가 (#t4f-136)
+		- [Entity] Prop Entity, Modular Part에 Name 사용자 지정/변경 기능 추가 (#t4f-143)
+	    - [Level] Unreal Level Editor에 배치된 Actor 에서 PropEntity를 추출하는 기능 개발 (#t4f-134)
+	    - [Level] "T4Framework" Level Editor Mode 기능 개선 - Content 카테고리 추가 (#t4f-128)
+		- [Level] GameProject 생성 후 같은 이름으로 재생성시 DB Table도 지울 수 있도록 하는 옵션 기능 제공 (#t4f-158)
+		- [DaemonServiceEditor] 데몬 서비스 에디터 추가(t4f-183)
+		- ...
+	  - Common
+	    - [Common] 실시간 기즈모, Grid 이동, 회전 및 스케일 Snap 기능 처리 (#t4f-150)
+	- Bugfix
+	  - Client or Server 
+		- [Client] UseTurnControl옵션 해제시, 이동하면서 점프하면 수직으로 점프 되는 문제 수정 (#t4f-152)
+		- [Client] 이동속도에 따른 Walk와 Sprint 애니메이션이 출력되지 않는 문제 수정 (#t4f-153)
+		- [Client] 콜리전과 가까운 거리 내에서 점프 시, 공중에 멈추어 이동 조작할 수 없는 문제 수정 (#t4f-111)
+		- [Client] Turn 애니메이션이 UE5.0에서 재생되지 않는 문제 수정 (#t4f-136)
+		- [Client/Server] AreaofEffect 의 Hit 데미지 적용과 Client 연출이 이루어지지 않는 문제 수정 (#t4f-168)
+		- [Client] 코스튬이 장착되지 않는 문제 (#t4f-164)
+		- [Client] 방향을 바꾸어 회전을 연속해서 하는 경우, 시퀀스를 찾을 수 없는 상태로 Run 애니메이션이 재생되는 문제 수정 (#t4f-172)
+		- [Client] 점프 중 방향 전환 시 캐릭터가 위로 뜨는 문제 수정(#t4f-174)
+	  - Editor
+	    - [Content] SpawnObject 생성 후 PrefabID 미설정 상황에서 기즈모 편집 시 발생하는 크래시 수정 (#1163, #t4f-161)
+	    - [Content] 신규 스폰 레이어 추가 후 Map Entity 설정 시 발생하는 크래시 수정 (#t4f-159)
+	    - [Action/Entity] 모듈러 프랍의 파츠 애니메이션이 ActionPack으로 플레이 되지 않던 문제 수정 (#t4f-130)
+		  - Prop 파츠 별 애님 몽타주를 재생성 해주어야 함 (자동 생성된 애님 몽타주 이름이 중복 생성되어 발생한 문제)
+        - [Common] 실시간 기즈모 드래그 후 마우스 릴리스시 마우스 포인터 위치가 드래그 시작 점 위치로 복원되는 문제 수정 (#t4f-149)
+	  - Common
+		- [Common] 스탠스 변경 키, Next Stance는 T 키로, PrevStance는 Shift + T 키로 변경 (#t4f-151)
+		  - Shift+R 기즈모 스케일 변경 키와의 중첩을 피하기 위한 조치
+    - AssetUpdate (Dev to TD)
+	  - <주의>
+	    - Localization 수정은 TD에도 미리 올려주세요.
+		- Dev/TD 동시 업데이트가 불가한 에셋은 Content 폴더 이하 경로를 모두 적어주세요.
+	    - Config\DefaultT4FrameworkCoreUI.ini 추가 (#t4f-154)
+	    - Config\DefaultGame.ini 갱신 (#t4f-154)
+	    - T4Framework\T4FrameworkCore\Config\DefaultT4FrameworkCore.ini 갱신 (#t4f-154)
+	    - VirtualFlow\UIPack\Image\T_Undo.uasset 추가 (#t4f-154)
+	    - VirtualFlow\Localization\System\T4GameplayEquipSlotDataTable.uasset 갱신 (#t4f-164)
+  - v0.9.99.6 : 2022.07.04
+    - New feature or Enhancement
+	  - Client or Server
+		- [Client] UI Widget Drag&Drop 테스트 (#t4f-118)
+		- [Client] LockOn을 사용하지 않는 Quarter/ThirdPerson ViewMode에서, 회전과 이동이 동시에 시작되는 모션 개선 (#t4f-112)
+		  - Control 관련 수정 => https://virtualflow.atlassian.net/browse/T4F-112 문서 참조
+		- [Server] FT4Pool -> FT4GameplayPool 로 변경 및 루트 폴더로 이동
+		- [Server] FT4TCP -> FT4IO 변경 및 메모리 기반 스트림 추가 IOServer생성시 TCP or Memory 선택 가능하도록 수정
+		- [Client] InGame 'ImageTile View' 구현 (#t4f-117)
+		- [Client] 제자리 회전 후 이동이 가능해짐에 따른 Turn 애니메이션 수정 (#t4f-136)
+		  - https://virtualflow.atlassian.net/browse/T4F-136 문서 참조
+		- [Server] T4RecordSet::Fetch()시 호출 실패의 경우만 false 리턴 하도록 수정(호출은 성공하고 데이터가 없을때는 true)
+		- [Server] FT4ServerWatch 잘못동작하는 버그 수정
+ 		- ...
+	  - Editor
+	    - [Quest] QuestPlay Task 추가 (#t4f-146)
+		- [Action] 프랍 모듈러 파츠별로 애니메이션을 플레이 할 수 있도록 Animation Action 내 TargetPartsName 프로퍼티 추가 (#t4f-130)
+		- [Entity] 포트레잇 Default Preview Preset 을 "MetaHuman Portrait" 으로 변경, Default -> Null Plane으로 Presset 이름 변경 (#t4f-95)
+		- [Common] 실시간 Gizmo로 기존 EditMode Gizmo 기능 대체 (#t4f-104)
+		  - 실시간 Gizmo 활용 시 Shift + W,E,R 키로 위치,회전,확대/축소 모드 전환
+	  - Common
+	    - [Common] Paragon 관련 기능/툴 및 데이터 일괄 삭제 (#t4f-135)
+	- Bugfix
+	  - Client or Server 
+	    - [Server] QuestFlow의 MissionWait에서 MissionType Interact 처리가 누락되어 있던 문제 수정 (#t4f-146)
+		  - ConditionInteract로 대상을 지정할 경우, MissionWait 의 Interact 종료 조건이 동작하게 됨
+	  - Editor
+	    - [Quest] DialogueTalk의 UseLookAt 옵션이 정상적으로 적용되지 않던 문제 수정 (#t4f-140)
+	    - [Content] 첫 플레이어 스폰 시 Drag&Drop 퀘스트가 정상 동작하지 않던 문제 수정 (#t4f-146, #1023)
+	    - [Content] SpawnObject의 IgnoreNavMesh 옵션 사용시에도 간헐적으로 스폰 위치가 어긋나는 문제 수정 (#t4f-137)
+		- [Content] 같은 레이어에서 Spawn Object Copy&Paste후 Object들이 정상적으로 보이지 않는 문제 수정 (#t4f-125)
+		- [Content] GameSpawn List - Spawn Prefab/Object Tab 폴더에 하위폴더를 생성할 수 있는 문제 수정 (#t4f-126)
+		- [Content] Spawn Object Copy 후 다른 스폰 에셋에서 Paste시 Object의 Prefab이 없으면 같이 복사되어오도록 개선 (#t4f-123)
+		- [Action] 초기 Preview Entity 모델을 캐릭터로 설정할 경우 카메라 제어가 불가하던 문제 수정 (#t4f-130)
+	    - [Entity/Action] MetaHuman <=> Sky PreviewScene 이동 시 카메라 위치 보존이 되지 않던 문제 수정 (#t4f-116)
+		- [LevelEditor] Level Editor Mode, T4Framework 활성화 후 Level Editor 종료시 크래시 나는 문제 수정 (#t4f-147)
+		- [Common] 에디터 뷰포트에서 플레이어 카메라가 컬리전에 충돌되지 않던 문제 (#471, #t4f-133)
+		- [Common] Enable GuestMode, InGameWorld DBKey없이 PIE실행시, Empty Level에 알림메시지와 함께 Shutdown 하도록 수정 (#t4f-97)
+		- [Common] UE5에서 실시간 기즈모 편집 드래그가 작동 안 되는 문제 수정 (#t4f-104)
+  - v0.9.99.5 : 2022.06.22
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Server] FT4WorldServer -> FT4worldDeamon, FT4LobbyServer -> FT4LobbyDaemon, FT4ServerManager -> FT4ServerWorld 개명 (#t4f-91)
+	 	  - FT4ServerWorld Job을 Tranasaction 구조로 변경
+		  - TT4ObjectPool 오브젝트 풀 적용	
+		- [Client/Server] Standalone이 아닐 때, EffectAirborne 사용 시 ServerClient가 사용할 함수 OnRecvEffectAirborne_ForServerClient 추가 및 구현 (#t4f-43)
+		- [Client] Dialogue RichText의 TypeWriter 연출 적용 (#t4f-100)
+		- [Client] CanMoveWhileJumping, CanDoubleJump 옵션이 같이 동작하도록 수정 (#t4f-14)
+		  - Enable Move While Jumping, Enable Double Jump로 Display명 변경
+		- [Client] Dash스킬의 MaxHeight가 10.0 이하일 때, ServerClient의 점프 로직에서 Parabola가 아닌 Straight 데코레이터가 동작하도록 수정 (#t4f-43) 
+	  - Editor
+	    - [Entity/Action] "마우스 휠 클릭 + 드레그"로 카메라 포커스를 이동했을 경우 맵 이동 및 에디터 재실행 시 복원 처리 추가 (#t4f-116)
+	    - [Common] 메타휴먼과 라이브 링크를 통한 페이셜 애니메이션 기능 추가 (#t4f-106)
+		  - Entity/Action/Content 에디터 툴바의 "라이브 링크" 버튼과 LiveLink Subject 설정 후 사용 가능
+		  - Content Editor, RunGame 실행 시 "LiveLink Connect" 옵션 체크로 PIE에서도 페이셜 동작 테스트 지원
+		  - 아이폰X 이상, LiveLinkFace App 사용이 가능한 환경 필요
+	    - [Content] Spawn Object Copy&Paste 기능 추가 (#t4f-55)
+	- Bugfix
+	  - Client or Server 
+		- [Client/Server] PC Move Track 사용 후, 같은 Track에 재진입시 PC 위치가 튀면서, 이후 조작이 되지 않는 문제 수정 (#t4f-79)
+		- [Editor] Enable GuestMode, InGameWorld DBKey없이 PIE실행시, Empty Level에 알림메시지가 뜨게 개선 (#t4f-97)
+		- [Editor] 시뮬레이션 모드에서 월드 이동 시 '이동 불가'시스템 메시지가 출력되지 않는 문제 (#t4f-107)
+		- [Editor] Action Editor의 Movement Action의 GoalLocation이 BoundLength만큼 높아지는 문제 수정 (#t4f-113)
+		- [Client] T4BuiltinDialogueWidget 위젯 Scale 미적용 (#t4f-121)
+	  - Editor
+	    - [Content] PC Carrier, Spline Point Z 값 조정 후 Spawn Object 전환 등으로 View Focus가 Refresh 되면 Z값이 상승하는 문제 수정 (#t4f-103)
+		- [Content] 캐릭터가 스폰된 경우 화면이 깜박이며 카메라가 정상 동작하지 않는 문제 수정 (#t4f-119)
+	    - [Entity/Content] 라이선스/라이브 링크 관련 뷰포트 경고 메시지가 출력되지 않던 문제 수정 (#t4f-106)
+		- [Common] 플레이어 교체 시 이전 플레이어 아웃라인/라이브링크 페이셜 설정이 계속 남아 있던 문제 수정 (#t4f-106)
+	  - Common
+	    - [Entity/Client] 메타휴먼 파츠 자동 생성 시 일부 파츠가 출력되지 않던 문제 수정 및 파츠 상수 추가 (#t4f-115)
+		  - 메트릭스 어웨이큰스 IO 캐릭터 파츠 (Braid, Fuzz, Sunglasses) 등록
+  - v0.9.99.4 : 2022.06.03
+    - HOTFIX-4 (2022.06.12)
+      - New feature or Enhancement
+		- [Client] DB Client String String(Default)에 글자 입력 시에만 String Version(Default)이 카운팅 되도록 개선 (#t4f-76)
+		- [Client] 직선 이동 후 낙하 시 문제 수정 (#t4f-62)
+		  - 모든 경우에 MoveMaxDistance 까지 직선 이동 후 낙하하는 형태로 동작하도록 수정
+		  - 이동기의 ActionPlay 시간 동안 Falling 중이면 Control 불가하도록 수정
+      - Bugfix
+	    - [Client/Server] 패키징 클라이언트에서 CameraTrack 종료 시 간헐적으로 발생하는 크래시 수정 (#t4f-99)
+		- [Client] 패키징 클라이언트에서 인게임용 UserWidget이 로딩되지 않던 문제 수정 (#t4f-99, #1156)
+	    - [Client] 스토리 튜토리얼 패키징 및 실행 오류 수정 (#t4f-99)
+		  -  ICVFX (VirtualProductionUtilities, nDisplay, OSC, OpenColorIO), GPULightmass 플러그인 추가
+    - HOTFIX-3 (2022.06.10)
+      - New feature or Enhancement
+	    - [Client/Server] PC Carrier 이동 기능 개발 (#t4f-79)
+	    - [Client/Server] 프로젝트 옵션으로 "Guest Mode" 사용 시 플레이어 DB 이름이 닉네임이 되도록 개선 (#t4f-94)
+		- [Client] Dialogue Widget 지문 형식 분리 (#t4f-93)
+		- [Client/Server] Action Move Path 동작 시 PC 이동 입력 제한 기능 옵션 추가 (#t4f-56)
+	    - [Content] 프로젝트 세팅에 Default Player DBKey 선택 메뉴 추가 (#t4f-96)
+		  - 게스트 모드에서는 선택 플레이어 사용, 일반 모드에서는 기본 선택 플레이어로 사용됨
+      - Bugfix
+	    - [Client/Server] Camera Carrier, Spline 이동 포인트까지 블랜딩 후 잠깐 멈칫하는 문제 개선 (#t4f-89)
+		- [Client] 사용자가 추가한 Portrait Name은 DialogueTalk - Use LookAt이 Override CameraAction이 켜있을 때만 동작하는 문제 (#t4f-84)	
+		- [Content] 퀘스트 다이얼로그에서 Use LookAt 옵션 연속 사용 시 간헐적으로 카메라 포커스를 잃어버리던 문제 수정 (#t4f-92)	
+    - HOTFIX-2 (2022.06.09)
+      - New feature or Enhancement
+		- [Client/Server] Standalone이 아니면, 기존의 액션팩으로 동작하던 이동기/KnockBack이팩트가 ServerClient에서는 점프처럼 동작하도록 수정 (#t4f-43)
+		  - Server와 Client의 동작이 달라야하는 특정 Case에서 ServerClient는 OnRecv케이스이름_ForServerClient 를 호출
+		  - PacketHandler에서 네트워크 연결 여부를 인자로 받고, OnHandleSC_ForNetworkConnectedServerClient 에서 특정 Case 캐치
+		  - https://virtualflow.atlassian.net/browse/T4F-43 문서 내 다이어그램 참조
+		- [Client] 점프 중 Movement 스킬(Dash/Air) 시전 시, 마우스 Picking 방향으로 회전하도록 수정 (#t4f-90)
+      - Bugfix
+	    - [Client] Camera Carrier, Spline 이동 포인트까지 블랜딩 후 잠깐 멈칫하는 문제 개선 (#t4f-89)
+	    - [Client] 다이얼로그 포트레잇 에니메이션 플레이 중 퀘스트 대화 종료, 이동 시 하체 뛰기 애니메이션이 출력되던 문제 수정 (#t4f-87)
+		- [Client] 대화 UI가 떠있는 상태에서 시뮬레이션 모드 종료 시 뷰포트 카메라 조작 불가, 재진입 시 대화 UI가 남아있는 문제 (#t4f-86)
+		- [Server] Quest, Story Tutorial 프로젝트 QF_omEStory_Example 퀘스트가 Action MovePath 이후 진행 되지 않는 문제 수정 (#t4f-88)
+	    - [Content Editor] Simulation Mode 종료 시 진행 중인  Quest가 Abort 되지 않으면서 발생하는 문제 수정 (#t4f-85)
+    - HOTFIX-1 (2022.06.08)
+	  - [Client] DialogueTalk Task, 대화 도중 플레이어의 닉네임을 호출할 수 있는 포맷 요청(#t4f-27)
+	  - [Client/Server] Spline 이동 경로 중 돌출 부위에 의한 충돌 때문에 이동이 안 되는 문제 수정 (#t4f-38)
+	  - [Client/Editor] QuestFlow, Empty Composite 요청 (#t4f-72, #t4f-57)
+	  - [Client/Server] Quest Flow, ActionMovePath에서 Camera Carrier Type NPC의 카메라 이동에 불필요한 Delay가 생기는 문제 수정 (#t4f-80)
+	  - [Server] Movement 스킬 사용 시, 부활 위치가 설정되지 않는 문제 수정 (#t4f-62)
+	  - [Content] 시작 플레이어 생성 시 Controller Camera Type == ET4CameraType::Free 라는 ensure에 걸리는 문제 수정 (#t4f-82)
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Client/Editor] DialogueTalk, 화자의 이름을 ???로 변경시키는 옵션 추가(#t4f-58)
+		- [Client] 비거리 절반을 지나 하강 중 이동키 Release에 의한 점프 업데이트가 되지 않도록 수정(#t4f-14)
+		- [Client/Server] Spawn Object, Spline을 사용하여 이동 경로를 설정하고 이동시키는 기능 추가(#t4f-38)
+		- [Server] 싱글, 협헙 퀘스트 처리 (#t4f-35)
+	- Bugfix
+	  - Client or Server 
+		- [Client/Server] TravelWorld시, 새로운 월드의 FallingTimeToDeath 값이 적용되지 않는 문제 수정 (#t4f-42)
+		  - 인게임에서는 WorldDB 값을, 에디터-시뮬레이션 모드에서는 GameProject Detail - SpawnLayer의 프로퍼티값을 사용
+		- [Client/Editor] Dialogue Composite 대화창 UI에 Untitled가 아닌 Blank 상태로 나오도록 수정 (#t4f-63)
+		- [Client/Editor] DialogueTalk - Return Type에 따라 Text DBKey가 보이도록 개선 (#t4f-64)
+		- [Client] NPC가 Camera Carrier 일 때,  Entity 설정이 없어도 Fallback Entity 가 보이지 않도록 처리 (#t4f-52)
+		- [Client] DialogueTalk - Portrait Name 애니메이션이 Use LookAt 상태에서만 실행되는 현상 (#t4f-51)
+	  - Editor
+	    - [Content] CameraCarrier Path Segment Asset생성·적용·저장시 언리얼에디터가 멈추는 문제 수정 (#t4f-77) 
+		- [Entity] Entity Editor 생성 후 최초 DropMesh를 셋팅하면 Free Camera Mode에서 Camera 조작이 안 되는 문제 수정 (#t4f-31)
+  - v0.9.99.3 : 2022.05.29
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Server] 대화, 스트리밍(Media, Cutscene) 멀티플레이 핸들링 정책 옵션 처리 (#t4f-36)
+		- [Client/Editor] #1243 Dialogue Talk 퀘스트 지문 기능 (T4F-21)
+		- [Client] Deck Mode 제거 (Widget 등 관련 에셋들이 모두 제거됨) (#t4f-61)
+		- [Client] MoveMaxHeight가 10 이하일 경우 사용하는 직선 이동 함수 개선 (#t4f-62)
+		  - 충돌 시 제자리 이동 또는 속도가 빨라지는 문제 수정
+		  - 낙사 처리 추가
+	  - Editor
+		- [Content] 낙사 처리에 필요한 낙하 체크 시간 옵션화 (#t4f-42)
+		  - WorldDB에서 값을 입력 받음 => 기본값 5.0초, 0.0초일 경우 낙사 처리를 제외
+		- [Entity] ActionPackBrowser에서 New ActionPack 생성 시 "ActionPack" 폴더가 자동 생성되지 않도록 수정 (#t4f-60)
+	  - Common	
+	    - [Common] 카메라 제어용 NPC Type (Camera Carrier) 기능 개발 (#1202)
+		  - https://virtualflow.atlassian.net/wiki/spaces/VIRTUALFLOWINTERNAL/pages/7110671/NPC+Camera+Carrier 문서 참조
+	- Bugfix
+	  - Client or Server 
+		- [Client/Server] 점프 시 예상 골 지점 아래에 콜리전이 있으면 Die 처리 제외되도록 수정 (#1233)
+		- [Client] 액션팩을 사용한 이동기에서 GoalLocation이 BoundLength만큼 뜨는 문제 수정 (#t4f-46)
+		- [Client] 몬스터의 HP Bar가 보이지 않는 문제(#t4f-59)
+	  - Editor
+	    - [Content] GameDB TreeView Item 선택 후 Create Folder로 폴더안 폴더가 생성되던 문제 수정 (#t4f-45)
+	    - [Content] Spawn Object, Camera Carrier Behavior Type의 NPC Waypoint 추가 시 간헐적으로 Point 추가가 안 되는 문제 수정 (#t4f-44)
+		  - Edit Waypoint 가 Off 인 상태에서 발생
+	    - [Editor] Input Override Asset의 드롭리스트 가독성 개선 (#t4f-47)
+		- [Editor] T4UserInterface 에셋을 여러 개 열 수 없는 문제 (#t4f-49)
+		- [Action] ActionPack 내 Folder Track 삭제 시 간헐적으로 발생하는 크래시 수정 (#56)
+	  - Common
+        - [Common] 뷰포트 픽킹 시 간헐적으로 발생하는 크래시 수정 (#1202)
+    - AssetUpdate (Dev to TD)
+	  - Plugins\T4Framework\T4FrameworkCore\Config\DefaultT4FrameworkCore.ini
+  - v0.9.99.2 : 2022.05.22
+    - New feature or Enhancement
+	  - Client or Server
+	    - [Client/Server] GameSettings 의 CanMoveWhileJumping 옵션 기능 추가 (#t4f-14)
+			- 점프 시 사용한 이동키가 Release 되면 반 포물선 동선으로 하강
+			- 반대 방향 이동키 Press 시 수직 하강
+			- 수직 방향 이동키 Press 시 살짝 회전한 방향을 향해 반 포물선 동선으로 하강 
+		- [Client/Editor] Editor 키맵핑 오버라이딩 개선 (#1239)
+	  - Editor
+	    - [Content] NPC DB의 BehaviorData가 Storytelling ProjectCategory에서는 출력되지 않던 문제 수정 (#t4f-28)
+	    - [Content] Project Category SocialGaming => Storytelling 이름 변경 (#t4f-11)
+	  - Common	    
+	    - [Common] Spawn Object, Event Trigger의 Spawn 시 혹은 Quest ControlEventTrigger Task에 의한 이벤트 발동 활성/비활성 제어 기능 개발 (#1171)
+			- https://virtualflow.atlassian.net/wiki/spaces/T4Framework/pages/4358232/Spawn+Object+Detail Event Trigger/Deactivated Spawn 내용 참조
+			- https://virtualflow.atlassian.net/wiki/spaces/T4Framework/pages/8487076/Action+Control+Event+Trigger 내용 참조
+		- [Common] Quest Flow, ActionMovePath Task가 복수의 게임 객체에 적용 되도록 확장 (#t4f-23)
+			- https://virtualflow.atlassian.net/wiki/spaces/T4Framework/pages/4522094/Action+Move+Path Action Info 변경 내용 참조
+	- Bugfix
+	  - Editor
+		- [Content] Viewport에서 SplinePoint 선택 시 SpawnObject Waypoint List에 Point 선택 반영이 안 되는 문제 수정 (#t4f-33)
+		- [Content] Waypoint 신규 추가 후, WaypointType을 선택하면 Waypoint 카테고리가 비활성화 되는 문제 수정 (#t4f-30)
+	    - [Entity] EditMode에서 기즈모 조정 시 카메라가 함께 이동되는 문제 수정 (#t4f-37)
+	    - [Entity] MCO Mocap Basics의 SK Mesh 사용 시 간헐적으로 발생하는 크래시 수정 (#t4f-17)
+	    - [Entity] Fullbody Skin 삭제 시 간헐적으로 크래시가 발생하는 문제 수정 (#t4f-17)
+  - v0.9.99.1 : 2022.05.16 (HOTFIX-1)
+    - HOTFIX-1
+	  - [Client] UI 오버라이딩 SampleDefenceUI Asset 갱신(#1156)
+		- Content\VirtualFlow\SampleDefenseGame\Project\DefenceGameUIAsset.uasset
+		- Content\VirtualFlow\SampleDefenseGame\Project\SampleDefenseGameSettings.uasset
+		- Content\VirtualFlow\SampleDefenseGame\Project\SampleDefenseGameUI.uasset
+		- Content\VirtualFlow\SampleDefenseGame\Project\SampleDefenseUI.uasset
+	  - [Client] Character Entity에서 모듈러 캐릭터의 MasterParts AutoSelect 선택(디폴트) 시 애니메이션이 동작하지 않던 문제 수정 (T4F-12)
+	  - [Content Editor] EditWaypoint 활성화 상태에서 비활성화 전환시 Manipulator가 사라지는 문제 수정 (T4F-13)
+	  - [Editor Common] Content Editor나 Entity Editor, Action Pack Editor 실행 중에는 UE4 에디터 ~키로 띄운 콘솔 창에 콘솔 명령 처리가 안 되는 문제 수정 (#1199)
+    - New feature or Enhancement
+	  - Client or Server
+		- [Server] SkillDB의 UseAreaEffect 옵션 사용 시, 캐릭터 현재 위치와 방향을 기준으로 Area Effect를 이용해 연속적으로 영역 판정하는 기능 추가 (#1159)
+		- [Server] 퀘스트 메인 컨텍스트 저장 및 복구 기능 추가(#1185)
+		- [Client] 클라이언트 캐릭터 선택창의 클래스 리스트를 PlayerGameDB의 NameTextDB를 사용하도록 개선 (#1227)
+		- [Client] 논타겟팅 Throw 스킬에서 RayCast 방식으로 후보군의 피격여부를 판정하는 기능 추가 (#1160)
+		- [Client] 논타겟팅 Throw 스킬에서 Projectile 이 Attack Range 밖으로 벗어나면 보이지 않도록 개선 (#835)
+		- [Client/Server] 논타겟팅 Throw 스킬에서 ProjectileHitType이 Area인 경우, 발사체 주변 적들을 공격하는 기능 추가 (#1231)
+		- [Client/Server] 점프 시 예상 골 지점에 Navi가 없어도 점프가 가능하도록 수정 (낙하, 부활 처리 추가) (#1233)
+		- [Server] 퀘스트 Delta 초 기반으로 변경(#1232)
+		- [Client] GameSettings 의 CanDoubleJump 옵션이 켜진 경우 2단 점프가 가능하도록 수정 (#1236)
+		- [Server] 대화, 미디어, 컷씬 플레이어별 컨텍스트 추가 (#t4f-34)
+		- ...
+	  - Editor
+	    - [Content] Spawn Prefab으로 SpawnObject를 배치할 경우 이름을 DBName에서 PrefabID를 따라가도록 개선 (#1226)
+	    - [Content] 프로젝트 패키징 시 프로젝트에 포함된 에셋을 Package Dependency를 조회해 사용 에셋을 최대한 자동으로 추가하도록 개선 (#1228)
+		  - #1134에서 추가한 T4GameProject의 bIncludeSampleProjects 옵션은 위 기능 추가로 대체되어 정리함
+		  - PackageMenu 에 bDisplayAssetDependencies 옵션으로 쿠킹에 포함되는 모든 에셋의 Dependency 관계를 Display Log로 남겨줌
+		  - GameSettings/PackageSettings 의 DirectoriesToAlwaysCook/DirectoriesToNeverCook 옵션은 만약의 문제 대응을 위해 남겨둠
+	    - [Content] Player DB내 bExcludePlayerList 프로퍼티로 클라이언트 플레이어 리스트에서 제외할 수 있는 옵션 추가 (#1204)
+	    - [Content] Text/Stat/StatLevel DB의 TreeView 스크롤 위치와 관계없이 SearchBox가 상단에 표시되도록 개선 (#1200)
+	    - [Content] Area Effect 와 Skill DB의 TargetDetectionAreaData 프로퍼티명 통일 (#1183)
+		  - SwingStartAngle => StartAngle, SwingAngle => CentralAngle, SwingDurationSec => MaxAddibleHitDelayTimeSec
+		- [Content] SkillDB, EffectDB 에디터 Hit Delay Time Sec의 DisplayName을 Effect Delay Time Sec으로 변경 (#1221)
+		- [Content] Item Stat DB - Offensive Stat의 HitRate(+%)의 초기값을 0 으로 수정 (#1220)
+		- [Content] 논타겟팅 스킬의 Attack Direction에 Front 추가에 따른 Start Angle 자동 설정 처리 (#1208)
+		- [Entity] Character Entity내 Bound Height/Radius 변경 시 메시 리로드를 통해 Capsule 업데이트를 즉시 할 수 있도록 개선 (#1217)
+		- [Entity] Character Entity내 캐릭터의 Relative Roll 회전 기본값을 설정할 수 있는 "AddRelativeRollAngle" 프로퍼티 추가 (#1217)
+		  - MetaHuman 캐릭터의 단일 뼈대 애니메이션 리타겟팅 시 3가지 체형에 대한 보정 처리를 위해 추가
+		- [Entity] DropMesh가 설정되지 않은 Costume/Weapon Entity도 툴용 썸네일을 생성할 수 있도록 지원 (#1217)
+		- [Client/Editor] UI 오버라이딩 기능 수정 (#1156)
+	  - Common
+	    - [Common] UE5.0.1 업데이트 (#1229)
+		- [Client/Entity] Costume Entity의 Import Source로 MetaHuman BP를 설정해 모든 Parts를 자동 세팅하는 기능 추가 (#1217)
+	- Bugfix
+	  - Client or Server  
+	    - [Client] UE5 Login/Lobby UI의 EditBox, DropList에 텍스트 폰트가 백그라운드 컬러에 묻히는 문제 수정 (#1198)
+	    - [Client] 데모 프로젝트 GothicKnight 캐릭터 Bow 무기 장착 시 무기 Idle 애니메이션이 출력되지 않던 문제 수정 (#1216)
+	    - [Client] 단독 서버 실행시 PC가 두번 생성되는 버그 수정 (#1223)
+		- [Client] Nontarget스킬의 Height설정시 간헐적으로 타격이 안되는 문제 수정 (#1219)
+		- [Client] Portrait이 없는 아이템 정보 UI는 이전 아이템 정보 UI의 Portrait을 불러오는 문제 (#1214)
+		- [Client] 아이템 정보 UI를 끄지 않은 상태로 시뮬레이션 종료 -> 재시작 했을 때 이전 아이템 정보 UI가 보여지고 있는 문제 (#1213)
+		- [Client] Equipment UI - EquipSlotName이 ID로 보여지고 있는 문제 (#1211)
+		- [Client] Costume 아이템 정보 UI의 버튼, 폰트 사이즈가 작게 출력되는 문제 (#1210)
+		- [Client] 아이템 정보 UI의 타이틀 명이 게임 언어가 영어인 환경에서도 한글로 보여지는 문제  (#1207)
+	  - Editor
+	    - [Content] SpawnObject Folder 복제 후 삭제 시 원본 폴더가 함께 삭제되는 문제 수정 및 기존 오류 데이터 일괄 마이그레이션 (#1230)
+	    - [Entity] Costume Entity에서 ParentEntity 변경 시 카메라 축이 90도 변경되는 문제 수정 (#1180)
+	    - [Entity] 신규 MetaHuman 샘플 캐릭터를 가져와 세팅할 경우 발생하는 크래시 수정 (#1217)
+	    - [Entity] Weapon Entity의 Animation탭의 BlendSpace Asset 교체 시 발생하는 크래시 수정 (#1216)
+		- [Entity] Item Entity 포커스 전환 시 카메라의 포커스가 Item에 맞춰지지 않던 문제 수정 (#1186)
+		- [Editor Common] 플레이어 캐릭터 스폰 없이 Free <=> Drone 카메라 전환 시 Free카메라 ViewDirection 이동 이상 문제 수정 (#1205)
+	    - [Editor Common] 플레이어 캐릭터 스폰 삭제 후 간헐적으로 Free 카메라 컨트롤이 되지 않던 문제 수정 (#1206)
+	    - [Editor Common] 에디터 초기화 시 Thumbnail Preview의 카메라 앵글이 기본값으로 세팅되지 않던 문제 수정 (#1180)
+	  - Common
+	    - [Client] 데모 프로젝트의 Bow 무기 장착 시 무기 애니메이션이 출력되지 않던 문제 수정 (#1216)
+		- [Client/Entity] MetaHuman 캐릭터의 기본 체형 미적용과 일부 Torso 모델의 RigidBody Simulation 미적용 문제 수정 (#1217)
+	    - [Client/Editor] 무기 스왑 시 대상 무기의 AnimSet 전환이 정상적으로 동작하지 않던 문제 수정 (#1209)
+    - AssetUpdate (Dev to TD)
+	  - <주의>
+	    - Localization 수정은 TD에도 미리 올려주세요.
+		- Dev/TD 동시 업데이트가 불가한 에셋은 Content 폴더 이하 경로를 모두 적어주세요.
+		- [UIPack] UI용 /VirtualFlow/PaidAsset 폴더를 UIPack 폴더 안으로 이전하며 업데이트가 필요해짐 (#1228)
+  - v0.9.20.2 : 2022.04.20
+    - New feature or Enhancement
+	  - Client or Server
+		- [Server] FT4ServerManager FSM 처리 (#1193)
+		- [Client] Cutscene 동작 중 Drone 카메라 전환 기능 추가 (iM+D Presentation Spec) (#1180)
+		- [Client] Area Effect의 Shape에 따른 영역 판정 및 적용 범위 표시 플래그(Skill Attack Range와 공동 사용) 옵션 구현 (#1183)
+	  - Editor
+	    - [Content] Shipping 빌드에서 Drone 카메라 사용은 GameSettings의 bAllowObserverMode 를 켤 경우에만 동작하도록 수정 (#1180)
+		- [Content] Area 타입 Effect 적용 영역의 Shape 을 선택할 수 있도록 프로퍼티 추가 (#1183)
+	  - Common
+	    - [Client/Editor] Free/Drone 카메라 사용중 마우스 좌+우클릭으로 이속 x10배 이동 기능 지원 (#1180)
+	    - [Client/Editor] 컷씬 동작중에도 Drone 카메라를 사용할 수 있도록 기능 개선 (#1180)
+	- Bugfix
+	  - Client or Server
+    	- [Server] 시뮬레이션 모드에서 ServerManager 시작 하도록 처리 (#1193) 
+		- [Client] GameSettings 의 ItemPickupActionMode MouseOverAndClick or KeyPressed 옵션이 동작하지 않던 문제 수정 (#1201) 
+		  - 기존 자등 습득 옵션으로 사용되던 ItemPickupActionMode::NotUsed 옵션 이름을 Auto로 변경함
+		- [Client] LockOn 해제 딜레이가 길어지는 문제 수정 (#1191) 
+		- [Client] 쿨타임 동안 스킬 인풋키 Pressed 시 LockOn 방향으로 고정되는 문제 수정 (#1192)    
+	  - Editor
+	    - [Content] GameSettigns Details에 VRSettings 옵션이 노출되지 않도록 수정 (VR기능은 툴에서 노출하지 않는다) (#310)
+	    - [Content] Editor PlayMode 실행 시 SpawnLayer의 WorldPlayerScaleLocalization 옵션이 적용되지 않던 문제 수정 (#1180)
+	    - [Content] EditMode에서 SpawnObject 기즈모 조정에서 카메라가 움직이는 문제 수정 (#1197)
+	    - [Content] Player 스폰 시 Drone 카메라가 정상 동작하지 않던 문제 수정 (#1180)
+		- [Content] Spawn Prefab Scale 값이 조정된 Spawn Object의 Manipulator 조작시 Objct Scale 값이 원치 않게 변경되는 문제 수정 (#1163)
+		- [Content] SpawnLayer에서 MapEntity 지정시 해당 Map으로 ClientTravel이 되지 않는 문제 수정 (#1168)
+		- [Text DB] Dialogue가 아닌 카테고리에서도 CameraActionOverride와 DialogueActionPack이 보여지는 문제 수정 (#1196)
+		- [Character Entity] AnimSet Detail, Common Tab의 Detail 창 스크롤이 안 되는 문제 수정 (#1173)
+		- [Character Entity] Skill Layer Tab의 스크롤 바가 안 보이는 문제 수정 (#1173)
+  - v0.9.20.1 : 2022.04.17
+    - New feature or Enhancement
+	  - Client or Server
+		- [Server] 퀘스트 자동 저장시 퀘스트 완료 시점뿐만 아니라 새로운 퀘스트 시작등 다양한 상황에서 저장되도록 수정 (#1185)
+		- [Server] 퀘스트 로드 테스트를 위한 명령 추가 (#1178)
+		- [Client] RichTextBlock 기능 적용 (#1162)
+		- [Client] Box, Sphere 타입 논타겟팅 스킬 영역판정 기능 추가 (#1183)
+		- [C/S] PlayerDB에 StatLevelDBkey 값을 지정하여 해당 Level별 Stat을 받아올 수 있도록 개발 (#1170)
+		  - https://www.notion.so/Player-GameDB-Details-644e8bd15f9f48c59b413ccebdc5c9a2 StatLevel DBKey 값 참조
+	  - Editor
+		- [Content] 논타겟팅 스킬 Effect Shape의 다양화를 위한 판정영역 관련 구조체 및 에디터 옵션명 수정 (#1183)
+		  - 구조체 (FT4NonTargetData => FT4TargetDetectionAreaData), 에디터 옵션 (Non Target Option => Target Detection Area Option)
+		  - ET4GameEffectAreaShape 추가 (Sphere, Box, Sector)
+        - [Content] NPC의  Behavior Data가 Zone Basic 일 때, EnemyType 프러퍼티 디스플레이 명을 Event Target Type으로 수정 (#1189)
+		- [Quest Flow] QuestFlow Node 디테일 창 Text DB 입력 중 멀티라인이 아닌 Text 입력시 Enter 키에 값이 저장되도록 수정 (#1172)
+	  - Common
+	    - [Common] 에디터 및 클라이언트에서 사용 가능한 관전자 및 디버깅용 Drone 카메라 추가 (CTRL+Z) (#1180)
+	    - [Common] NPC Spawn 처리 중 캐릭터 위로의 Spawn 방지를 위해 근처 위치로 변경하여 Spawn 되도록 시도 처리 (#1166)
+	- Bugfix
+	  - Client or Server
+		- [Client] 직선 이동 시 TimeStep 시뮬레이션 없이 MaxDistance까지 Sweep하고 낙하 체크하도록 수정 (#1142)
+		- [Client] 스킬 쿨타임 도중에 다른 스킬을 사용할 수 없는 문제 수정 (#1165)
+		- [Client] 인벤토리창 소비 아이템 사용하기 버튼 관련 문제 (#1182)
+		- [Client/Server] Zone, PropNeutral, HumanNeutral 오브젝트를 타격하여 파괴할 수 있는 문제 수정 (#1181)
+		- [Server] Quest, Kill 형인 Mission 지정 시 Mission Spawn Asset에 Prop/Human Neutral Behavior Type을 가진 NPC가 포함되어 있다면 Mission 완료가 되지 않는 문제 수정 (#1157)
+	  - Editor
+	   	- [Content] GameSettings의 Override InputSettings를 설정할 경우 신규 추가된 키를 인식하지 못하던 문제 수정 (#1052)
+		- [Content] Stat DBKey 기본 생성 이름이 Skill로 설정되어 있는 문제 수정 (#1175)
+		- [Content] 시뮬레이션 모드로 퀘스트 진행 중 시뮬레이션 모드를 종료하면 발생하는 크래시 수정 (#1070)
+		  - check(ActiveQuestInfo.ActiveDialogueID == InDialogueID)
+		- [Content] Spawn Prefab - Behavior Override - Enemy Type에 MAX값이 보여지는 문제 수정 (#1190)
+	    - [Entity] SystemLayer에 Stance 추가 후 AnimSeqeunce 미등록 시에도 AnimMontage가 생성되던 문제 수정 (#1161)
+		- [Action] Parent Prop Entity 교체 후 Animation Action의 SquenceList가 출력되지 않던 문제 수정 (#1158)
+	    - [Action] Parent Prop Entity의 등록된 AnimSquence가 Animation Action의 DropList에 출력되지 않던 문제 수정 (#1158)
+  - v0.9.10.5 : 2022.04.10
+    - New feature or Enhancement
+	  - Client or Server
+		- [Server] 퀘스트 자동저장 활성 (#1023)
+		  - 클리어할때 자동저장
+		  - 위치는 로비로 나갈때 저장
+		  - 시작 퀘스트가 위치 저장에 영향을 주고 있습니다
+        - [Server] 퀘스트 자동저장 옵션화 (#1164)
+	  - Editor
+	    - [Entity] Prop Entity에 첫번째 ModularParts 추가 시 "Root" Parts로 자동 등록하도록 개선 (#1056)
+	  - Common
+	    - [Common] UE5 정식 버전 지원 (#1161)
+	- Bugfix
+	  - Client or Server
+	    - [Server] 비전투 NPC PropNeutral 설정이 정상적으로 동작하지 않던 문제 수정 (#1039)
+		- [Server] 반복적으로 로비와 인게임 오고가면 발생하는 크래쉬 현상 수정(#1023)
+		- [Server] 서버시작상태 아닐때 월드 저장 무시 처리
+		- [Server] Movement 옵션을 사용하는 스킬에서, MaxHeight가 낮은 경우 호출할 직선 이동용 함수 추가 (#1142)
+		- [Client] MediaProp, EventParamter로 FileMediaSource Slot Index를 선택해 플레이 할 수 있는 기능 추가 (#1056)
+		- [Client] 근소한 거리로 Movement 스킬을 사용할 경우 방향에 관계없이 +X 축으로 캐릭터가 회전을 하는 문제 수정 (#1142)
+		- [Client] 컷씬의 카메라 컷과 인게임 캐릭터 카메라 블랜딩이 간헐적으로 튀는 문제 개선 (#1146)
+	  - Editor
+	    - [Content] SpawnObject 내 WayPoint Type 미설정 시 시뮬레이션 모드 사용에서 발생하는 크래시 수정 (#1155)
+		- [Content] Cinematic Cutscene 플레이 시 NPCInteraction이 동작하지 않던 문제 수정 (#1056)
+	    - [QuestFlow] MediaPlay Details에서 에디터용 ThumbnailImage 프로퍼티 편집이 UI DB에 저장되지 않던 문제 수정 (#1056)
+		- [Action] Prop Entity를 Parent Entity로 지정할 경우 Animation Detail에서 SectionName Droplist가 출력되지 않던 문제 수정 (#1158)

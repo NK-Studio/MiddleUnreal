@@ -1,0 +1,198 @@
+[
+	{
+		"Name": "Stage1_Start",
+		"Version": 3,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_Stage1_Start_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 4,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Sequence/Stage1_OpenLevelSequence.Stage1_OpenLevelSequence",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": false,
+			"bUseCameraBlendIn": false,
+			"CameraBlendInTimeSec": 0.25,
+			"bUseCameraBlendOut": false,
+			"CameraBlendOutTimeSec": 0.25
+		},
+		"bUseCameraPauseAtEnd": false,
+		"bUseCameraBlendIn": false,
+		"CameraBlendInTimeSec": 0.25,
+		"bUseCameraBlendOut": false,
+		"CameraBlendOutTimeSec": 0.25,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": false,
+		"bHideUI": true,
+		"bHideHud": true,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": true,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Stage2_Start",
+		"Version": 3,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_Stage2_Start_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 10.9333,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Sequence/Stage2_OpenLevelSequence.Stage2_OpenLevelSequence",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": false,
+			"bUseCameraBlendIn": false,
+			"CameraBlendInTimeSec": 0.25,
+			"bUseCameraBlendOut": false,
+			"CameraBlendOutTimeSec": 0.25
+		},
+		"bUseCameraPauseAtEnd": false,
+		"bUseCameraBlendIn": false,
+		"CameraBlendInTimeSec": 0.25,
+		"bUseCameraBlendOut": false,
+		"CameraBlendOutTimeSec": 0.25,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": false,
+		"bHideUI": true,
+		"bHideHud": true,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": true,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Stage1_Finish",
+		"Version": 3,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_Stage1_Finish_Title_1",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 5,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Sequence/Stage1_CaveSequence.Stage1_CaveSequence",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": false,
+			"bUseCameraBlendIn": false,
+			"CameraBlendInTimeSec": 0.25,
+			"bUseCameraBlendOut": false,
+			"CameraBlendOutTimeSec": 0.25
+		},
+		"bUseCameraPauseAtEnd": false,
+		"bUseCameraBlendIn": false,
+		"CameraBlendInTimeSec": 0.25,
+		"bUseCameraBlendOut": false,
+		"CameraBlendOutTimeSec": 0.25,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": false,
+		"bHideUI": true,
+		"bHideHud": true,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": true,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Stage2_BossAppears",
+		"Version": 3,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_Stage2_BossAppears_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 10,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/SampleDefenseGame/Level/Sequence/Stage2_BossSequence.Stage2_BossSequence",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": false,
+			"bUseCameraBlendIn": false,
+			"CameraBlendInTimeSec": 0.25,
+			"bUseCameraBlendOut": false,
+			"CameraBlendOutTimeSec": 0.25
+		},
+		"bUseCameraPauseAtEnd": false,
+		"bUseCameraBlendIn": false,
+		"CameraBlendInTimeSec": 0.25,
+		"bUseCameraBlendOut": false,
+		"CameraBlendOutTimeSec": 0.25,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": false,
+		"bHideUI": true,
+		"bHideHud": true,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": false,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

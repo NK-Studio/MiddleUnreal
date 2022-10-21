@@ -1,0 +1,65 @@
+[
+	{
+		"Name": "PC_LevelUpTable",
+		"Version": 2,
+		"LevelCategory": "Player",
+		"Level": 2,
+		"LevelConditionData":
+		{
+			"MinExperience": 50
+		},
+		"LevelEffectData":
+		{
+			"LevelStatDBKey":
+			{
+				"StatCategory": "Player",
+				"Type": "Stat",
+				"RowName": "QuestPlayer_Lv2",
+				"ValidationResult": "CheckIt"
+			}
+		},
+		"LevelDataMap":
+		{
+			"2":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 50
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "QuestPlayer_Lv2",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			},
+			"3":
+			{
+				"LevelConditionData":
+				{
+					"MinExperience": 200
+				},
+				"LevelEffectData":
+				{
+					"LevelStatDBKey":
+					{
+						"StatCategory": "Player",
+						"Type": "Stat",
+						"RowName": "QuestPlayer_Lv2",
+						"ValidationResult": "CheckIt"
+					}
+				}
+			}
+		},
+		"Description": "",
+		"ProjectID": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

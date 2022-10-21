@@ -1,0 +1,31 @@
+[
+	{
+		"Name": "Sample_PC_LevelStat",
+		"Version": 2,
+		"LevelCategory": "Player",
+		"Level": 1,
+		"LevelConditionData":
+		{
+			"MinExperience": 0
+		},
+		"LevelEffectData":
+		{
+			"LevelStatDBKey":
+			{
+				"StatCategory": "None",
+				"Type": "Stat",
+				"RowName": "None",
+				"ValidationResult": "CheckIt"
+			}
+		},
+		"LevelDataMap":
+		{
+		},
+		"Description": "",
+		"ProjectID": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

@@ -1,0 +1,149 @@
+[
+	{
+		"Name": "Cutscene_Step1",
+		"Version": 3,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_CombatCameraCut_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 5,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/StarterPack/Map/T4CombatLevel/LevelSequence/T4CombatLevelSequence_Step1.T4CombatLevelSequence_Step1",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": true,
+			"bUseCameraBlendIn": true,
+			"CameraBlendInTimeSec": 1,
+			"bUseCameraBlendOut": false,
+			"CameraBlendOutTimeSec": 1
+		},
+		"bUseCameraPauseAtEnd": true,
+		"bUseCameraBlendIn": true,
+		"CameraBlendInTimeSec": 1,
+		"bUseCameraBlendOut": false,
+		"CameraBlendOutTimeSec": 1,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": false,
+		"bHideUI": true,
+		"bHideHud": false,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": false,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Cutscene_Step2",
+		"Version": 3,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_Cutscene_Step2_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "Cinematic",
+		"PlayTimeSec": 5,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/StarterPack/Map/T4CombatLevel/LevelSequence/T4CombatLevelSequence_Step2.T4CombatLevelSequence_Step2",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": true,
+			"bUseCameraBlendIn": false,
+			"CameraBlendInTimeSec": 1,
+			"bUseCameraBlendOut": false,
+			"CameraBlendOutTimeSec": 1
+		},
+		"bUseCameraPauseAtEnd": true,
+		"bUseCameraBlendIn": false,
+		"CameraBlendInTimeSec": 1,
+		"bUseCameraBlendOut": false,
+		"CameraBlendOutTimeSec": 1,
+		"bPlayOnOpen": true,
+		"bLoop": false,
+		"bHidePlayer": false,
+		"bHideUI": true,
+		"bHideHud": false,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": false,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "Cutscene_PP",
+		"Version": 3,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Cutscene_Cutscene_PP_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"CutsceneType": "InGame",
+		"PlayTimeSec": 1,
+		"MaxPlayTimeSec": 0,
+		"LevelSequenceAsset": "/Game/VirtualFlow/StarterPack/Map/T4CombatLevel/LevelSequence/T4CombatLevelSequence_PP.T4CombatLevelSequence_PP",
+		"CameraControlData":
+		{
+			"bUseCameraPauseAtEnd": false,
+			"bUseCameraBlendIn": false,
+			"CameraBlendInTimeSec": 0.25,
+			"bUseCameraBlendOut": false,
+			"CameraBlendOutTimeSec": 0.25
+		},
+		"bUseCameraPauseAtEnd": false,
+		"bUseCameraBlendIn": false,
+		"CameraBlendInTimeSec": 0.25,
+		"bUseCameraBlendOut": false,
+		"CameraBlendOutTimeSec": 0.25,
+		"bPlayOnOpen": true,
+		"bLoop": true,
+		"bHidePlayer": false,
+		"bHideUI": false,
+		"bHideHud": false,
+		"bShowMouseCursor": false,
+		"bUseAsyncLoading": false,
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

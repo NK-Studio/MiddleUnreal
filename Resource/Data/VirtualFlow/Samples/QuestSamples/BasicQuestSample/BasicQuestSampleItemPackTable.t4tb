@@ -1,0 +1,301 @@
+[
+	{
+		"Name": "Reward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "Reward_Reward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "RewardDropRate",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "SpeedUpPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 2,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Coin",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 100,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [],
+		"MainEntityAsset": "/Game/VirtualFlow/Tutorials/GameTutorial/Item/GreenPotion_Example.GreenPotion_Example",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "EnemyDeathReward",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_EnemyDeathReward_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "RewardDropRate",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "Coin",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Experience",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 100,
+				"MinValue": 0,
+				"MaxValue": 0
+			},
+			{
+				"AbstractAssetTypeName": "Point",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 100,
+				"MinValue": 0,
+				"MaxValue": 0
+			}
+		],
+		"MainEntityAsset": "/Game/VirtualFlow/Tutorials/GameTutorial/Item/GreenPotion_Example.GreenPotion_Example",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "PlayerDefaultItemPack",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_PlayerDefaultItemPack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "HpRecoveryPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "ItemTradePack",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_ItemTradePack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [
+			{
+				"ItemCategory": "Goods",
+				"ItemDBKey":
+				{
+					"Type": "Goods",
+					"RowName": "SpeedUpPotion",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			},
+			{
+				"ItemCategory": "Weapon",
+				"ItemDBKey":
+				{
+					"Type": "Weapon",
+					"RowName": "Gun",
+					"ValidationResult": "CheckIt"
+				},
+				"ItemDBKeyName": "None",
+				"ItemCountType": "Constant",
+				"ItemCount": 1,
+				"ItemMinCount": 1,
+				"ItemMaxCount": 1,
+				"ItemDropRate": 100
+			}
+		],
+		"AbstractAssetDatas": [],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "ExpPack",
+		"Version": 2,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "ItemPack_ExpPack_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"PaymentType": "Inventory",
+		"ItemDropRange": 100,
+		"ItemPackStatDBKey":
+		{
+			"StatCategory": "ItemPack",
+			"Type": "Stat",
+			"RowName": "RewardDropRate",
+			"ValidationResult": "CheckIt"
+		},
+		"ItemPackageDatas": [],
+		"AbstractAssetDatas": [
+			{
+				"AbstractAssetTypeName": "Experience",
+				"NameTextDBKey":
+				{
+					"TextCategory": "Name",
+					"EditSourceString": "",
+					"EditPortraitName": "None",
+					"Type": "Text",
+					"RowName": "Experience",
+					"ValidationResult": "CheckIt"
+				},
+				"ValueType": "Constant",
+				"Value": 50,
+				"MinValue": 0,
+				"MaxValue": 0
+			}
+		],
+		"MainEntityAsset": "None",
+		"TakeActionPackAsset": "None",
+		"MainPortraitName": "Default",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

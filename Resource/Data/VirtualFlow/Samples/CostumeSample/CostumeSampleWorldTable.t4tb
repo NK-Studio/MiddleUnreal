@@ -1,0 +1,56 @@
+[
+	{
+		"Name": "CostumeSample",
+		"Version": 2,
+		"TitleTextDBKey":
+		{
+			"TextCategory": "Title",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "World_CostumeSample_Title",
+			"ValidationResult": "CheckIt"
+		},
+		"WorldTimeTag": "Day",
+		"WorldTime": "None",
+		"WorldTimeScale": 1,
+		"DefaultPlayerLocation":
+		{
+			"X": -563.26735877136196,
+			"Y": 197.98016898244538,
+			"Z": 0.45369270609198509
+		},
+		"DefaultSpawnSpread": 0,
+		"DefaultPlayerRotation":
+		{
+			"Pitch": -0,
+			"Yaw": -4.1988844871520996,
+			"Roll": 0
+		},
+		"WorldPlayerScaleLocalization": 1,
+		"bSetStartCameraSetting": true,
+		"DefaultCameraSetting":
+		{
+			"DefaultControlMode": "ThirdPersonView",
+			"Pitch": -7.52881,
+			"Yaw": 173.927,
+			"Distance": 312.848
+		},
+		"GravityZ": -980,
+		"FallingTimeToDeath": 5,
+		"EntityAsset": "/Game/VirtualFlow/Samples/CostumeSample/Entity/Map/CostumeSample_Level.CostumeSample_Level",
+		"DefaultSpawnAsset": "/Game/VirtualFlow/Samples/CostumeSample/Project/Spawn/CostumeSample_Spawn.CostumeSample_Spawn",
+		"DefaultBGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"DefaultLoadingImageAsset": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]

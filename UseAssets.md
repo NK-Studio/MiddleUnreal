@@ -1,0 +1,22 @@
+- **Tutorial Game Project**
+  - /Content/TD_Demo/T4Test_SY/TutorialProject/Project/TutorialGameProject.uasset
+  - Required Asset
+    - [Character] Unreal Learning Kit: Games (FREE)
+      - https://www.unrealengine.com/marketplace/ko/product/unreal-learning-kit-games
+    - [Character] City of Brass: Enemies (FREE)
+      - https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/ko/product/b7cbc53813a24db1a5bd42f75151698c?sessionInvalidated=true
+    - [FX] Paragon: Sparrow (FREE)
+      - https://www.unrealengine.com/marketplace/en-US/product/paragon-sparrow
+    - [Map] City of Brass: Environments (FREE)
+      - https://www.unrealengine.com/marketplace/ko/product/c93f1fa73dad4adf9a3d09883d8c8dec?sessionInvalidated=true
+
+
+- **Skeleton Crew Project**
+  - /Content/T4DemoProjects/SkeletonCrew/Project/SkeletonCrewProject.uasset
+  - Required Asset
+    - [Character] Skeleton Crew Bundle
+      - https://www.unrealengine.com/marketplace/en-US/product/skeleton-crew-bundle
+    - [FX] Paragon: Sparrow (FREE)
+      - https://www.unrealengine.com/marketplace/en-US/product/paragon-sparrow
+    - [Map] Fantasy and Medieval Architecture Kit
+      - https://www.unrealengine.com/marketplace/en-US/product/fantasy-and-medieval-artchitecture-kit

@@ -1,0 +1,261 @@
+[
+	{
+		"Name": "Movie",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_Movie_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Media",
+		"PlayTimeSec": 27.093,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial/Entity/Prop/StoryMediaSource_Example.StoryMediaSource_Example",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"Dialogue2DDatas": [],
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"HidePotrait": false,
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "None",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "2D_Mannequin",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_2D_Mannequin_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Dialogue2D",
+		"PlayTimeSec": 1,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "None",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"Dialogue2DDatas": [
+			{
+				"TextureSlotName": "SLOT_0",
+				"Texture2DAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial_CK/Etc/T_Mannequin.T_Mannequin",
+				"TexturePadding":
+				{
+					"Left": 0,
+					"Top": 0,
+					"Right": -200,
+					"Bottom": -100
+				},
+				"bOriginalTextureSize": true,
+				"TextureUserSize":
+				{
+					"X": 0,
+					"Y": 0
+				},
+				"TextureRenderScale":
+				{
+					"X": 0.80000000000000004,
+					"Y": 0.80000000000000004
+				},
+				"HAlignment": "HAlign_Right",
+				"DialogueAnimType": "None",
+				"CustomAnimName": "None"
+			}
+		],
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"HidePotrait": false,
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "None",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	},
+	{
+		"Name": "2D_omE",
+		"Version": 5,
+		"NameTextDBKey":
+		{
+			"TextCategory": "Name",
+			"EditSourceString": "",
+			"EditPortraitName": "None",
+			"Type": "Text",
+			"RowName": "UI_2D_omE_Name",
+			"ValidationResult": "CheckIt"
+		},
+		"UICategory": "Dialogue2D",
+		"PlayTimeSec": 1,
+		"BGMData":
+		{
+			"SoundWaveAsset": "None",
+			"VolumeMultiplier": 1,
+			"PitchMultiplier": 1,
+			"FadeInTimeSec": 0.25,
+			"FadeOutTimeSec": 0.25
+		},
+		"MediaData":
+		{
+			"MediaActionType": "Media_2D",
+			"FileMediaSourceAsset": "None",
+			"bFullSize": true,
+			"ViewOffset":
+			{
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"bDiaplayUIFrame": false,
+			"bPlayOnOpen": true,
+			"bLoop": false,
+			"bShowMouseCursor": false
+		},
+		"Dialogue2DDatas": [
+			{
+				"TextureSlotName": "SLOT_0",
+				"Texture2DAsset": "/Game/VirtualFlow/Tutorials/StoryTutorial_CK/Etc/T_omE.T_omE",
+				"TexturePadding":
+				{
+					"Left": -200,
+					"Top": 0,
+					"Right": 0,
+					"Bottom": -50
+				},
+				"bOriginalTextureSize": true,
+				"TextureUserSize":
+				{
+					"X": 0,
+					"Y": 0
+				},
+				"TextureRenderScale":
+				{
+					"X": 1,
+					"Y": 1
+				},
+				"HAlignment": "HAlign_Left",
+				"DialogueAnimType": "None",
+				"CustomAnimName": "None"
+			}
+		],
+		"bBGMPause": false,
+		"BGMUIDBKey":
+		{
+			"UICategory": "BGM",
+			"Type": "UI",
+			"RowName": "None",
+			"ValidationResult": "CheckIt"
+		},
+		"HidePotrait": false,
+		"MediaActionType_DEPREACTED": "Media_2D",
+		"FileMediaSourceAsset": "None",
+		"FullSize_DEPREACTED": true,
+		"ViewOffset_DEPREACTED":
+		{
+			"Left": 0,
+			"Top": 0,
+			"Right": 0,
+			"Bottom": 0
+		},
+		"bDiaplayUIFrame_DEPREACTED": false,
+		"bPlayOnOpen_DEPREACTED": true,
+		"bLoop_DEPREACTED": false,
+		"bShowMouseCursor_DEPREACTED": false,
+		"ThumbnailImage": "None",
+		"bFolder": false,
+		"FolderName": "None",
+		"bPinned": true,
+		"ParentRowName": "None"
+	}
+]
